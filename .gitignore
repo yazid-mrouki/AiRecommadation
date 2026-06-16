@@ -35,3 +35,4 @@ llm_layer.py
 
 # === Binaire installeur (ne doit pas etre dans le repo) ===
 Claude Setup.exe
+_*.md
