@@ -1,12 +1,12 @@
 categorie,attributs_similaire,complement_categories,complement_categories_toutes,complement_mots_cles,exemple
-batterie,form_factor;chemistry,chargeur;connectique;composant,,chargeur;bms;protection;support;porte pile;boitier,Batterie 18650 -> chargeur 18650 / BMS / support
+batterie,form_factor;chemistry,chargeur;composant;mecanique;connectique,,bms;protection;support;porte pile;boitier;holder,Batterie 18650 -> chargeur 18650 (form_factor) / BMS / support
 chargeur,chemistry;connector,batterie;connectique,,batterie;pile;accu,Chargeur 18650 -> batteries 18650
 led,led_form;voltage_bucket,alimentation;electronique;connectique,,alimentation;transformateur;controleur;dimmer;connecteur ruban,Ruban LED 12V -> alim 12V / controleur RGB
 alimentation,voltage_bucket;connector,led;carte;electronique;connectique,,ruban;led;module,Alim 12V -> ruban LED 12V
 carte,board;connectivity,capteur;connectique;alimentation;led;electronique;composant,capteur,breadboard;plaque essai;dupont;jumper;cable usb;micro sd;carte memoire;ecran;oled;afficheur;resistance;alimentation,Arduino -> breadboard / dupont / capteurs / alim 5V
 capteur,sensor,carte;connectique;electronique,carte,dupont;jumper;breadboard;arduino;esp32;raspberry;resistance,Capteur DHT11 -> Arduino / fils dupont
 moteur,motor,carte;electronique;alimentation;batterie,,driver;l298;controleur;arduino;roue;helice;batterie,Servo -> driver moteur / Arduino / batterie
-mobilite,vehicle;control,batterie;chargeur;moteur;rf;carte,,telecommande;recepteur;emetteur;roue;helice;chassis;batterie;moteur;driver,Voiture RC -> batterie / telecommande / roue
+mobilite,vehicle;control,batterie;chargeur;moteur;electronique;carte;connectique,moteur,telecommande;radiocommande;roue;helice;chassis;lipo;li-ion;18650;nimh;driver;l298;controleur;esc;dupont,Voiture RC -> moteur / driver / batterie LiPo / telecommande
 rf,rftech,carte;alimentation;connectique,,arduino;esp32;raspberry;antenne;dupont;module,Module 433MHz -> Arduino / antenne
 electronique,module_fn,carte;connectique;alimentation;composant,,arduino;raspberry;dupont;breadboard;resistance;alimentation,Relais -> Arduino / alimentation
 composant,component,electronique;connectique;carte,,breadboard;plaque essai;dupont;resistance;support;arduino,Resistance -> breadboard / fils dupont
