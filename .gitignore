@@ -14,3 +14,16 @@ env/
 # === Divers ===
 .DS_Store
 _smoketest.py
+
+# === Fichiers de travail / dev (non versionnes) ===
+_*.py
+_*.txt
+_*.pkl
+_*.npy
+_emb_*.npy
+cells_dump.txt
+cells2.txt
+*.bak
+
+# === Binaire installeur (ne doit pas etre dans le repo) ===
+Claude Setup.exe
