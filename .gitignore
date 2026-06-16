@@ -1,0 +1,16 @@
+# === Secrets — NE JAMAIS committer ===
+.env
+*.env
+!.env.example
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# === Divers ===
+.DS_Store
+_smoketest.py
