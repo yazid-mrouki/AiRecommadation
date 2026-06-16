@@ -31,6 +31,7 @@ eval_harness.py
 pipeline_categorize.py
 pipeline_refine.py
 pipeline_rules.py
+llm_layer.py
 
 # === Binaire installeur (ne doit pas etre dans le repo) ===
 Claude Setup.exe
