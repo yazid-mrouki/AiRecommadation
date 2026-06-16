@@ -16,6 +16,7 @@ env/
 _smoketest.py
 
 # === Fichiers de travail / dev (non versionnes) ===
+# Le notebook est AUTONOME ; ce harnais .py sert seulement aux tests locaux.
 _*.py
 _*.txt
 _*.pkl
@@ -24,6 +25,12 @@ _emb_*.npy
 cells_dump.txt
 cells2.txt
 *.bak
+reco_v2.py
+eval_gold.py
+eval_harness.py
+pipeline_categorize.py
+pipeline_refine.py
+pipeline_rules.py
 
 # === Binaire installeur (ne doit pas etre dans le repo) ===
 Claude Setup.exe
