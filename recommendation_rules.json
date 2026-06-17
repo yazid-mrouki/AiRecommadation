@@ -1,5 +1,5 @@
 {
- "version": "v4-hard-rules",
+ "version": "v5-system-roles",
  "hard_rules": [
   "TENSION : domaines logic(3.3/5V) / lv(12-48V) / mains(110-380V). Un appareil IoT (logic/lv) ne se complete JAMAIS avec du secteur (mains) -> rejet.",
   "ARCHITECTURE MCU : ESP32 / Arduino(AVR) / STM32 / Raspberry NE sont PAS substituables -> un similaire doit avoir le MEME board.",
@@ -20,6 +20,7 @@
  "compatibility_matrix": {
   "alimentation": {
    "defining_attribute": null,
+   "system_position": "alimentation",
    "similar_with": [
     "alimentation"
    ],
@@ -33,6 +34,7 @@
   },
   "audio": {
    "defining_attribute": null,
+   "system_position": "interface",
    "similar_with": [
     "audio"
    ],
@@ -44,6 +46,7 @@
   },
   "batterie": {
    "defining_attribute": "form_factor",
+   "system_position": "alimentation",
    "similar_with": [
     "batterie"
    ],
@@ -56,6 +59,7 @@
   },
   "capteur": {
    "defining_attribute": "sensor",
+   "system_position": "capteur",
    "similar_with": [
     "capteur"
    ],
@@ -67,6 +71,7 @@
   },
   "carte": {
    "defining_attribute": "board",
+   "system_position": "controle",
    "similar_with": [
     "carte"
    ],
@@ -81,6 +86,7 @@
   },
   "chargeur": {
    "defining_attribute": null,
+   "system_position": "alimentation",
    "similar_with": [
     "chargeur"
    ],
@@ -91,6 +97,7 @@
   },
   "composant": {
    "defining_attribute": "component",
+   "system_position": "traitement",
    "similar_with": [
     "composant"
    ],
@@ -102,6 +109,7 @@
   },
   "connectique": {
    "defining_attribute": null,
+   "system_position": "connectique",
    "similar_with": [
     "connectique"
    ],
@@ -113,6 +121,7 @@
   },
   "electronique": {
    "defining_attribute": "module_fn",
+   "system_position": "varie (selon module_fn)",
    "similar_with": [
     "electronique"
    ],
@@ -125,6 +134,7 @@
   },
   "led": {
    "defining_attribute": "led_form",
+   "system_position": "interface",
    "similar_with": [
     "led"
    ],
@@ -136,6 +146,7 @@
   },
   "mesure": {
    "defining_attribute": null,
+   "system_position": "capteur",
    "similar_with": [
     "mesure"
    ],
@@ -146,18 +157,23 @@
   },
   "mobilite": {
    "defining_attribute": "vehicle",
+   "system_position": "actionneur",
    "similar_with": [
     "mobilite"
    ],
    "complementary_with": [
     "batterie",
-    "chargeur",
     "moteur",
-    "carte"
+    "capteur",
+    "electronique",
+    "connectique",
+    "chargeur",
+    "rf"
    ]
   },
   "moteur": {
    "defining_attribute": "motor",
+   "system_position": "actionneur",
    "similar_with": [
     "moteur"
    ],
@@ -171,6 +187,7 @@
   },
   "rf": {
    "defining_attribute": "rftech",
+   "system_position": "communication",
    "similar_with": [
     "rf"
    ],
@@ -182,6 +199,7 @@
   },
   "solaire": {
    "defining_attribute": null,
+   "system_position": "alimentation",
    "similar_with": [
     "solaire"
    ],
@@ -193,6 +211,7 @@
   },
   "soudure": {
    "defining_attribute": null,
+   "system_position": "autre",
    "similar_with": [
     "soudure"
    ],
@@ -212,10 +231,85 @@
  ],
  "complementary_rules": [
   "Doit appartenir a la CHAINE SYSTEME (voir compatibility_matrix.complementary_with), a 2 sauts max.",
+  "FILTRE PAR ROLE (system_chain_edges) : le role du complement doit etre un maillon ADJACENT valide du role source (ex: interface 'ruban LED' -> capteur 'thermostat' = REFUSE).",
   "Exige un signal de compatibilite REEL (board / connector / form_factor / chemistry / mot-cle / categorie-compagnon). La tension SEULE ne suffit pas.",
   "JAMAIS un outil ni du bruit industriel / domotique batiment.",
   "Diversite : pas de quasi-doublons dans la liste."
  ],
+ "system_role_map": {
+  "batterie": "alimentation",
+  "chargeur": "alimentation",
+  "alimentation": "alimentation",
+  "solaire": "alimentation",
+  "carte": "controle",
+  "capteur": "capteur",
+  "mesure": "capteur",
+  "rf": "communication",
+  "moteur": "actionneur",
+  "mobilite": "actionneur",
+  "led": "interface",
+  "audio": "interface",
+  "composant": "traitement",
+  "connectique": "connectique",
+  "mecanique": "mecanique",
+  "outillage": "outil",
+  "electrique": "outil"
+ },
+ "system_chain_edges": {
+  "alimentation": [
+   "actionneur",
+   "alimentation",
+   "capteur",
+   "communication",
+   "controle",
+   "interface",
+   "traitement"
+  ],
+  "controle": [
+   "actionneur",
+   "alimentation",
+   "capteur",
+   "communication",
+   "interface",
+   "traitement"
+  ],
+  "capteur": [
+   "actionneur",
+   "alimentation",
+   "controle",
+   "interface",
+   "traitement"
+  ],
+  "traitement": [
+   "actionneur",
+   "alimentation",
+   "capteur",
+   "controle",
+   "interface",
+   "traitement"
+  ],
+  "actionneur": [
+   "actionneur",
+   "alimentation",
+   "capteur",
+   "communication",
+   "controle",
+   "interface",
+   "traitement"
+  ],
+  "interface": [
+   "actionneur",
+   "alimentation",
+   "controle",
+   "interface",
+   "traitement"
+  ],
+  "communication": [
+   "alimentation",
+   "controle"
+  ]
+ },
+ "system_chain_edges_note": "ROLE source -> roles de complement ADMIS (maillon adjacent valide). Supports universels admis partout : connectique, mecanique. 'electronique' affine son role via module_fn (display->interface ; relais/driver->actionneur ; convertisseur->alimentation ; capteur present->capteur ; sinon traitement).",
  "system_chain_models": {
   "iot": "CAPTEUR (input, 3.3-5V) -> CARTE/MCU (processing) -> MODULE COMM (LoRa/WiFi/BLE/433) -> AFFICHEUR (interface) ; alimente par POWER (alim/batterie), cable par CONNECTIQUE.",
   "robotics": "BATTERIE/ALIM -> CARTE (controle) -> DRIVER -> MOTEUR/SERVO (output) -> STRUCTURE mecanique ; CAPTEURS (ultrason/IMU) en boucle de retour.",
