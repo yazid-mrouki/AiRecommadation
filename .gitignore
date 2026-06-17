@@ -36,4 +36,6 @@ llm_layer.py
 # === Binaire installeur (ne doit pas etre dans le repo) ===
 Claude Setup.exe
 _*.md
-rag_knowledge_base.json
+
+# NB : rag_knowledge_base.json et recommendation_rules.json SONT versionnes
+#      (Colab connecte au repo -> sorties pretes a l'emploi, pas besoin de tout relancer).

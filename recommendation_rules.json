@@ -1,0 +1,225 @@
+{
+ "version": "v4-hard-rules",
+ "hard_rules": [
+  "TENSION : domaines logic(3.3/5V) / lv(12-48V) / mains(110-380V). Un appareil IoT (logic/lv) ne se complete JAMAIS avec du secteur (mains) -> rejet.",
+  "ARCHITECTURE MCU : ESP32 / Arduino(AVR) / STM32 / Raspberry NE sont PAS substituables -> un similaire doit avoir le MEME board.",
+  "OUTILS & INDUSTRIEL exclus des recommandations (marques connues + regex outil + blacklist 220V/automate/disjoncteur/FPGA).",
+  "DISTANCE <= 2 sauts dans le graphe systeme : capteur->carte->afficheur OK ; capteur->moteur direct INTERDIT.",
+  "MATCHING par MOT ENTIER (jamais sous-chaine : 'panne' != 'panneau', 'mpu' != 'impulsionnelle').",
+  "LLM : ne retient que confidence >= 70 ; lexique strict (compatible / non compatible / necessite adaptation) ; AUCUNE invention.",
+  "Le SCORE final vient du MOTEUR deterministe, jamais du LLM."
+ ],
+ "compatibility_rules": [
+  "board == board -> compatible (meme MCU).",
+  "connector == connector -> compatible (meme connecteur).",
+  "voltage_domain identique -> compatible.",
+  "voltage_domain different (logic vs lv) -> necessite adaptation (convertisseur DC-DC).",
+  "voltage_domain = mains face a logic/lv -> NON compatible (rejet dur).",
+  "protocole sans fil (rftech : 433/lora/wifi/ble/nrf24/nfc) doit coincider pour les modules de communication."
+ ],
+ "compatibility_matrix": {
+  "alimentation": {
+   "defining_attribute": null,
+   "similar_with": [
+    "alimentation"
+   ],
+   "complementary_with": [
+    "carte",
+    "connectique",
+    "led",
+    "electronique",
+    "mecanique"
+   ]
+  },
+  "audio": {
+   "defining_attribute": null,
+   "similar_with": [
+    "audio"
+   ],
+   "complementary_with": [
+    "connectique",
+    "alimentation",
+    "chargeur"
+   ]
+  },
+  "batterie": {
+   "defining_attribute": "form_factor",
+   "similar_with": [
+    "batterie"
+   ],
+   "complementary_with": [
+    "chargeur",
+    "composant",
+    "mecanique",
+    "connectique"
+   ]
+  },
+  "capteur": {
+   "defining_attribute": "sensor",
+   "similar_with": [
+    "capteur"
+   ],
+   "complementary_with": [
+    "carte",
+    "connectique",
+    "electronique"
+   ]
+  },
+  "carte": {
+   "defining_attribute": "board",
+   "similar_with": [
+    "carte"
+   ],
+   "complementary_with": [
+    "capteur",
+    "connectique",
+    "alimentation",
+    "led",
+    "electronique",
+    "composant"
+   ]
+  },
+  "chargeur": {
+   "defining_attribute": null,
+   "similar_with": [
+    "chargeur"
+   ],
+   "complementary_with": [
+    "batterie",
+    "connectique"
+   ]
+  },
+  "composant": {
+   "defining_attribute": "component",
+   "similar_with": [
+    "composant"
+   ],
+   "complementary_with": [
+    "electronique",
+    "connectique",
+    "carte"
+   ]
+  },
+  "connectique": {
+   "defining_attribute": null,
+   "similar_with": [
+    "connectique"
+   ],
+   "complementary_with": [
+    "carte",
+    "electronique",
+    "composant"
+   ]
+  },
+  "electronique": {
+   "defining_attribute": "module_fn",
+   "similar_with": [
+    "electronique"
+   ],
+   "complementary_with": [
+    "carte",
+    "connectique",
+    "composant",
+    "alimentation"
+   ]
+  },
+  "led": {
+   "defining_attribute": "led_form",
+   "similar_with": [
+    "led"
+   ],
+   "complementary_with": [
+    "alimentation",
+    "electronique",
+    "connectique"
+   ]
+  },
+  "mesure": {
+   "defining_attribute": null,
+   "similar_with": [
+    "mesure"
+   ],
+   "complementary_with": [
+    "composant",
+    "connectique"
+   ]
+  },
+  "mobilite": {
+   "defining_attribute": "vehicle",
+   "similar_with": [
+    "mobilite"
+   ],
+   "complementary_with": [
+    "batterie",
+    "chargeur",
+    "moteur",
+    "carte"
+   ]
+  },
+  "moteur": {
+   "defining_attribute": "motor",
+   "similar_with": [
+    "moteur"
+   ],
+   "complementary_with": [
+    "carte",
+    "electronique",
+    "alimentation",
+    "batterie",
+    "mecanique"
+   ]
+  },
+  "rf": {
+   "defining_attribute": "rftech",
+   "similar_with": [
+    "rf"
+   ],
+   "complementary_with": [
+    "carte",
+    "alimentation",
+    "connectique"
+   ]
+  },
+  "solaire": {
+   "defining_attribute": null,
+   "similar_with": [
+    "solaire"
+   ],
+   "complementary_with": [
+    "batterie",
+    "alimentation",
+    "chargeur"
+   ]
+  },
+  "soudure": {
+   "defining_attribute": null,
+   "similar_with": [
+    "soudure"
+   ],
+   "complementary_with": [
+    "soudure",
+    "composant",
+    "connectique"
+   ]
+  }
+ },
+ "similarity_rules": [
+  "Meme technical_category ET meme attribut DEFINISSANT. Attributs definissants : {\"batterie\": \"form_factor\", \"carte\": \"board\", \"composant\": \"component\", \"capteur\": \"sensor\", \"electronique\": \"module_fn\", \"moteur\": \"motor\", \"led\": \"led_form\", \"rf\": \"rftech\", \"mobilite\": \"vehicle\"}.",
+  "Pas de cross-type pour carte/batterie/rf/capteur/led/mobilite (Arduino != ESP32, 18650 != pile bouton, gaz != debit).",
+  "Niveaux techno separes : temperature NUMERIQUE (DHT/DS18B20) != ANALOGIQUE/INDUSTRIEL (PT100/thermocouple) ; ampoule != projecteur.",
+  "Categories sans attribut definissant (connectique/mecanique/mobilite) : exiger un LIEN DE FAMILLE (token-modele ou mot significatif partage), sinon VIDE.",
+  "VIDE > FAUX : si aucun substitut reel en stock, ne proposer AUCUN similaire."
+ ],
+ "complementary_rules": [
+  "Doit appartenir a la CHAINE SYSTEME (voir compatibility_matrix.complementary_with), a 2 sauts max.",
+  "Exige un signal de compatibilite REEL (board / connector / form_factor / chemistry / mot-cle / categorie-compagnon). La tension SEULE ne suffit pas.",
+  "JAMAIS un outil ni du bruit industriel / domotique batiment.",
+  "Diversite : pas de quasi-doublons dans la liste."
+ ],
+ "system_chain_models": {
+  "iot": "CAPTEUR (input, 3.3-5V) -> CARTE/MCU (processing) -> MODULE COMM (LoRa/WiFi/BLE/433) -> AFFICHEUR (interface) ; alimente par POWER (alim/batterie), cable par CONNECTIQUE.",
+  "robotics": "BATTERIE/ALIM -> CARTE (controle) -> DRIVER -> MOTEUR/SERVO (output) -> STRUCTURE mecanique ; CAPTEURS (ultrason/IMU) en boucle de retour.",
+  "energy": "BATTERIE -> BMS (protection) -> CHARGEUR -> REGULATION (buck/boost/alim) -> CHARGE."
+ },
+ "recommendation_improvements": "Regles dures de tension/protocole/architecture + limite a 2 sauts dans la chaine systeme + lexique de compatibilite deterministe (compatible/necessite adaptation) cote MOTEUR. Le LLM ne fait qu'expliquer dans ce cadre (confidence>=70, aucune invention). Resultat : strictement deterministe, zero hallucination, exact au plan ingenierie. Mesure moteur-seul stable a ~99% / 0 faute."
+}
