@@ -1,8 +1,8 @@
 {
  "meta": {
   "products": 5774,
-  "clusters": 373,
-  "generic_remaining": 1708
+  "clusters": 375,
+  "generic_remaining": 1687
  },
  "clusters": [
   {
@@ -18,7 +18,7 @@
    ]
   },
   {
-   "cluster_id": 221,
+   "cluster_id": 224,
    "substitute_key": "outillage|outil|cle|-",
    "system_role": "outil",
    "size": 224,
@@ -30,7 +30,7 @@
    ]
   },
   {
-   "cluster_id": 175,
+   "cluster_id": 178,
    "substitute_key": "outillage|outil|pince|-",
    "system_role": "outil",
    "size": 220,
@@ -42,7 +42,7 @@
    ]
   },
   {
-   "cluster_id": 209,
+   "cluster_id": 212,
    "substitute_key": "outillage|outil|tournevis|-",
    "system_role": "outil",
    "size": 159,
@@ -78,7 +78,7 @@
    ]
   },
   {
-   "cluster_id": 236,
+   "cluster_id": 239,
    "substitute_key": "outillage|outil|douille|-",
    "system_role": "outil",
    "size": 89,
@@ -102,7 +102,7 @@
    ]
   },
   {
-   "cluster_id": 237,
+   "cluster_id": 240,
    "substitute_key": "outillage|outil|scie|-",
    "system_role": "outil",
    "size": 79,
@@ -138,7 +138,7 @@
    ]
   },
   {
-   "cluster_id": 294,
+   "cluster_id": 295,
    "substitute_key": "electrique|outil|disjoncteur|-",
    "system_role": "outil",
    "size": 70,
@@ -150,7 +150,7 @@
    ]
   },
   {
-   "cluster_id": 275,
+   "cluster_id": 276,
    "substitute_key": "outillage|outil|foret|-",
    "system_role": "outil",
    "size": 65,
@@ -222,7 +222,7 @@
    ]
   },
   {
-   "cluster_id": 142,
+   "cluster_id": 144,
    "substitute_key": "batterie|alimentation|generic|lv",
    "system_role": "alimentation",
    "size": 60,
@@ -234,7 +234,7 @@
    ]
   },
   {
-   "cluster_id": 179,
+   "cluster_id": 182,
    "substitute_key": "connectique|connectique|fil|lv",
    "system_role": "connectique",
    "size": 54,
@@ -282,7 +282,7 @@
    ]
   },
   {
-   "cluster_id": 210,
+   "cluster_id": 213,
    "substitute_key": "moteur|actionneur|pompe|-",
    "system_role": "actionneur",
    "size": 47,
@@ -330,7 +330,7 @@
    ]
   },
   {
-   "cluster_id": 259,
+   "cluster_id": 261,
    "substitute_key": "outillage|outil|marteau|-",
    "system_role": "outil",
    "size": 42,
@@ -378,7 +378,7 @@
    ]
   },
   {
-   "cluster_id": 180,
+   "cluster_id": 183,
    "substitute_key": "outillage|outil|embout|-",
    "system_role": "outil",
    "size": 40,
@@ -390,7 +390,7 @@
    ]
   },
   {
-   "cluster_id": 208,
+   "cluster_id": 211,
    "substitute_key": "outillage|outil|pistolet|-",
    "system_role": "outil",
    "size": 39,
@@ -426,31 +426,7 @@
    ]
   },
   {
-   "cluster_id": 77,
-   "substitute_key": "mobilite|actionneur|generic|-",
-   "system_role": "actionneur",
-   "size": 37,
-   "examples": [
-    "KY-033 TCRT5000 CAPTEUR SUIVEUR DE LIGNE 3 PINES",
-    "KIT 4 Roues McNamum jaune 60MM-K (4PCS:2PCS DROITE,2PCS GAUCHE) SANS M",
-    "Pneu Omni Roue Noir Mecanum 60mm (4pcs)",
-    "Chassis 2WD [2 Roues + Roue Libre +Support 4 piles*AA (PLEXI GLASS EP="
-   ]
-  },
-  {
-   "cluster_id": 88,
-   "substitute_key": "mobilite|actionneur|voiture|-",
-   "system_role": "actionneur",
-   "size": 37,
-   "examples": [
-    "Support en acrylique pour capteur infrarouge de voiture intelligente",
-    "Kit Robot Voiture Intelligente Multifonction – Commande Bluetooth et m",
-    "Allonger l’accouplement pour la roue de voiture intelligente du robot ",
-    "Allonger l’accouplement pour la roue de voiture intelligente du robot "
-   ]
-  },
-  {
-   "cluster_id": 151,
+   "cluster_id": 153,
    "substitute_key": "mecanique|mecanique|generic|-",
    "system_role": "mecanique",
    "size": 37,
@@ -462,7 +438,7 @@
    ]
   },
   {
-   "cluster_id": 138,
+   "cluster_id": 140,
    "substitute_key": "led|interface|bulb|-",
    "system_role": "interface",
    "size": 36,
@@ -522,7 +498,7 @@
    ]
   },
   {
-   "cluster_id": 229,
+   "cluster_id": 232,
    "substitute_key": "outillage|outil|meuleuse|-",
    "system_role": "outil",
    "size": 32,
@@ -534,7 +510,7 @@
    ]
   },
   {
-   "cluster_id": 235,
+   "cluster_id": 238,
    "substitute_key": "led|interface|projector|-",
    "system_role": "interface",
    "size": 32,
@@ -546,7 +522,19 @@
    ]
   },
   {
-   "cluster_id": 141,
+   "cluster_id": 53,
+   "substitute_key": "mobilite|actionneur|veh_robot|-",
+   "system_role": "actionneur",
+   "size": 31,
+   "examples": [
+    "Ventilateur pour robot pompier L9110",
+    "Pince manipulateur 3DOF pour bras de robot (sans servo moteur)",
+    "Kit Robot Voiture Intelligente Multifonction – Commande Bluetooth et m",
+    "Allonger l’accouplement pour la roue de voiture intelligente du robot "
+   ]
+  },
+  {
+   "cluster_id": 143,
    "substitute_key": "chargeur|alimentation|generic|lv",
    "system_role": "alimentation",
    "size": 30,
@@ -594,7 +582,7 @@
    ]
   },
   {
-   "cluster_id": 265,
+   "cluster_id": 267,
    "substitute_key": "connectique|connectique|cosse|-",
    "system_role": "connectique",
    "size": 28,
@@ -618,7 +606,7 @@
    ]
   },
   {
-   "cluster_id": 177,
+   "cluster_id": 180,
    "substitute_key": "soudure|autre|fer|-",
    "system_role": "autre",
    "size": 25,
@@ -630,7 +618,7 @@
    ]
   },
   {
-   "cluster_id": 262,
+   "cluster_id": 264,
    "substitute_key": "connectique|connectique|adaptateur|-",
    "system_role": "connectique",
    "size": 25,
@@ -654,7 +642,19 @@
    ]
   },
   {
-   "cluster_id": 167,
+   "cluster_id": 116,
+   "substitute_key": "mobilite|actionneur|roue|-",
+   "system_role": "actionneur",
+   "size": 24,
+   "examples": [
+    "Pneu Omni Roue Noir Mecanum 60mm (4pcs)",
+    "2 * Roue McNamum bleu 80MM-A",
+    "2 * Roue McNamum rouge 80MM-A",
+    "Roue Pneu 66mm *28mm"
+   ]
+  },
+  {
+   "cluster_id": 170,
    "substitute_key": "soudure|autre|generic|-",
    "system_role": "autre",
    "size": 24,
@@ -666,7 +666,7 @@
    ]
   },
   {
-   "cluster_id": 220,
+   "cluster_id": 223,
    "substitute_key": "outillage|outil|cutter|-",
    "system_role": "outil",
    "size": 24,
@@ -678,7 +678,7 @@
    ]
   },
   {
-   "cluster_id": 223,
+   "cluster_id": 226,
    "substitute_key": "outillage|outil|filament|-",
    "system_role": "outil",
    "size": 24,
@@ -714,7 +714,7 @@
    ]
   },
   {
-   "cluster_id": 155,
+   "cluster_id": 157,
    "substitute_key": "outillage|outil|perceuse|-",
    "system_role": "outil",
    "size": 23,
@@ -726,7 +726,7 @@
    ]
   },
   {
-   "cluster_id": 331,
+   "cluster_id": 332,
    "substitute_key": "outillage|outil|niveau|-",
    "system_role": "outil",
    "size": 23,
@@ -786,7 +786,7 @@
    ]
   },
   {
-   "cluster_id": 171,
+   "cluster_id": 174,
    "substitute_key": "composant|traitement|zener|lv",
    "system_role": "traitement",
    "size": 22,
@@ -798,7 +798,7 @@
    ]
   },
   {
-   "cluster_id": 240,
+   "cluster_id": 243,
    "substitute_key": "moteur|actionneur|generic|-",
    "system_role": "actionneur",
    "size": 22,
@@ -834,7 +834,7 @@
    ]
   },
   {
-   "cluster_id": 256,
+   "cluster_id": 259,
    "substitute_key": "led|interface|generic|lv",
    "system_role": "interface",
    "size": 20,
@@ -846,7 +846,7 @@
    ]
   },
   {
-   "cluster_id": 288,
+   "cluster_id": 289,
    "substitute_key": "outillage|outil|coffret|-",
    "system_role": "outil",
    "size": 20,
@@ -882,19 +882,7 @@
    ]
   },
   {
-   "cluster_id": 53,
-   "substitute_key": "mobilite|actionneur|robot|-",
-   "system_role": "actionneur",
-   "size": 19,
-   "examples": [
-    "Ventilateur pour robot pompier L9110",
-    "Pince manipulateur 3DOF pour bras de robot (sans servo moteur)",
-    "Roue avec jante argentée 65mm pour robot et châssis",
-    "RobotbitV2.0 Micro:bit Présentation de la carte d’extension à la forma"
-   ]
-  },
-  {
-   "cluster_id": 224,
+   "cluster_id": 227,
    "substitute_key": "led|interface|strip|mains",
    "system_role": "interface",
    "size": 19,
@@ -918,7 +906,7 @@
    ]
   },
   {
-   "cluster_id": 118,
+   "cluster_id": 119,
    "substitute_key": "connectique|connectique|gaine|-",
    "system_role": "connectique",
    "size": 18,
@@ -930,7 +918,7 @@
    ]
   },
   {
-   "cluster_id": 164,
+   "cluster_id": 167,
    "substitute_key": "composant|traitement|zener|-",
    "system_role": "traitement",
    "size": 18,
@@ -942,7 +930,7 @@
    ]
   },
   {
-   "cluster_id": 181,
+   "cluster_id": 184,
    "substitute_key": "alimentation|alimentation|fusible|-",
    "system_role": "alimentation",
    "size": 18,
@@ -954,7 +942,7 @@
    ]
   },
   {
-   "cluster_id": 191,
+   "cluster_id": 194,
    "substitute_key": "outillage|outil|generic|lv",
    "system_role": "outil",
    "size": 18,
@@ -978,7 +966,7 @@
    ]
   },
   {
-   "cluster_id": 125,
+   "cluster_id": 126,
    "substitute_key": "audio|interface|generic|-",
    "system_role": "interface",
    "size": 17,
@@ -990,7 +978,7 @@
    ]
   },
   {
-   "cluster_id": 145,
+   "cluster_id": 147,
    "substitute_key": "batterie|alimentation|generic|logic",
    "system_role": "alimentation",
    "size": 17,
@@ -1002,7 +990,7 @@
    ]
   },
   {
-   "cluster_id": 169,
+   "cluster_id": 172,
    "substitute_key": "composant|traitement|generic|lv",
    "system_role": "traitement",
    "size": 17,
@@ -1014,7 +1002,7 @@
    ]
   },
   {
-   "cluster_id": 233,
+   "cluster_id": 236,
    "substitute_key": "outillage|outil|lime|-",
    "system_role": "outil",
    "size": 17,
@@ -1026,7 +1014,7 @@
    ]
   },
   {
-   "cluster_id": 296,
+   "cluster_id": 297,
    "substitute_key": "batterie|alimentation|aaa|-",
    "system_role": "alimentation",
    "size": 17,
@@ -1062,7 +1050,7 @@
    ]
   },
   {
-   "cluster_id": 339,
+   "cluster_id": 340,
    "substitute_key": "outillage|outil|cric|-",
    "system_role": "outil",
    "size": 16,
@@ -1098,6 +1086,18 @@
    ]
   },
   {
+   "cluster_id": 77,
+   "substitute_key": "mobilite|actionneur|generic|-",
+   "system_role": "actionneur",
+   "size": 15,
+   "examples": [
+    "KY-033 TCRT5000 CAPTEUR SUIVEUR DE LIGNE 3 PINES",
+    "KIT 4 Roues McNamum jaune 60MM-K (4PCS:2PCS DROITE,2PCS GAUCHE) SANS M",
+    "Capteur suiveur de ligne Infrarouge IRTCRT5000 3 Voies",
+    "Support U Pont pour bras mécanique"
+   ]
+  },
+  {
    "cluster_id": 112,
    "substitute_key": "mesure|capteur|generic|-",
    "system_role": "capteur",
@@ -1110,7 +1110,7 @@
    ]
   },
   {
-   "cluster_id": 271,
+   "cluster_id": 273,
    "substitute_key": "outillage|outil|extracteur|-",
    "system_role": "outil",
    "size": 15,
@@ -1122,7 +1122,7 @@
    ]
   },
   {
-   "cluster_id": 277,
+   "cluster_id": 278,
    "substitute_key": "batterie|alimentation|coin|logic",
    "system_role": "alimentation",
    "size": 15,
@@ -1134,7 +1134,7 @@
    ]
   },
   {
-   "cluster_id": 281,
+   "cluster_id": 282,
    "substitute_key": "mecanique|mecanique|entretoise|-",
    "system_role": "mecanique",
    "size": 15,
@@ -1146,7 +1146,7 @@
    ]
   },
   {
-   "cluster_id": 306,
+   "cluster_id": 307,
    "substitute_key": "outillage|outil|gant|-",
    "system_role": "outil",
    "size": 15,
@@ -1158,7 +1158,7 @@
    ]
   },
   {
-   "cluster_id": 341,
+   "cluster_id": 342,
    "substitute_key": "outillage|outil|burin|-",
    "system_role": "outil",
    "size": 15,
@@ -1206,7 +1206,7 @@
    ]
   },
   {
-   "cluster_id": 276,
+   "cluster_id": 277,
    "substitute_key": "outillage|outil|cle|lv",
    "system_role": "outil",
    "size": 14,
@@ -1242,7 +1242,7 @@
    ]
   },
   {
-   "cluster_id": 128,
+   "cluster_id": 130,
    "substitute_key": "moteur|actionneur|stepper|-",
    "system_role": "actionneur",
    "size": 13,
@@ -1254,7 +1254,7 @@
    ]
   },
   {
-   "cluster_id": 136,
+   "cluster_id": 138,
    "substitute_key": "electronique|interface|interrupteur|mains",
    "system_role": "interface",
    "size": 13,
@@ -1266,7 +1266,7 @@
    ]
   },
   {
-   "cluster_id": 158,
+   "cluster_id": 160,
    "substitute_key": "alimentation|alimentation|generic|lv",
    "system_role": "alimentation",
    "size": 13,
@@ -1278,7 +1278,7 @@
    ]
   },
   {
-   "cluster_id": 199,
+   "cluster_id": 202,
    "substitute_key": "alimentation|alimentation|generic|mains",
    "system_role": "alimentation",
    "size": 13,
@@ -1290,7 +1290,7 @@
    ]
   },
   {
-   "cluster_id": 336,
+   "cluster_id": 337,
    "substitute_key": "outillage|outil|ponceuse|-",
    "system_role": "outil",
    "size": 13,
@@ -1374,7 +1374,7 @@
    ]
   },
   {
-   "cluster_id": 152,
+   "cluster_id": 154,
    "substitute_key": "composant|traitement|generic|-",
    "system_role": "traitement",
    "size": 12,
@@ -1386,7 +1386,7 @@
    ]
   },
   {
-   "cluster_id": 193,
+   "cluster_id": 196,
    "substitute_key": "led|interface|generic|mains",
    "system_role": "interface",
    "size": 12,
@@ -1398,7 +1398,7 @@
    ]
   },
   {
-   "cluster_id": 198,
+   "cluster_id": 201,
    "substitute_key": "electrique|outil|generic|-",
    "system_role": "outil",
    "size": 12,
@@ -1410,7 +1410,7 @@
    ]
   },
   {
-   "cluster_id": 203,
+   "cluster_id": 206,
    "substitute_key": "composant|traitement|condensateur|mains",
    "system_role": "traitement",
    "size": 12,
@@ -1422,7 +1422,7 @@
    ]
   },
   {
-   "cluster_id": 338,
+   "cluster_id": 339,
    "substitute_key": "outillage|outil|cisaille|-",
    "system_role": "outil",
    "size": 12,
@@ -1482,6 +1482,18 @@
    ]
   },
   {
+   "cluster_id": 127,
+   "substitute_key": "mobilite|actionneur|chassis|-",
+   "system_role": "actionneur",
+   "size": 11,
+   "examples": [
+    "Chassis 2WD [2 Roues + Roue Libre +Support 4 piles*AA (PLEXI GLASS EP=",
+    "4 WD monocouche Châssis de voiture intelligent",
+    "Châssis de voiture intelligent 4wd double couche pour Arduino",
+    "Châssis Quadcoptere DJI F330"
+   ]
+  },
+  {
    "cluster_id": 4,
    "substitute_key": "led|interface|matrix|-",
    "system_role": "interface",
@@ -1494,7 +1506,7 @@
    ]
   },
   {
-   "cluster_id": 219,
+   "cluster_id": 222,
    "substitute_key": "mesure|capteur|testeur|-",
    "system_role": "capteur",
    "size": 10,
@@ -1506,7 +1518,7 @@
    ]
   },
   {
-   "cluster_id": 247,
+   "cluster_id": 250,
    "substitute_key": "outillage|outil|visseuse|-",
    "system_role": "outil",
    "size": 10,
@@ -1518,7 +1530,7 @@
    ]
   },
   {
-   "cluster_id": 264,
+   "cluster_id": 266,
    "substitute_key": "outillage|outil|laser|-",
    "system_role": "outil",
    "size": 10,
@@ -1530,7 +1542,7 @@
    ]
   },
   {
-   "cluster_id": 298,
+   "cluster_id": 299,
    "substitute_key": "outillage|outil|meche|-",
    "system_role": "outil",
    "size": 10,
@@ -1539,6 +1551,18 @@
     "Jeu de mèche acier +Beton+Embout 16PCS Total",
     "Jeu De Meche Acier HSS 8pcs 2-8mm TOTAL",
     "Jeu De Meche Acier HSS 6pcs 2-8mm TOTAL"
+   ]
+  },
+  {
+   "cluster_id": 88,
+   "substitute_key": "mobilite|actionneur|veh_voiture|-",
+   "system_role": "actionneur",
+   "size": 9,
+   "examples": [
+    "Support en acrylique pour capteur infrarouge de voiture intelligente",
+    "Kit de voiture de robot intelligent de la télécommande DIY",
+    "1:18 2.4G Voiture Télécommandée Haute Vitesse 4WD Bleu",
+    "Mini Bluetooth ELM327 OBD2 Détecteur de panne de voiture V2.1 Automobi"
    ]
   },
   {
@@ -1554,7 +1578,7 @@
    ]
   },
   {
-   "cluster_id": 230,
+   "cluster_id": 233,
    "substitute_key": "outillage|outil|visseuse|lv",
    "system_role": "outil",
    "size": 9,
@@ -1566,7 +1590,7 @@
    ]
   },
   {
-   "cluster_id": 263,
+   "cluster_id": 265,
    "substitute_key": "outillage|outil|aspirateur|-",
    "system_role": "outil",
    "size": 9,
@@ -1578,7 +1602,7 @@
    ]
   },
   {
-   "cluster_id": 324,
+   "cluster_id": 325,
    "substitute_key": "electrique|outil|contacteur|mains",
    "system_role": "outil",
    "size": 9,
@@ -1626,7 +1650,7 @@
    ]
   },
   {
-   "cluster_id": 161,
+   "cluster_id": 163,
    "substitute_key": "led|interface|tube|-",
    "system_role": "interface",
    "size": 8,
@@ -1638,7 +1662,7 @@
    ]
   },
   {
-   "cluster_id": 162,
+   "cluster_id": 164,
    "substitute_key": "led|interface|bulb|mains",
    "system_role": "interface",
    "size": 8,
@@ -1650,7 +1674,19 @@
    ]
   },
   {
-   "cluster_id": 183,
+   "cluster_id": 165,
+   "substitute_key": "mobilite|actionneur|helice|-",
+   "system_role": "actionneur",
+   "size": 8,
+   "examples": [
+    "Kit Moteur A2212-6T KV + ESC 30A + Hélice Hélicoptère",
+    "Hélices RC 10x45 Noir (paire)",
+    "Hélices 6045 Orange (1CW+1CCW)",
+    "4 Hélices tripales Ethix S5 - HQProp - Polycarbonate"
+   ]
+  },
+  {
+   "cluster_id": 186,
    "substitute_key": "led|interface|cob|mains",
    "system_role": "interface",
    "size": 8,
@@ -1662,7 +1698,7 @@
    ]
   },
   {
-   "cluster_id": 249,
+   "cluster_id": 252,
    "substitute_key": "mesure|capteur|pince|-",
    "system_role": "capteur",
    "size": 8,
@@ -1674,7 +1710,7 @@
    ]
   },
   {
-   "cluster_id": 278,
+   "cluster_id": 279,
    "substitute_key": "mecanique|mecanique|equerre|-",
    "system_role": "mecanique",
    "size": 8,
@@ -1686,7 +1722,7 @@
    ]
   },
   {
-   "cluster_id": 287,
+   "cluster_id": 288,
    "substitute_key": "outillage|outil|agrafeuse|-",
    "system_role": "outil",
    "size": 8,
@@ -1698,7 +1734,7 @@
    ]
   },
   {
-   "cluster_id": 292,
+   "cluster_id": 293,
    "substitute_key": "led|interface|voyant|mains",
    "system_role": "interface",
    "size": 8,
@@ -1710,7 +1746,7 @@
    ]
   },
   {
-   "cluster_id": 302,
+   "cluster_id": 303,
    "substitute_key": "moteur|actionneur|pompe|mains",
    "system_role": "actionneur",
    "size": 8,
@@ -1722,7 +1758,7 @@
    ]
   },
   {
-   "cluster_id": 323,
+   "cluster_id": 324,
    "substitute_key": "outillage|outil|metre|-",
    "system_role": "outil",
    "size": 8,
@@ -1770,7 +1806,7 @@
    ]
   },
   {
-   "cluster_id": 121,
+   "cluster_id": 122,
    "substitute_key": "capteur|capteur|courant|-",
    "system_role": "capteur",
    "size": 7,
@@ -1782,7 +1818,7 @@
    ]
   },
   {
-   "cluster_id": 127,
+   "cluster_id": 129,
    "substitute_key": "moteur|actionneur|ventilateur|-",
    "system_role": "actionneur",
    "size": 7,
@@ -1794,7 +1830,7 @@
    ]
   },
   {
-   "cluster_id": 131,
+   "cluster_id": 133,
    "substitute_key": "connectique|connectique|dupont|-",
    "system_role": "connectique",
    "size": 7,
@@ -1806,7 +1842,7 @@
    ]
   },
   {
-   "cluster_id": 135,
+   "cluster_id": 137,
    "substitute_key": "rf|communication|generic|-",
    "system_role": "communication",
    "size": 7,
@@ -1818,7 +1854,7 @@
    ]
   },
   {
-   "cluster_id": 143,
+   "cluster_id": 145,
    "substitute_key": "chargeur|alimentation|generic|logic",
    "system_role": "alimentation",
    "size": 7,
@@ -1830,7 +1866,7 @@
    ]
   },
   {
-   "cluster_id": 154,
+   "cluster_id": 156,
    "substitute_key": "soudure|autre|etain|-",
    "system_role": "autre",
    "size": 7,
@@ -1842,7 +1878,7 @@
    ]
   },
   {
-   "cluster_id": 163,
+   "cluster_id": 166,
    "substitute_key": "moteur|actionneur|ventilateur|lv",
    "system_role": "actionneur",
    "size": 7,
@@ -1854,7 +1890,7 @@
    ]
   },
   {
-   "cluster_id": 173,
+   "cluster_id": 176,
    "substitute_key": "rf|communication|433|-",
    "system_role": "communication",
    "size": 7,
@@ -1866,7 +1902,7 @@
    ]
   },
   {
-   "cluster_id": 214,
+   "cluster_id": 217,
    "substitute_key": "batterie|alimentation|coin|-",
    "system_role": "alimentation",
    "size": 7,
@@ -1878,7 +1914,7 @@
    ]
   },
   {
-   "cluster_id": 226,
+   "cluster_id": 229,
    "substitute_key": "mecanique|mecanique|roulement|-",
    "system_role": "mecanique",
    "size": 7,
@@ -1890,7 +1926,7 @@
    ]
   },
   {
-   "cluster_id": 232,
+   "cluster_id": 235,
    "substitute_key": "outillage|outil|generic|mains",
    "system_role": "outil",
    "size": 7,
@@ -1902,7 +1938,7 @@
    ]
   },
   {
-   "cluster_id": 305,
+   "cluster_id": 306,
    "substitute_key": "mecanique|mecanique|boulon|-",
    "system_role": "mecanique",
    "size": 7,
@@ -1914,7 +1950,7 @@
    ]
   },
   {
-   "cluster_id": 340,
+   "cluster_id": 341,
    "substitute_key": "outillage|outil|compresseur|-",
    "system_role": "outil",
    "size": 7,
@@ -1962,7 +1998,7 @@
    ]
   },
   {
-   "cluster_id": 129,
+   "cluster_id": 131,
    "substitute_key": "capteur|capteur|lumiere|-",
    "system_role": "capteur",
    "size": 6,
@@ -1974,7 +2010,7 @@
    ]
   },
   {
-   "cluster_id": 134,
+   "cluster_id": 136,
    "substitute_key": "connectique|connectique|barrette|-",
    "system_role": "connectique",
    "size": 6,
@@ -1986,7 +2022,7 @@
    ]
   },
   {
-   "cluster_id": 144,
+   "cluster_id": 146,
    "substitute_key": "alimentation|alimentation|regulateur|mains",
    "system_role": "alimentation",
    "size": 6,
@@ -1998,7 +2034,7 @@
    ]
   },
   {
-   "cluster_id": 194,
+   "cluster_id": 197,
    "substitute_key": "soudure|autre|flux|-",
    "system_role": "autre",
    "size": 6,
@@ -2010,7 +2046,7 @@
    ]
   },
   {
-   "cluster_id": 201,
+   "cluster_id": 204,
    "substitute_key": "capteur|capteur|temp_rtd|-",
    "system_role": "capteur",
    "size": 6,
@@ -2022,7 +2058,7 @@
    ]
   },
   {
-   "cluster_id": 217,
+   "cluster_id": 220,
    "substitute_key": "electrique|outil|generic|lv",
    "system_role": "outil",
    "size": 6,
@@ -2034,7 +2070,7 @@
    ]
   },
   {
-   "cluster_id": 251,
+   "cluster_id": 254,
    "substitute_key": "outillage|outil|rouleau|-",
    "system_role": "outil",
    "size": 6,
@@ -2046,7 +2082,7 @@
    ]
   },
   {
-   "cluster_id": 293,
+   "cluster_id": 294,
    "substitute_key": "alimentation|alimentation|onduleur|-",
    "system_role": "alimentation",
    "size": 6,
@@ -2058,7 +2094,7 @@
    ]
   },
   {
-   "cluster_id": 308,
+   "cluster_id": 309,
    "substitute_key": "composant|traitement|zener|logic",
    "system_role": "traitement",
    "size": 6,
@@ -2070,7 +2106,7 @@
    ]
   },
   {
-   "cluster_id": 327,
+   "cluster_id": 328,
    "substitute_key": "outillage|outil|rabot|-",
    "system_role": "outil",
    "size": 6,
@@ -2082,7 +2118,7 @@
    ]
   },
   {
-   "cluster_id": 337,
+   "cluster_id": 338,
    "substitute_key": "soudure|autre|panne|-",
    "system_role": "autre",
    "size": 6,
@@ -2094,7 +2130,7 @@
    ]
   },
   {
-   "cluster_id": 353,
+   "cluster_id": 354,
    "substitute_key": "outillage|outil|palan|-",
    "system_role": "outil",
    "size": 6,
@@ -2190,7 +2226,7 @@
    ]
   },
   {
-   "cluster_id": 133,
+   "cluster_id": 135,
    "substitute_key": "electronique|traitement|registre|-",
    "system_role": "traitement",
    "size": 5,
@@ -2202,7 +2238,7 @@
    ]
   },
   {
-   "cluster_id": 159,
+   "cluster_id": 161,
    "substitute_key": "electronique|interface|interrupteur|lv",
    "system_role": "interface",
    "size": 5,
@@ -2214,7 +2250,7 @@
    ]
   },
   {
-   "cluster_id": 204,
+   "cluster_id": 207,
    "substitute_key": "composant|traitement|transistor|mains",
    "system_role": "traitement",
    "size": 5,
@@ -2226,7 +2262,7 @@
    ]
   },
   {
-   "cluster_id": 216,
+   "cluster_id": 219,
    "substitute_key": "moteur|actionneur|ventilateur|mains",
    "system_role": "actionneur",
    "size": 5,
@@ -2238,7 +2274,7 @@
    ]
   },
   {
-   "cluster_id": 225,
+   "cluster_id": 228,
    "substitute_key": "mecanique|mecanique|rail|-",
    "system_role": "mecanique",
    "size": 5,
@@ -2250,7 +2286,7 @@
    ]
   },
   {
-   "cluster_id": 241,
+   "cluster_id": 244,
    "substitute_key": "outillage|outil|decapeur|-",
    "system_role": "outil",
    "size": 5,
@@ -2262,7 +2298,7 @@
    ]
   },
   {
-   "cluster_id": 242,
+   "cluster_id": 245,
    "substitute_key": "outillage|outil|perceuse|lv",
    "system_role": "outil",
    "size": 5,
@@ -2274,19 +2310,7 @@
    ]
   },
   {
-   "cluster_id": 274,
-   "substitute_key": "mobilite|actionneur|drone|-",
-   "system_role": "actionneur",
-   "size": 5,
-   "examples": [
-    "Châssis Quadcoptere DJI F330",
-    "Châssis Quadcoptere S500 480 mm PDB intégré",
-    "Châssis Quadcoptere DJI 450",
-    "Hélice en fibre de carbone 10x4.5 CW/CCW (Lot de 2) pour drone multico"
-   ]
-  },
-  {
-   "cluster_id": 312,
+   "cluster_id": 313,
    "substitute_key": "connectique|connectique|domino|-",
    "system_role": "connectique",
    "size": 5,
@@ -2298,8 +2322,8 @@
    ]
   },
   {
-   "cluster_id": 328,
-   "substitute_key": "mobilite|actionneur|voiture|lv",
+   "cluster_id": 329,
+   "substitute_key": "mobilite|actionneur|veh_voiture|lv",
    "system_role": "actionneur",
    "size": 5,
    "examples": [
@@ -2310,7 +2334,7 @@
    ]
   },
   {
-   "cluster_id": 351,
+   "cluster_id": 352,
    "substitute_key": "outillage|outil|truelle|-",
    "system_role": "outil",
    "size": 5,
@@ -2322,7 +2346,7 @@
    ]
   },
   {
-   "cluster_id": 354,
+   "cluster_id": 355,
    "substitute_key": "outillage|outil|scie|lv",
    "system_role": "outil",
    "size": 5,
@@ -2334,7 +2358,7 @@
    ]
   },
   {
-   "cluster_id": 355,
+   "cluster_id": 356,
    "substitute_key": "outillage|outil|compresseur|mains",
    "system_role": "outil",
    "size": 5,
@@ -2346,7 +2370,7 @@
    ]
   },
   {
-   "cluster_id": 358,
+   "cluster_id": 359,
    "substitute_key": "outillage|outil|meuleuse|lv",
    "system_role": "outil",
    "size": 5,
@@ -2430,7 +2454,7 @@
    ]
   },
   {
-   "cluster_id": 130,
+   "cluster_id": 132,
    "substitute_key": "led|interface|projector|lv",
    "system_role": "interface",
    "size": 4,
@@ -2442,7 +2466,7 @@
    ]
   },
   {
-   "cluster_id": 147,
+   "cluster_id": 149,
    "substitute_key": "electronique|interface|bouton|lv",
    "system_role": "interface",
    "size": 4,
@@ -2454,19 +2478,7 @@
    ]
   },
   {
-   "cluster_id": 153,
-   "substitute_key": "mobilite|actionneur|voiture|logic",
-   "system_role": "actionneur",
-   "size": 4,
-   "examples": [
-    "Kits d’auto-équilibrage de voiture intelligente (Roue 65mm+Moteur 6V 2",
-    "moteur DIY 3- 6V pour voiture intelligente",
-    "CHARGEUR ALLUME CIGARE 2EN1 MUJU POUR VOITURE 5V 2.4A",
-    "Kit de châssis de voiture robotisée intelligente 2WD DC3-6V 1:48 (pneu"
-   ]
-  },
-  {
-   "cluster_id": 165,
+   "cluster_id": 168,
    "substitute_key": "soudure|autre|generic|mains",
    "system_role": "autre",
    "size": 4,
@@ -2478,7 +2490,7 @@
    ]
   },
   {
-   "cluster_id": 170,
+   "cluster_id": 173,
    "substitute_key": "composant|traitement|generic|mains",
    "system_role": "traitement",
    "size": 4,
@@ -2490,7 +2502,7 @@
    ]
   },
   {
-   "cluster_id": 176,
+   "cluster_id": 179,
    "substitute_key": "electrique|outil|generic|mains",
    "system_role": "outil",
    "size": 4,
@@ -2502,7 +2514,7 @@
    ]
   },
   {
-   "cluster_id": 184,
+   "cluster_id": 187,
    "substitute_key": "moteur|actionneur|pompe|lv",
    "system_role": "actionneur",
    "size": 4,
@@ -2514,7 +2526,7 @@
    ]
   },
   {
-   "cluster_id": 186,
+   "cluster_id": 189,
    "substitute_key": "connectique|connectique|prise|mains",
    "system_role": "connectique",
    "size": 4,
@@ -2526,7 +2538,7 @@
    ]
   },
   {
-   "cluster_id": 188,
+   "cluster_id": 191,
    "substitute_key": "alimentation|alimentation|convertisseur|lv",
    "system_role": "alimentation",
    "size": 4,
@@ -2538,7 +2550,7 @@
    ]
   },
   {
-   "cluster_id": 205,
+   "cluster_id": 208,
    "substitute_key": "composant|traitement|triac|-",
    "system_role": "traitement",
    "size": 4,
@@ -2550,7 +2562,7 @@
    ]
   },
   {
-   "cluster_id": 222,
+   "cluster_id": 225,
    "substitute_key": "mecanique|mecanique|courroie|-",
    "system_role": "mecanique",
    "size": 4,
@@ -2562,7 +2574,7 @@
    ]
   },
   {
-   "cluster_id": 228,
+   "cluster_id": 231,
    "substitute_key": "led|interface|voyant|-",
    "system_role": "interface",
    "size": 4,
@@ -2574,7 +2586,7 @@
    ]
   },
   {
-   "cluster_id": 254,
+   "cluster_id": 257,
    "substitute_key": "audio|interface|jack|-",
    "system_role": "interface",
    "size": 4,
@@ -2586,7 +2598,7 @@
    ]
   },
   {
-   "cluster_id": 255,
+   "cluster_id": 258,
    "substitute_key": "connectique|connectique|rallonge|-",
    "system_role": "connectique",
    "size": 4,
@@ -2598,7 +2610,7 @@
    ]
   },
   {
-   "cluster_id": 258,
+   "cluster_id": 260,
    "substitute_key": "alimentation|alimentation|fusible|mains",
    "system_role": "alimentation",
    "size": 4,
@@ -2610,7 +2622,7 @@
    ]
   },
   {
-   "cluster_id": 261,
+   "cluster_id": 263,
    "substitute_key": "capteur|capteur|generic|mains",
    "system_role": "capteur",
    "size": 4,
@@ -2622,7 +2634,7 @@
    ]
   },
   {
-   "cluster_id": 286,
+   "cluster_id": 287,
    "substitute_key": "outillage|outil|riveteuse|-",
    "system_role": "outil",
    "size": 4,
@@ -2634,7 +2646,7 @@
    ]
   },
   {
-   "cluster_id": 303,
+   "cluster_id": 304,
    "substitute_key": "led|interface|cob|lv",
    "system_role": "interface",
    "size": 4,
@@ -2646,7 +2658,7 @@
    ]
   },
   {
-   "cluster_id": 352,
+   "cluster_id": 353,
    "substitute_key": "moteur|actionneur|generic|lv",
    "system_role": "actionneur",
    "size": 4,
@@ -2658,7 +2670,7 @@
    ]
   },
   {
-   "cluster_id": 362,
+   "cluster_id": 363,
    "substitute_key": "outillage|outil|echelle|-",
    "system_role": "outil",
    "size": 4,
@@ -2670,7 +2682,7 @@
    ]
   },
   {
-   "cluster_id": 366,
+   "cluster_id": 367,
    "substitute_key": "outillage|outil|marteau|lv",
    "system_role": "outil",
    "size": 4,
@@ -2682,7 +2694,7 @@
    ]
   },
   {
-   "cluster_id": 368,
+   "cluster_id": 369,
    "substitute_key": "outillage|outil|etau|-",
    "system_role": "outil",
    "size": 4,
@@ -2793,7 +2805,7 @@
    ]
   },
   {
-   "cluster_id": 122,
+   "cluster_id": 123,
    "substitute_key": "electronique|capteur|generic|lv",
    "system_role": "capteur",
    "size": 3,
@@ -2804,7 +2816,7 @@
    ]
   },
   {
-   "cluster_id": 124,
+   "cluster_id": 125,
    "substitute_key": "electronique|actionneur|driver|-",
    "system_role": "actionneur",
    "size": 3,
@@ -2815,7 +2827,7 @@
    ]
   },
   {
-   "cluster_id": 139,
+   "cluster_id": 141,
    "substitute_key": "carte|controle|jetson|-",
    "system_role": "controle",
    "size": 3,
@@ -2826,7 +2838,18 @@
    ]
   },
   {
-   "cluster_id": 166,
+   "cluster_id": 155,
+   "substitute_key": "mobilite|actionneur|veh_voiture|logic",
+   "system_role": "actionneur",
+   "size": 3,
+   "examples": [
+    "Kits d’auto-équilibrage de voiture intelligente (Roue 65mm+Moteur 6V 2",
+    "moteur DIY 3- 6V pour voiture intelligente",
+    "CHARGEUR ALLUME CIGARE 2EN1 MUJU POUR VOITURE 5V 2.4A"
+   ]
+  },
+  {
+   "cluster_id": 169,
    "substitute_key": "moteur|actionneur|pompe|logic",
    "system_role": "actionneur",
    "size": 3,
@@ -2837,7 +2860,7 @@
    ]
   },
   {
-   "cluster_id": 168,
+   "cluster_id": 171,
    "substitute_key": "mesure|capteur|ph|-",
    "system_role": "capteur",
    "size": 3,
@@ -2848,7 +2871,7 @@
    ]
   },
   {
-   "cluster_id": 182,
+   "cluster_id": 185,
    "substitute_key": "composant|traitement|triac|mains",
    "system_role": "traitement",
    "size": 3,
@@ -2859,7 +2882,7 @@
    ]
   },
   {
-   "cluster_id": 200,
+   "cluster_id": 203,
    "substitute_key": "mesure|capteur|thermometre|-",
    "system_role": "capteur",
    "size": 3,
@@ -2870,7 +2893,7 @@
    ]
   },
   {
-   "cluster_id": 211,
+   "cluster_id": 214,
    "substitute_key": "alimentation|alimentation|convertisseur|mains",
    "system_role": "alimentation",
    "size": 3,
@@ -2881,7 +2904,7 @@
    ]
   },
   {
-   "cluster_id": 227,
+   "cluster_id": 230,
    "substitute_key": "mesure|capteur|testeur|mains",
    "system_role": "capteur",
    "size": 3,
@@ -2892,7 +2915,7 @@
    ]
   },
   {
-   "cluster_id": 238,
+   "cluster_id": 241,
    "substitute_key": "mesure|capteur|multimetre|mains",
    "system_role": "capteur",
    "size": 3,
@@ -2903,7 +2926,7 @@
    ]
   },
   {
-   "cluster_id": 245,
+   "cluster_id": 248,
    "substitute_key": "led|interface|strip|logic",
    "system_role": "interface",
    "size": 3,
@@ -2914,7 +2937,7 @@
    ]
   },
   {
-   "cluster_id": 250,
+   "cluster_id": 253,
    "substitute_key": "outillage|outil|pistolet|mains",
    "system_role": "outil",
    "size": 3,
@@ -2925,7 +2948,7 @@
    ]
   },
   {
-   "cluster_id": 260,
+   "cluster_id": 262,
    "substitute_key": "mesure|capteur|oscilloscope|-",
    "system_role": "capteur",
    "size": 3,
@@ -2936,7 +2959,7 @@
    ]
   },
   {
-   "cluster_id": 272,
+   "cluster_id": 274,
    "substitute_key": "batterie|alimentation|5mm|-",
    "system_role": "alimentation",
    "size": 3,
@@ -2947,7 +2970,7 @@
    ]
   },
   {
-   "cluster_id": 290,
+   "cluster_id": 291,
    "substitute_key": "outillage|outil|visseuse|logic",
    "system_role": "outil",
    "size": 3,
@@ -2958,7 +2981,7 @@
    ]
   },
   {
-   "cluster_id": 295,
+   "cluster_id": 296,
    "substitute_key": "batterie|alimentation|aa|logic",
    "system_role": "alimentation",
    "size": 3,
@@ -2969,7 +2992,7 @@
    ]
   },
   {
-   "cluster_id": 315,
+   "cluster_id": 316,
    "substitute_key": "composant|traitement|scr|mains",
    "system_role": "traitement",
    "size": 3,
@@ -2980,7 +3003,7 @@
    ]
   },
   {
-   "cluster_id": 356,
+   "cluster_id": 357,
    "substitute_key": "outillage|outil|compresseur|lv",
    "system_role": "outil",
    "size": 3,
@@ -3111,7 +3134,7 @@
    ]
   },
   {
-   "cluster_id": 116,
+   "cluster_id": 117,
    "substitute_key": "electronique|traitement|opto|-",
    "system_role": "traitement",
    "size": 2,
@@ -3121,7 +3144,7 @@
    ]
   },
   {
-   "cluster_id": 117,
+   "cluster_id": 118,
    "substitute_key": "soudure|autre|loupe|-",
    "system_role": "autre",
    "size": 2,
@@ -3131,7 +3154,7 @@
    ]
   },
   {
-   "cluster_id": 119,
+   "cluster_id": 120,
    "substitute_key": "moteur|actionneur|stepper|lv",
    "system_role": "actionneur",
    "size": 2,
@@ -3141,7 +3164,7 @@
    ]
   },
   {
-   "cluster_id": 120,
+   "cluster_id": 121,
    "substitute_key": "moteur|actionneur|stepper|logic",
    "system_role": "actionneur",
    "size": 2,
@@ -3151,7 +3174,7 @@
    ]
   },
   {
-   "cluster_id": 123,
+   "cluster_id": 124,
    "substitute_key": "rf|communication|lora|-",
    "system_role": "communication",
    "size": 2,
@@ -3161,7 +3184,7 @@
    ]
   },
   {
-   "cluster_id": 126,
+   "cluster_id": 128,
    "substitute_key": "mobilite|actionneur|generic|logic",
    "system_role": "actionneur",
    "size": 2,
@@ -3171,7 +3194,7 @@
    ]
   },
   {
-   "cluster_id": 132,
+   "cluster_id": 134,
    "substitute_key": "capteur|capteur|temp_analog|-",
    "system_role": "capteur",
    "size": 2,
@@ -3181,7 +3204,7 @@
    ]
   },
   {
-   "cluster_id": 140,
+   "cluster_id": 142,
    "substitute_key": "led|interface|matrix|logic",
    "system_role": "interface",
    "size": 2,
@@ -3191,7 +3214,7 @@
    ]
   },
   {
-   "cluster_id": 149,
+   "cluster_id": 151,
    "substitute_key": "electronique|traitement|logique|-",
    "system_role": "traitement",
    "size": 2,
@@ -3201,7 +3224,7 @@
    ]
   },
   {
-   "cluster_id": 156,
+   "cluster_id": 158,
    "substitute_key": "rf|communication|gps|-",
    "system_role": "communication",
    "size": 2,
@@ -3211,7 +3234,7 @@
    ]
   },
   {
-   "cluster_id": 189,
+   "cluster_id": 192,
    "substitute_key": "alimentation|alimentation|boost|lv",
    "system_role": "alimentation",
    "size": 2,
@@ -3221,7 +3244,7 @@
    ]
   },
   {
-   "cluster_id": 192,
+   "cluster_id": 195,
    "substitute_key": "connectique|connectique|fil|mains",
    "system_role": "connectique",
    "size": 2,
@@ -3231,7 +3254,7 @@
    ]
   },
   {
-   "cluster_id": 196,
+   "cluster_id": 199,
    "substitute_key": "mecanique|mecanique|rondelle|-",
    "system_role": "mecanique",
    "size": 2,
@@ -3241,7 +3264,17 @@
    ]
   },
   {
-   "cluster_id": 207,
+   "cluster_id": 200,
+   "substitute_key": "mobilite|actionneur|generic|lv",
+   "system_role": "actionneur",
+   "size": 2,
+   "examples": [
+    "Kit Moteur 12V 620RPM +Moteur+roue+ accouplement",
+    "Batterie LIPO RED 2200mAh 3S 11.1V 35C pour avion avec connecteur XT60"
+   ]
+  },
+  {
+   "cluster_id": 210,
    "substitute_key": "electronique|interface|bouton|mains",
    "system_role": "interface",
    "size": 2,
@@ -3251,7 +3284,7 @@
    ]
   },
   {
-   "cluster_id": 212,
+   "cluster_id": 215,
    "substitute_key": "moteur|actionneur|dc|mains",
    "system_role": "actionneur",
    "size": 2,
@@ -3261,7 +3294,7 @@
    ]
   },
   {
-   "cluster_id": 213,
+   "cluster_id": 216,
    "substitute_key": "led|interface|bulb|logic",
    "system_role": "interface",
    "size": 2,
@@ -3271,7 +3304,7 @@
    ]
   },
   {
-   "cluster_id": 215,
+   "cluster_id": 218,
    "substitute_key": "electronique|interface|display|logic",
    "system_role": "interface",
    "size": 2,
@@ -3281,7 +3314,7 @@
    ]
   },
   {
-   "cluster_id": 231,
+   "cluster_id": 234,
    "substitute_key": "mecanique|mecanique|radiateur|-",
    "system_role": "mecanique",
    "size": 2,
@@ -3291,7 +3324,7 @@
    ]
   },
   {
-   "cluster_id": 243,
+   "cluster_id": 246,
    "substitute_key": "outillage|outil|cliquet|-",
    "system_role": "outil",
    "size": 2,
@@ -3301,7 +3334,7 @@
    ]
   },
   {
-   "cluster_id": 282,
+   "cluster_id": 283,
    "substitute_key": "mesure|capteur|sonde|-",
    "system_role": "capteur",
    "size": 2,
@@ -3311,7 +3344,7 @@
    ]
   },
   {
-   "cluster_id": 289,
+   "cluster_id": 290,
    "substitute_key": "outillage|outil|tournevis|logic",
    "system_role": "outil",
    "size": 2,
@@ -3321,7 +3354,7 @@
    ]
   },
   {
-   "cluster_id": 304,
+   "cluster_id": 305,
    "substitute_key": "mesure|capteur|testeur|lv",
    "system_role": "capteur",
    "size": 2,
@@ -3331,7 +3364,7 @@
    ]
   },
   {
-   "cluster_id": 310,
+   "cluster_id": 311,
    "substitute_key": "led|interface|voyant|lv",
    "system_role": "interface",
    "size": 2,
@@ -3341,7 +3374,7 @@
    ]
   },
   {
-   "cluster_id": 313,
+   "cluster_id": 314,
    "substitute_key": "audio|interface|generic|mains",
    "system_role": "interface",
    "size": 2,
@@ -3351,7 +3384,7 @@
    ]
   },
   {
-   "cluster_id": 321,
+   "cluster_id": 322,
    "substitute_key": "outillage|outil|tournevis|mains",
    "system_role": "outil",
    "size": 2,
@@ -3361,7 +3394,7 @@
    ]
   },
   {
-   "cluster_id": 326,
+   "cluster_id": 327,
    "substitute_key": "mecanique|mecanique|rail|mains",
    "system_role": "mecanique",
    "size": 2,
@@ -3371,7 +3404,7 @@
    ]
   },
   {
-   "cluster_id": 344,
+   "cluster_id": 345,
    "substitute_key": "electronique|interface|ampli|-",
    "system_role": "interface",
    "size": 2,
@@ -3381,7 +3414,7 @@
    ]
   },
   {
-   "cluster_id": 357,
+   "cluster_id": 358,
    "substitute_key": "led|interface|bulb|lv",
    "system_role": "interface",
    "size": 2,
@@ -3391,7 +3424,7 @@
    ]
   },
   {
-   "cluster_id": 359,
+   "cluster_id": 360,
    "substitute_key": "outillage|outil|cisaille|lv",
    "system_role": "outil",
    "size": 2,
@@ -3401,7 +3434,7 @@
    ]
   },
   {
-   "cluster_id": 360,
+   "cluster_id": 361,
    "substitute_key": "outillage|outil|spatule|-",
    "system_role": "outil",
    "size": 2,
@@ -3411,7 +3444,7 @@
    ]
   },
   {
-   "cluster_id": 361,
+   "cluster_id": 362,
    "substitute_key": "outillage|outil|ponceuse|lv",
    "system_role": "outil",
    "size": 2,
@@ -3421,7 +3454,7 @@
    ]
   },
   {
-   "cluster_id": 363,
+   "cluster_id": 364,
    "substitute_key": "outillage|outil|pistolet|lv",
    "system_role": "outil",
    "size": 2,
@@ -3431,7 +3464,7 @@
    ]
   },
   {
-   "cluster_id": 364,
+   "cluster_id": 365,
    "substitute_key": "outillage|outil|masque|-",
    "system_role": "outil",
    "size": 2,
@@ -3486,7 +3519,7 @@
    ]
   },
   {
-   "cluster_id": 137,
+   "cluster_id": 139,
    "substitute_key": "audio|interface|buzzer|lv",
    "system_role": "interface",
    "size": 1,
@@ -3495,7 +3528,7 @@
    ]
   },
   {
-   "cluster_id": 146,
+   "cluster_id": 148,
    "substitute_key": "electronique|interface|interrupteur|logic",
    "system_role": "interface",
    "size": 1,
@@ -3504,7 +3537,7 @@
    ]
   },
   {
-   "cluster_id": 148,
+   "cluster_id": 150,
    "substitute_key": "electronique|interface|bouton|logic",
    "system_role": "interface",
    "size": 1,
@@ -3513,7 +3546,7 @@
    ]
   },
   {
-   "cluster_id": 150,
+   "cluster_id": 152,
    "substitute_key": "moteur|actionneur|ventilateur|logic",
    "system_role": "actionneur",
    "size": 1,
@@ -3522,7 +3555,7 @@
    ]
   },
   {
-   "cluster_id": 157,
+   "cluster_id": 159,
    "substitute_key": "electronique|capteur|generic|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3531,7 +3564,7 @@
    ]
   },
   {
-   "cluster_id": 160,
+   "cluster_id": 162,
    "substitute_key": "capteur|capteur|distance|lv",
    "system_role": "capteur",
    "size": 1,
@@ -3540,7 +3573,7 @@
    ]
   },
   {
-   "cluster_id": 172,
+   "cluster_id": 175,
    "substitute_key": "electrique|outil|armoire|lv",
    "system_role": "outil",
    "size": 1,
@@ -3549,7 +3582,7 @@
    ]
   },
   {
-   "cluster_id": 174,
+   "cluster_id": 177,
    "substitute_key": "electronique|traitement|timer|-",
    "system_role": "traitement",
    "size": 1,
@@ -3558,7 +3591,7 @@
    ]
   },
   {
-   "cluster_id": 178,
+   "cluster_id": 181,
    "substitute_key": "capteur|capteur|niveau|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3567,7 +3600,7 @@
    ]
   },
   {
-   "cluster_id": 185,
+   "cluster_id": 188,
    "substitute_key": "connectique|connectique|nappe|-",
    "system_role": "connectique",
    "size": 1,
@@ -3576,7 +3609,7 @@
    ]
   },
   {
-   "cluster_id": 187,
+   "cluster_id": 190,
    "substitute_key": "carte|controle|esp8266|logic",
    "system_role": "controle",
    "size": 1,
@@ -3585,7 +3618,7 @@
    ]
   },
   {
-   "cluster_id": 190,
+   "cluster_id": 193,
    "substitute_key": "carte|controle|generic|lv",
    "system_role": "controle",
    "size": 1,
@@ -3594,7 +3627,7 @@
    ]
   },
   {
-   "cluster_id": 195,
+   "cluster_id": 198,
    "substitute_key": "connectique|connectique|borne|mains",
    "system_role": "connectique",
    "size": 1,
@@ -3603,16 +3636,7 @@
    ]
   },
   {
-   "cluster_id": 197,
-   "substitute_key": "mobilite|actionneur|generic|lv",
-   "system_role": "actionneur",
-   "size": 1,
-   "examples": [
-    "Kit Moteur 12V 620RPM +Moteur+roue+ accouplement"
-   ]
-  },
-  {
-   "cluster_id": 202,
+   "cluster_id": 205,
    "substitute_key": "soudure|autre|tresse|-",
    "system_role": "autre",
    "size": 1,
@@ -3621,7 +3645,7 @@
    ]
   },
   {
-   "cluster_id": 206,
+   "cluster_id": 209,
    "substitute_key": "alimentation|alimentation|transformateur|mains",
    "system_role": "alimentation",
    "size": 1,
@@ -3630,7 +3654,7 @@
    ]
   },
   {
-   "cluster_id": 218,
+   "cluster_id": 221,
    "substitute_key": "capteur|capteur|niveau|-",
    "system_role": "capteur",
    "size": 1,
@@ -3639,7 +3663,7 @@
    ]
   },
   {
-   "cluster_id": 234,
+   "cluster_id": 237,
    "substitute_key": "outillage|outil|decapeur|mains",
    "system_role": "outil",
    "size": 1,
@@ -3648,7 +3672,7 @@
    ]
   },
   {
-   "cluster_id": 239,
+   "cluster_id": 242,
    "substitute_key": "capteur|capteur|motion|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3657,7 +3681,7 @@
    ]
   },
   {
-   "cluster_id": 244,
+   "cluster_id": 247,
    "substitute_key": "connectique|connectique|connecteur|mains",
    "system_role": "connectique",
    "size": 1,
@@ -3666,7 +3690,7 @@
    ]
   },
   {
-   "cluster_id": 246,
+   "cluster_id": 249,
    "substitute_key": "led|interface|ir|mains",
    "system_role": "interface",
    "size": 1,
@@ -3675,7 +3699,7 @@
    ]
   },
   {
-   "cluster_id": 248,
+   "cluster_id": 251,
    "substitute_key": "carte|controle|microbit|-",
    "system_role": "controle",
    "size": 1,
@@ -3684,7 +3708,7 @@
    ]
   },
   {
-   "cluster_id": 252,
+   "cluster_id": 255,
    "substitute_key": "soudure|autre|fer|lv",
    "system_role": "autre",
    "size": 1,
@@ -3693,7 +3717,7 @@
    ]
   },
   {
-   "cluster_id": 253,
+   "cluster_id": 256,
    "substitute_key": "connectique|connectique|fil|logic",
    "system_role": "connectique",
    "size": 1,
@@ -3702,16 +3726,7 @@
    ]
   },
   {
-   "cluster_id": 257,
-   "substitute_key": "mobilite|actionneur|char|-",
-   "system_role": "actionneur",
-   "size": 1,
-   "examples": [
-    "Kit robot tank 4WD TP101"
-   ]
-  },
-  {
-   "cluster_id": 266,
+   "cluster_id": 268,
    "substitute_key": "capteur|capteur|temp_generic|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3720,7 +3735,7 @@
    ]
   },
   {
-   "cluster_id": 267,
+   "cluster_id": 269,
    "substitute_key": "outillage|outil|metre|logic",
    "system_role": "outil",
    "size": 1,
@@ -3729,7 +3744,7 @@
    ]
   },
   {
-   "cluster_id": 268,
+   "cluster_id": 270,
    "substitute_key": "soudure|autre|pate|-",
    "system_role": "autre",
    "size": 1,
@@ -3738,7 +3753,7 @@
    ]
   },
   {
-   "cluster_id": 269,
+   "cluster_id": 271,
    "substitute_key": "composant|traitement|quartz|-",
    "system_role": "traitement",
    "size": 1,
@@ -3747,7 +3762,7 @@
    ]
   },
   {
-   "cluster_id": 270,
+   "cluster_id": 272,
    "substitute_key": "composant|traitement|inductance|-",
    "system_role": "traitement",
    "size": 1,
@@ -3756,7 +3771,7 @@
    ]
   },
   {
-   "cluster_id": 273,
+   "cluster_id": 275,
    "substitute_key": "outillage|outil|aspirateur|mains",
    "system_role": "outil",
    "size": 1,
@@ -3765,7 +3780,7 @@
    ]
   },
   {
-   "cluster_id": 279,
+   "cluster_id": 280,
    "substitute_key": "mesure|capteur|compteur|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3774,16 +3789,16 @@
    ]
   },
   {
-   "cluster_id": 280,
-   "substitute_key": "mobilite|actionneur|avion|lv",
+   "cluster_id": 281,
+   "substitute_key": "mobilite|actionneur|chassis|logic",
    "system_role": "actionneur",
    "size": 1,
    "examples": [
-    "Batterie LIPO RED 2200mAh 3S 11.1V 35C pour avion avec connecteur XT60"
+    "Kit de châssis de voiture robotisée intelligente 2WD DC3-6V 1:48 (pneu"
    ]
   },
   {
-   "cluster_id": 283,
+   "cluster_id": 284,
    "substitute_key": "mesure|capteur|amperemetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3792,7 +3807,7 @@
    ]
   },
   {
-   "cluster_id": 284,
+   "cluster_id": 285,
    "substitute_key": "mesure|capteur|wattmetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3801,7 +3816,7 @@
    ]
   },
   {
-   "cluster_id": 285,
+   "cluster_id": 286,
    "substitute_key": "mesure|capteur|voltmetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3810,7 +3825,7 @@
    ]
   },
   {
-   "cluster_id": 291,
+   "cluster_id": 292,
    "substitute_key": "led|interface|cob|-",
    "system_role": "interface",
    "size": 1,
@@ -3819,7 +3834,7 @@
    ]
   },
   {
-   "cluster_id": 297,
+   "cluster_id": 298,
    "substitute_key": "batterie|alimentation|aaa|logic",
    "system_role": "alimentation",
    "size": 1,
@@ -3828,7 +3843,7 @@
    ]
   },
   {
-   "cluster_id": 299,
+   "cluster_id": 300,
    "substitute_key": "led|interface|guirlande|-",
    "system_role": "interface",
    "size": 1,
@@ -3837,7 +3852,7 @@
    ]
   },
   {
-   "cluster_id": 300,
+   "cluster_id": 301,
    "substitute_key": "electrique|outil|parafoudre|mains",
    "system_role": "outil",
    "size": 1,
@@ -3846,7 +3861,7 @@
    ]
   },
   {
-   "cluster_id": 301,
+   "cluster_id": 302,
    "substitute_key": "electrique|outil|parafoudre|-",
    "system_role": "outil",
    "size": 1,
@@ -3855,7 +3870,7 @@
    ]
   },
   {
-   "cluster_id": 307,
+   "cluster_id": 308,
    "substitute_key": "capteur|capteur|temp_1wire|lv",
    "system_role": "capteur",
    "size": 1,
@@ -3864,7 +3879,7 @@
    ]
   },
   {
-   "cluster_id": 309,
+   "cluster_id": 310,
    "substitute_key": "led|interface|matrix|mains",
    "system_role": "interface",
    "size": 1,
@@ -3873,7 +3888,7 @@
    ]
   },
   {
-   "cluster_id": 311,
+   "cluster_id": 312,
    "substitute_key": "outillage|outil|pince|mains",
    "system_role": "outil",
    "size": 1,
@@ -3882,7 +3897,7 @@
    ]
   },
   {
-   "cluster_id": 314,
+   "cluster_id": 315,
    "substitute_key": "audio|interface|casque|-",
    "system_role": "interface",
    "size": 1,
@@ -3891,7 +3906,7 @@
    ]
   },
   {
-   "cluster_id": 316,
+   "cluster_id": 317,
    "substitute_key": "composant|traitement|diac|-",
    "system_role": "traitement",
    "size": 1,
@@ -3900,7 +3915,7 @@
    ]
   },
   {
-   "cluster_id": 317,
+   "cluster_id": 318,
    "substitute_key": "batterie|alimentation|d|-",
    "system_role": "alimentation",
    "size": 1,
@@ -3909,7 +3924,7 @@
    ]
   },
   {
-   "cluster_id": 318,
+   "cluster_id": 319,
    "substitute_key": "batterie|alimentation|c|-",
    "system_role": "alimentation",
    "size": 1,
@@ -3918,7 +3933,7 @@
    ]
   },
   {
-   "cluster_id": 319,
+   "cluster_id": 320,
    "substitute_key": "composant|traitement|diode|lv",
    "system_role": "traitement",
    "size": 1,
@@ -3927,7 +3942,7 @@
    ]
   },
   {
-   "cluster_id": 320,
+   "cluster_id": 321,
    "substitute_key": "composant|traitement|diac|lv",
    "system_role": "traitement",
    "size": 1,
@@ -3936,7 +3951,7 @@
    ]
   },
   {
-   "cluster_id": 322,
+   "cluster_id": 323,
    "substitute_key": "capteur|capteur|temp_generic|lv",
    "system_role": "capteur",
    "size": 1,
@@ -3945,7 +3960,7 @@
    ]
   },
   {
-   "cluster_id": 325,
+   "cluster_id": 326,
    "substitute_key": "electrique|outil|telerupteur|mains",
    "system_role": "outil",
    "size": 1,
@@ -3954,7 +3969,7 @@
    ]
   },
   {
-   "cluster_id": 329,
+   "cluster_id": 330,
    "substitute_key": "soudure|autre|etain|mains",
    "system_role": "autre",
    "size": 1,
@@ -3963,7 +3978,7 @@
    ]
   },
   {
-   "cluster_id": 330,
+   "cluster_id": 331,
    "substitute_key": "connectique|connectique|generic|lv",
    "system_role": "connectique",
    "size": 1,
@@ -3972,7 +3987,7 @@
    ]
   },
   {
-   "cluster_id": 332,
+   "cluster_id": 333,
    "substitute_key": "carte|controle|fpga|-",
    "system_role": "controle",
    "size": 1,
@@ -3981,7 +3996,7 @@
    ]
   },
   {
-   "cluster_id": 333,
+   "cluster_id": 334,
    "substitute_key": "mecanique|mecanique|bague|-",
    "system_role": "mecanique",
    "size": 1,
@@ -3990,7 +4005,7 @@
    ]
   },
   {
-   "cluster_id": 334,
+   "cluster_id": 335,
    "substitute_key": "mecanique|mecanique|rivet|-",
    "system_role": "mecanique",
    "size": 1,
@@ -3999,7 +4014,7 @@
    ]
   },
   {
-   "cluster_id": 335,
+   "cluster_id": 336,
    "substitute_key": "mecanique|mecanique|ressort|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4008,7 +4023,7 @@
    ]
   },
   {
-   "cluster_id": 342,
+   "cluster_id": 343,
    "substitute_key": "outillage|outil|riveteuse|lv",
    "system_role": "outil",
    "size": 1,
@@ -4017,7 +4032,7 @@
    ]
   },
   {
-   "cluster_id": 343,
+   "cluster_id": 344,
    "substitute_key": "mecanique|mecanique|poulie|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4026,7 +4041,7 @@
    ]
   },
   {
-   "cluster_id": 345,
+   "cluster_id": 346,
    "substitute_key": "electrique|outil|contacteur|-",
    "system_role": "outil",
    "size": 1,
@@ -4035,7 +4050,7 @@
    ]
   },
   {
-   "cluster_id": 346,
+   "cluster_id": 347,
    "substitute_key": "mesure|capteur|compteur|-",
    "system_role": "capteur",
    "size": 1,
@@ -4044,7 +4059,7 @@
    ]
   },
   {
-   "cluster_id": 347,
+   "cluster_id": 348,
    "substitute_key": "mecanique|mecanique|boitier|logic",
    "system_role": "mecanique",
    "size": 1,
@@ -4053,7 +4068,7 @@
    ]
   },
   {
-   "cluster_id": 348,
+   "cluster_id": 349,
    "substitute_key": "connectique|connectique|prise|logic",
    "system_role": "connectique",
    "size": 1,
@@ -4062,7 +4077,7 @@
    ]
   },
   {
-   "cluster_id": 349,
+   "cluster_id": 350,
    "substitute_key": "mecanique|mecanique|tige|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4071,7 +4086,7 @@
    ]
   },
   {
-   "cluster_id": 350,
+   "cluster_id": 351,
    "substitute_key": "rf|communication|433|lv",
    "system_role": "communication",
    "size": 1,
@@ -4080,7 +4095,7 @@
    ]
   },
   {
-   "cluster_id": 365,
+   "cluster_id": 366,
    "substitute_key": "outillage|outil|scie|mains",
    "system_role": "outil",
    "size": 1,
@@ -4089,7 +4104,7 @@
    ]
   },
   {
-   "cluster_id": 367,
+   "cluster_id": 368,
    "substitute_key": "connectique|connectique|cable|logic",
    "system_role": "connectique",
    "size": 1,
@@ -4098,7 +4113,16 @@
    ]
   },
   {
-   "cluster_id": 369,
+   "cluster_id": 370,
+   "substitute_key": "mobilite|actionneur|veh_drone|-",
+   "system_role": "actionneur",
+   "size": 1,
+   "examples": [
+    "Moteur brushless T-MOTOR V2207.5 V2 T-HOBBY 5\" Freestyle pour drone de"
+   ]
+  },
+  {
+   "cluster_id": 371,
    "substitute_key": "electrique|outil|contacteur|lv",
    "system_role": "outil",
    "size": 1,
@@ -4107,7 +4131,7 @@
    ]
   },
   {
-   "cluster_id": 370,
+   "cluster_id": 372,
    "substitute_key": "connectique|connectique|generic|mains",
    "system_role": "connectique",
    "size": 1,
@@ -4116,7 +4140,7 @@
    ]
   },
   {
-   "cluster_id": 371,
+   "cluster_id": 373,
    "substitute_key": "rf|communication|generic|mains",
    "system_role": "communication",
    "size": 1,
@@ -4125,7 +4149,7 @@
    ]
   },
   {
-   "cluster_id": 372,
+   "cluster_id": 374,
    "substitute_key": "alimentation|alimentation|buck|lv",
    "system_role": "alimentation",
    "size": 1,

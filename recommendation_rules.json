@@ -156,7 +156,7 @@
    ]
   },
   "mobilite": {
-   "defining_attribute": "vehicle",
+   "defining_attribute": "mobility_part",
    "system_position": "actionneur",
    "similar_with": [
     "mobilite"
@@ -223,7 +223,7 @@
   }
  },
  "similarity_rules": [
-  "Meme technical_category ET meme attribut DEFINISSANT. Attributs definissants : {\"batterie\": \"form_factor\", \"carte\": \"board\", \"composant\": \"component\", \"capteur\": \"sensor\", \"electronique\": \"module_fn\", \"moteur\": \"motor\", \"led\": \"led_form\", \"rf\": \"rftech\", \"mobilite\": \"vehicle\"}.",
+  "Meme technical_category ET meme attribut DEFINISSANT. Attributs definissants : {\"batterie\": \"form_factor\", \"carte\": \"board\", \"composant\": \"component\", \"capteur\": \"sensor\", \"electronique\": \"module_fn\", \"moteur\": \"motor\", \"led\": \"led_form\", \"rf\": \"rftech\", \"mobilite\": \"mobility_part\"}.",
   "Pas de cross-type pour carte/batterie/rf/capteur/led/mobilite (Arduino != ESP32, 18650 != pile bouton, gaz != debit).",
   "Niveaux techno separes : temperature NUMERIQUE (DHT/DS18B20) != ANALOGIQUE/INDUSTRIEL (PT100/thermocouple) ; ampoule != projecteur.",
   "Categories sans attribut definissant (connectique/mecanique/mobilite) : exiger un LIEN DE FAMILLE (token-modele ou mot significatif partage), sinon VIDE.",
