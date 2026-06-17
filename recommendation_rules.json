@@ -298,7 +298,6 @@
    "traitement"
   ],
   "interface": [
-   "actionneur",
    "alimentation",
    "controle",
    "interface",
