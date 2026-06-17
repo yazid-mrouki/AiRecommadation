@@ -24,6 +24,20 @@ def _load_env(path=".env"):
             os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 _load_env()
 
+# --- auto-detecte le modele Ollama installe (peu importe lequel : qwen2.5:7b, 3b, llama3...) ---
+def _autodetect_ollama():
+    if os.environ.get("LLM_MODEL"): return
+    try:
+        import urllib.request, json as _json
+        _d = _json.loads(urllib.request.urlopen("http://localhost:11434/api/tags", timeout=1.5).read())
+        _names = [m.get("name") for m in _d.get("models", []) if m.get("name")]
+        if _names:
+            os.environ["LLM_MODEL"] = _names[0]
+            print(f"[i] Ollama detecte -> modele utilise : {_names[0]}")
+    except Exception:
+        pass
+_autodetect_ollama()
+
 import reco_v2 as R
 from llm_layer import recommend_expert, llm_provider, llm_chat
 

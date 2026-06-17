@@ -118,7 +118,7 @@ def _call_provider(p, prompt, max_tokens=700, temperature=0.2):
     if p == "local":    # serveur LLM PRIVE auto-heberge (Ollama/vLLM/LM Studio) -- gratuit, illimite
         from openai import OpenAI
         c = OpenAI(base_url=_local_url(), api_key=os.environ.get("LLM_API_KEY", "ollama"))
-        r = c.chat.completions.create(model=LOCAL_MODEL,
+        r = c.chat.completions.create(model=(os.environ.get("LLM_MODEL") or "qwen2.5:7b"),
               messages=[{"role":"user","content":prompt}], max_tokens=max_tokens, temperature=temperature)
         return r.choices[0].message.content
     if p == "gemini":   # endpoint OpenAI-compatible de Google -> un seul SDK (openai) pour 3 fournisseurs
