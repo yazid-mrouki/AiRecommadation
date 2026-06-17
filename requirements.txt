@@ -1,0 +1,9 @@
+# Moteur de recommandation IoT -- dependances (projet local VS Code)
+pandas
+numpy
+scikit-learn
+sentence-transformers
+rapidfuzz
+openai
+# Windows uniquement : si erreur SSL au telechargement du modele E5, decommente la ligne suivante
+# pip-system-certs

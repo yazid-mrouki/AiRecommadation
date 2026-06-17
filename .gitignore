@@ -15,8 +15,7 @@ env/
 .DS_Store
 _smoketest.py
 
-# === Fichiers de travail / dev (non versionnes) ===
-# Le notebook est AUTONOME ; ce harnais .py sert seulement aux tests locaux.
+# === Fichiers temporaires / cache (non versionnes) ===
 _*.py
 _*.txt
 _*.pkl
@@ -25,19 +24,11 @@ _emb_*.npy
 cells_dump.txt
 cells2.txt
 *.bak
-reco_v2.py
-eval_gold.py
-eval_harness.py
-pipeline_categorize.py
-pipeline_refine.py
-pipeline_rules.py
-llm_layer.py
+
+# NB : les modules du PROJET LOCAL (reco_v2.py, pipeline_*.py, llm_layer.py, cluster_pipeline.py,
+#      eval_*.py, main.py) SONT versionnes -> c'est le projet VS Code.
 
 # === Binaire installeur (ne doit pas etre dans le repo) ===
 Claude Setup.exe
 _*.md
-
-# NB : rag_knowledge_base.json et recommendation_rules.json SONT versionnes
-#      (Colab connecte au repo -> sorties pretes a l'emploi, pas besoin de tout relancer).
-cluster_pipeline.py
 _cluster_llm_cache.json
