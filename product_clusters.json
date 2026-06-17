@@ -1,0 +1,4137 @@
+{
+ "meta": {
+  "products": 5774,
+  "clusters": 373,
+  "generic_remaining": 1708
+ },
+ "clusters": [
+  {
+   "cluster_id": 81,
+   "substitute_key": "outillage|outil|generic|-",
+   "system_role": "outil",
+   "size": 732,
+   "examples": [
+    "Plaque d’essais 400 Points",
+    "P30/25 DC12V Électro-aimant à ventouse électrique 15KG",
+    "Tapis de soudage en silicone  à isolation thermique magnétique 45x30CM",
+    "Support Moteur 25GA370"
+   ]
+  },
+  {
+   "cluster_id": 221,
+   "substitute_key": "outillage|outil|cle|-",
+   "system_role": "outil",
+   "size": 224,
+   "examples": [
+    "Jeu de clés Allen 8 en 1 à clé hexagonale 1,5 mm à 6 mm Kit d’outils à",
+    "Jeu de clé mixte 6 a 19mm 8 pieces DELI",
+    "Coffret clés à cliquets 175 pièces 1/2’’, 3/8’’, 1/4’’ TOLSEN",
+    "Coffret clés douilles Rhino 1/2-1/4 - 28 pièces"
+   ]
+  },
+  {
+   "cluster_id": 175,
+   "substitute_key": "outillage|outil|pince|-",
+   "system_role": "outil",
+   "size": 220,
+   "examples": [
+    "Pince antistatiques ESD-11",
+    "Pince De Test SMD SMT",
+    "PLATO 170 Pince coupante diagonale électronique",
+    "Pince à sertir SN-01B"
+   ]
+  },
+  {
+   "cluster_id": 209,
+   "substitute_key": "outillage|outil|tournevis|-",
+   "system_role": "outil",
+   "size": 159,
+   "examples": [
+    "Coffret de tournevis avec 43 embouts HARDEN 550145",
+    "TOURNEVIS FR 540 3X150 BATI",
+    "TOURNEVIS PLAT CR-V 3*75MM MAGNETIQUE 20701",
+    "TOURNEVIS AM 540 BATI"
+   ]
+  },
+  {
+   "cluster_id": 17,
+   "substitute_key": "electronique|traitement|generic|-",
+   "system_role": "traitement",
+   "size": 147,
+   "examples": [
+    "Bouclier Ethernet W5100",
+    "Carte MEGA 2560 R3 SMD Version améliorée de la puce CH340 avec cable",
+    "Ethernet Arduino V1 Shield SD",
+    "Module de carte d’extension WiFi série ESP8266 pour Arduino"
+   ]
+  },
+  {
+   "cluster_id": 24,
+   "substitute_key": "connectique|connectique|cable|-",
+   "system_role": "connectique",
+   "size": 112,
+   "examples": [
+    "Carte MEGA 2560 R3 SMD avec cable",
+    "Cable HDMI A Male vers HDMI Micro Male Pour Raspberry PI4 longueur 1.5",
+    "cable 5 fils avec connecteur male femelle xh2.54 2p l=20cm",
+    "cable 4 fils avec connecteur male femelle xh2.54 2p l=20cm"
+   ]
+  },
+  {
+   "cluster_id": 236,
+   "substitute_key": "outillage|outil|douille|-",
+   "system_role": "outil",
+   "size": 89,
+   "examples": [
+    "Coffret 56 embouts et douilles TOLSEN",
+    "Jeu de douilles à cliquet 12 PCS 1/4’’ WADFOW",
+    "Jeu de douilles hexagonales 1/4\" avec 13 pièces 4 à 14 mm Harden",
+    "Coffret Douille et Embout - 42 Pcs - TOLSEN"
+   ]
+  },
+  {
+   "cluster_id": 18,
+   "substitute_key": "capteur|capteur|generic|-",
+   "system_role": "capteur",
+   "size": 82,
+   "examples": [
+    "AD8232 ECG Kit Mesure ET Surveillance Frequence Cardiaque",
+    "Kit 37 capteurs",
+    "Module de capteur Ultra Violet (UV) GY-ML8511 non soudé Sortie analogi",
+    "Capteur de particules de fumée de poussière PM2.5 GP2Y1014AU0F + résis"
+   ]
+  },
+  {
+   "cluster_id": 237,
+   "substitute_key": "outillage|outil|scie|-",
+   "system_role": "outil",
+   "size": 79,
+   "examples": [
+    "scie sauteuse GST 65BE PROFESSIONAL",
+    "Scie à chantourner DREMEL Moto-saw (MS20-1/5)",
+    "Jeu de scies cloches pour bois 16 pièces Harden 610548",
+    "Scie Terpan en carbure en métal 22 mm APT"
+   ]
+  },
+  {
+   "cluster_id": 29,
+   "substitute_key": "capteur|capteur|camera|-",
+   "system_role": "capteur",
+   "size": 74,
+   "examples": [
+    "Camera pour Raspberry 5MP Pixels",
+    "Module de caméra VGA OV7670",
+    "Support en acrylique pour module de caméra VGA OV7670",
+    "Câble Caméra 15PIN 2M Raspberry 4B/3B+/3B/3A+ Caméra FFC"
+   ]
+  },
+  {
+   "cluster_id": 104,
+   "substitute_key": "connectique|connectique|connecteur|-",
+   "system_role": "connectique",
+   "size": 73,
+   "examples": [
+    "Connecteurs étanches à 3 broches, Prise Jack DC022",
+    "Connecteur Metallique GX12 Circulaire Prise Aviation 2PIN Mâle",
+    "Connecteur Metallique GX12 Circulaire Prise Aviation 3PIN  Femelle",
+    "Connecteur Metallique GX12 Circulaire Prise Aviation 2PIN  Femelle"
+   ]
+  },
+  {
+   "cluster_id": 294,
+   "substitute_key": "electrique|outil|disjoncteur|-",
+   "system_role": "outil",
+   "size": 70,
+   "examples": [
+    "Disjoncteur Differenciel MONO 2M DP60 2*16A 300MA 6KA SIAME",
+    "Disjoncteur SIAME MONO 1M CP60 2*32 6KA C",
+    "Disjoncteur SIAME MONO 1M CP60 2*25 6KA C",
+    "Disjoncteur SIAME MONO 1M CP60 2*20 6KA C"
+   ]
+  },
+  {
+   "cluster_id": 275,
+   "substitute_key": "outillage|outil|foret|-",
+   "system_role": "outil",
+   "size": 65,
+   "examples": [
+    "Coffret forêts à étage 3 pcs HARDEN",
+    "Cofforêt à étage 4 à 32 HARDEN",
+    "Kit de 10 Forets Hélicoïdaux (2 de chaque taille) : 0,7 mm, 1,0 mm, 1,",
+    "Kit de 10 Forets Hélicoïdaux (2 de chaque taille) : 0,5 mm, 1,0 mm, 1,"
+   ]
+  },
+  {
+   "cluster_id": 14,
+   "substitute_key": "alimentation|alimentation|generic|-",
+   "system_role": "alimentation",
+   "size": 62,
+   "examples": [
+    "Module NFC RFID V3 H42 PN532 avec extension de téléphone Android",
+    "Plaque a essais 2390 Points",
+    "Module abaisseur et élévateur d’énergie solaire rouge",
+    "BOUCLIER D EXTENSION V3 POUR XBEE"
+   ]
+  },
+  {
+   "cluster_id": 57,
+   "substitute_key": "alimentation|alimentation|alimentation|lv",
+   "system_role": "alimentation",
+   "size": 62,
+   "examples": [
+    "MODULE ABAISSEUR D ALIMENTATION DC-DC 24v / 12V à 5V 5A",
+    "Alimentation Réglable DC-DC 48V LM2596HVS",
+    "Alimentation a Decoupage 12V / 12.5A",
+    "Alimentation a Decoupage 24V / 4.1A"
+   ]
+  },
+  {
+   "cluster_id": 76,
+   "substitute_key": "led|interface|generic|-",
+   "system_role": "interface",
+   "size": 62,
+   "examples": [
+    "KY-009 Module LED SMD 3 couleurs",
+    "KY-034 Module LED clignotant à 7 couleurs",
+    "Station de soudure Portable Pistolet à air chaud numérique LED 8586d Y",
+    "KY-011 Module LED bicolore 5 mm"
+   ]
+  },
+  {
+   "cluster_id": 30,
+   "substitute_key": "composant|traitement|resistance|-",
+   "system_role": "traitement",
+   "size": 61,
+   "examples": [
+    "Résistance ajustable horizontal 100 ohm,500 ohm,1k, 2k, 5k, 10k, 20k, ",
+    "600 pièces 1/4W 1% 30 types résistance à film métallique (20x chaque v",
+    "Paquet de résistance 100pcs E4-3",
+    "JEUX DE 10 RESISTANCES 1 / 4W 1%"
+   ]
+  },
+  {
+   "cluster_id": 70,
+   "substitute_key": "electronique|interface|interrupteur|-",
+   "system_role": "interface",
+   "size": 61,
+   "examples": [
+    "Kit d’interrupteur à bouton 25 pièces (y compris: interrupteur 12x12x7",
+    "INTERRUPTEUR A LEVIER 3 POSITIONS MTS 203 6A 6PINS",
+    "Interrupteur à bouton poussoir tactile rond 12x12x12mm",
+    "Interrupteur Vibration/Tilt SW-520D"
+   ]
+  },
+  {
+   "cluster_id": 142,
+   "substitute_key": "batterie|alimentation|generic|lv",
+   "system_role": "alimentation",
+   "size": 60,
+   "examples": [
+    "XH-M603 module controle de charge Batterie LITHIUM 10-30V/12-24V",
+    "Batterie LIPO3S 11,1V - 5200MAH 35C",
+    "Batterie Lipo 3S 11,1V - 1300mAh 25c",
+    "Batterie Lipo 2S 7,4V - 850MAH 25C"
+   ]
+  },
+  {
+   "cluster_id": 179,
+   "substitute_key": "connectique|connectique|fil|lv",
+   "system_role": "connectique",
+   "size": 54,
+   "examples": [
+    "Compteur de quantité électrique à affichage numérique à deux fils 24V",
+    "Compteur de quantité électrique à affichage numérique à deux fils 12V",
+    "Voltmètre CC à Trois Fils Bleu 0-30V 0,56 pouce",
+    "Contrôle de vitesse d'accélérateur électrique torsadé à 3 fils 24V 36V"
+   ]
+  },
+  {
+   "cluster_id": 63,
+   "substitute_key": "connectique|connectique|fil|-",
+   "system_role": "connectique",
+   "size": 53,
+   "examples": [
+    "jeux de 10 fils de connexion male male 40cm pour arduino",
+    "jeux de 40 fils de connexion femelle femelle 10cm pour arduino",
+    "jeux de 10 fils de connexion femelle femelle 20cm pour arduino",
+    "jeux de 40 fils de connexion male femelle 10cm pour arduino"
+   ]
+  },
+  {
+   "cluster_id": 74,
+   "substitute_key": "led|interface|strip|-",
+   "system_role": "interface",
+   "size": 51,
+   "examples": [
+    "Paquet de résistance 60pcs （Résistance à film métallique de ruban adhé",
+    "Résistance à film métallique à bande 4.7K 1/8W 1% (10 pièces)",
+    "Résistance carbone à bande 4.7K 1/6W 5% (10 pièces)",
+    "Résistance carbone à bande 4.7K 0.25W 5% (10 pièces)"
+   ]
+  },
+  {
+   "cluster_id": 9,
+   "substitute_key": "led|interface|strip|lv",
+   "system_role": "interface",
+   "size": 50,
+   "examples": [
+    "RGB 3528 SMD LED Bande Flexible 5M / Rouleau 12V étanche",
+    "Bande flexible du blanc chaud 5050 SMD LED 5M / rouleau 12V non imperm",
+    "Bande flexible du blanc froid 5050 SMD LED 5M / Roll 12V non imperméab",
+    "Bande LED RGB 5050 SMD 5M / Roll 24V Non étanche"
+   ]
+  },
+  {
+   "cluster_id": 210,
+   "substitute_key": "moteur|actionneur|pompe|-",
+   "system_role": "actionneur",
+   "size": 47,
+   "examples": [
+    "Pompe à dessouder",
+    "Pompe a dessouder metallique",
+    "Pompe à dessouder YATO YT-82743",
+    "Pompe a dessouder professionnel en aluminium Harden"
+   ]
+  },
+  {
+   "cluster_id": 100,
+   "substitute_key": "mecanique|mecanique|vis|-",
+   "system_role": "mecanique",
+   "size": 46,
+   "examples": [
+    "Vis en nylon noir M3 * 12mm",
+    "Vis en nylon blanc M3 * 12mm",
+    "Boîtier en acrylique Micro:bit avec vis",
+    "Vis M2X6mm inox tête rond"
+   ]
+  },
+  {
+   "cluster_id": 52,
+   "substitute_key": "composant|traitement|condensateur|-",
+   "system_role": "traitement",
+   "size": 45,
+   "examples": [
+    "Condensateur électrolytique 1UF 2.2UF 3.3UF 4.7UF 10UF 22UF 33UF 47UF ",
+    "Condensateur en céramique 75 (75pF)",
+    "Condensateur en céramique 68 (68pF)",
+    "Condensateur en céramique 47 (47pF)"
+   ]
+  },
+  {
+   "cluster_id": 25,
+   "substitute_key": "carte|controle|raspberry|-",
+   "system_role": "controle",
+   "size": 42,
+   "examples": [
+    "Version 2 Go E14 Raspberry Pi 4 Modèle 4B BCM2711 Quad-core Cortex-A72",
+    "Raspberry Pi 4B 4 Go de RAM",
+    "Carte Raspberry Pi Zero WH CPU 1GHz 512 Mo de RAM avec WIFI et Bluetoo",
+    "Raspberry Pi Pico Microcontroller Development Board"
+   ]
+  },
+  {
+   "cluster_id": 259,
+   "substitute_key": "outillage|outil|marteau|-",
+   "system_role": "outil",
+   "size": 42,
+   "examples": [
+    "Ecrou Marteau M6 - R8",
+    "Ecrou a Tete De Marteau 10 Rainures Pour Profil Aluminium 40x40 T=M5",
+    "Marteau Burineurs Pneumatic 6.3Bar + Accessories",
+    "Marteau Mecanicien Manche Bois  800Gr"
+   ]
+  },
+  {
+   "cluster_id": 72,
+   "substitute_key": "batterie|alimentation|generic|-",
+   "system_role": "alimentation",
+   "size": 41,
+   "examples": [
+    "ds3231 at24c32 i2c module de précision horloge temps réel avec batteri",
+    "Ds1302 Module d’horloge en temps réel RTC avec batterie",
+    "CONNECTEUR 2P JST POUR BATTERIE LIPO HELICOPTERE",
+    "Télécommande infrarouge avec batterie"
+   ]
+  },
+  {
+   "cluster_id": 51,
+   "substitute_key": "composant|traitement|condensateur|lv",
+   "system_role": "traitement",
+   "size": 40,
+   "examples": [
+    "Condensateur en céramique 2PF-0.1UF 50V",
+    "CONDENSATEUR RADIAL CHIMIQUE 50V 100UF 6mm X 12mm",
+    "CONDENSATEUR RADIAL CHIMIQUE 470UF 35V",
+    "CONDENSATEUR RADIAL CHIMIQUE 470uf 50V 10x17mm"
+   ]
+  },
+  {
+   "cluster_id": 97,
+   "substitute_key": "electronique|interface|bouton|-",
+   "system_role": "interface",
+   "size": 40,
+   "examples": [
+    "Bouton-poussoir tactile 2pin",
+    "BOUTON TACTILE 12x12x7.5mm rond",
+    "BOUTON TACTILE 12*12*7.3 MM + CAPUCHON",
+    "Bouton Arrêt d’urgence rouge AC 660V 10A Lay37-11ZS"
+   ]
+  },
+  {
+   "cluster_id": 180,
+   "substitute_key": "outillage|outil|embout|-",
+   "system_role": "outil",
+   "size": 40,
+   "examples": [
+    "Embout E7508 (0.75mm²)",
+    "Embout Rouge E1508 1.5mm 100pcs",
+    "Embout Bleu E1508 1.5mm 100pcs",
+    "Embout Rouge E2508 2.5mm 100pcs"
+   ]
+  },
+  {
+   "cluster_id": 208,
+   "substitute_key": "outillage|outil|pistolet|-",
+   "system_role": "outil",
+   "size": 39,
+   "examples": [
+    "Pistolet à colle TOLSEN",
+    "Pistolet à colle Ø7mm 30W HARDEN",
+    "Pistolet à colle DELI 60W",
+    "Pistolet à colle Ø11mm 60-100W HARDEN"
+   ]
+  },
+  {
+   "cluster_id": 32,
+   "substitute_key": "electronique|interface|display|-",
+   "system_role": "interface",
+   "size": 38,
+   "examples": [
+    "Module Afficheur LCD 4x20 Avec Interface I2C",
+    "Module LCD IPS TFT 1.3 ’240 * 240 RVB 7 pin (ST7789 Chip)",
+    "1602 MODULE AFFICHEUR LCD 2X16 AVEC INTERFACE I2C",
+    "Afficheur 2 chiffres 7 segments"
+   ]
+  },
+  {
+   "cluster_id": 80,
+   "substitute_key": "connectique|connectique|prise|-",
+   "system_role": "connectique",
+   "size": 38,
+   "examples": [
+    "Adaptateur de prise allemand / américain vers prise européenne (frança",
+    "Prises JACK 5.5 a visser Male +Femelle",
+    "PRISES JACK 5.5 A VISSER MALE",
+    "PRISES JACK 5.5 A VISSER FEMELLE"
+   ]
+  },
+  {
+   "cluster_id": 77,
+   "substitute_key": "mobilite|actionneur|generic|-",
+   "system_role": "actionneur",
+   "size": 37,
+   "examples": [
+    "KY-033 TCRT5000 CAPTEUR SUIVEUR DE LIGNE 3 PINES",
+    "KIT 4 Roues McNamum jaune 60MM-K (4PCS:2PCS DROITE,2PCS GAUCHE) SANS M",
+    "Pneu Omni Roue Noir Mecanum 60mm (4pcs)",
+    "Chassis 2WD [2 Roues + Roue Libre +Support 4 piles*AA (PLEXI GLASS EP="
+   ]
+  },
+  {
+   "cluster_id": 88,
+   "substitute_key": "mobilite|actionneur|voiture|-",
+   "system_role": "actionneur",
+   "size": 37,
+   "examples": [
+    "Support en acrylique pour capteur infrarouge de voiture intelligente",
+    "Kit Robot Voiture Intelligente Multifonction – Commande Bluetooth et m",
+    "Allonger l’accouplement pour la roue de voiture intelligente du robot ",
+    "Allonger l’accouplement pour la roue de voiture intelligente du robot "
+   ]
+  },
+  {
+   "cluster_id": 151,
+   "substitute_key": "mecanique|mecanique|generic|-",
+   "system_role": "mecanique",
+   "size": 37,
+   "examples": [
+    "Housse pour Raspberry Pi 400",
+    "Protection en aluminium avec deux ventilateurs pour Raspberry Pi 3B/3B",
+    "Goujon en cuivre hexagonal à double voie M3 * 20 mm",
+    "GT2 20 dents 16 dents 20 dents alésage 5mm/8mm"
+   ]
+  },
+  {
+   "cluster_id": 138,
+   "substitute_key": "led|interface|bulb|-",
+   "system_role": "interface",
+   "size": 36,
+   "examples": [
+    "Socle pour lampe LED noir 5 mm (LED n’est pas inclu)",
+    "Douille avec fils conducteurs de 21,6 cm pour ampoules miniatures à vi",
+    "Ampoule LED haute puissance 3W 6PIN SMD RVB",
+    "Ampoule LED haute puissance 1W 6PIN SMD RVB"
+   ]
+  },
+  {
+   "cluster_id": 58,
+   "substitute_key": "connectique|connectique|generic|-",
+   "system_role": "connectique",
+   "size": 35,
+   "examples": [
+    "21PCS 6.0mm Assortiment de tubes thermorétractables en caoutchouc de s",
+    "Ensemble d’isolation pour tubes thermorétractables colorés 530pcs",
+    "Souris pour raspberry",
+    "SD card 32 go"
+   ]
+  },
+  {
+   "cluster_id": 60,
+   "substitute_key": "electronique|interface|potentiometre|-",
+   "system_role": "interface",
+   "size": 35,
+   "examples": [
+    "Kit de potentiomètres (15 valeurs) 3296W 3296W MultiTurn Trimming Pote",
+    "Potentiomètre bouton en alliage d’aluminium capuchon de commutateur ro",
+    "Potentiomètre Trimpot Avec Bouton 10K",
+    "Capuchon rotatif de potentiomètre Awitch intérieur 6 mm externe 15 mm "
+   ]
+  },
+  {
+   "cluster_id": 34,
+   "substitute_key": "chargeur|alimentation|generic|-",
+   "system_role": "alimentation",
+   "size": 33,
+   "examples": [
+    "Chargeur de batterie IMAX B3AC LIPO pour prise RC LiPo",
+    "Carte de charge Micro USB avec courant protection pour Batterie Lipo T",
+    "Chargeur double batterie Li-ion rechargeable de 18650",
+    "Chargeur PCB BMS 4S 40A Li-ion Lithium Batterie 18650 (Balance Version"
+   ]
+  },
+  {
+   "cluster_id": 39,
+   "substitute_key": "electronique|actionneur|relais|-",
+   "system_role": "actionneur",
+   "size": 33,
+   "examples": [
+    "Relais de réseau de relais ESP8266 WIFI",
+    "Omron Relay G6RN-1-24VDC",
+    "Relais Omron G6RN-1-12VDC",
+    "Socle de prise LY2NJ pour Relais"
+   ]
+  },
+  {
+   "cluster_id": 229,
+   "substitute_key": "outillage|outil|meuleuse|-",
+   "system_role": "outil",
+   "size": 32,
+   "examples": [
+    "Meuleuse angulaire GWS 24-230 Professional BOSCH",
+    "Meuleuse angulaire GWS 2200 Professional BOSCH",
+    "Meuleuse angulaire 115mm 710W GWS 700  BOSCH",
+    "Mini Meuleuse 130W avec 109 accessoires TOTAL"
+   ]
+  },
+  {
+   "cluster_id": 235,
+   "substitute_key": "led|interface|projector|-",
+   "system_role": "interface",
+   "size": 32,
+   "examples": [
+    "LAMPE TORCHE RECHARGEABLE LED 5W-RH2212- RHINO",
+    "Lampe Torche 10W LED RHINO",
+    "Mini projecteur solair d’extérieur avec detecteur de mouvement 90 LED ",
+    "Philips Lampe torche - EVERDAY LED - SFL3100/10 - Silver 25 Metre"
+   ]
+  },
+  {
+   "cluster_id": 141,
+   "substitute_key": "chargeur|alimentation|generic|lv",
+   "system_role": "alimentation",
+   "size": 30,
+   "examples": [
+    "Module Chargeur PCB BMS 6S-12A 24V LI-ION Batterie 18650 6S",
+    "Module de protection du chargeur BMS 2S 3A 7.4V/8.4V Bateerie au LITHI",
+    "Imax B6 – chargeur d’équilibre 80W T/XT60, prise avec convertisseur 15",
+    "Alimentation Universelle 12V 2,5A Chargeur Jack 5.5mmX2.1mm 30W"
+   ]
+  },
+  {
+   "cluster_id": 71,
+   "substitute_key": "moteur|actionneur|dc|-",
+   "system_role": "actionneur",
+   "size": 29,
+   "examples": [
+    "Driver moteur DC MX1919 double pont H 2.5A",
+    "L298N Pont H - Carte de commande de moteur",
+    "L293D Motor Drive Shield pour Arduino",
+    "Module contrôleur pilote 2 moteurs L298N double pont H"
+   ]
+  },
+  {
+   "cluster_id": 7,
+   "substitute_key": "carte|controle|arduino|-",
+   "system_role": "controle",
+   "size": 28,
+   "examples": [
+    "Arduino UNO R3 DIP + cable",
+    "Arduino Nano V3.0 FT232 avec cable",
+    "Module sans fil RF Arduino Nano intégré NRF24L01 avec soudure",
+    "Kit de démarrage Arduino UNO R3 Suite d'apprentissage avec RFID"
+   ]
+  },
+  {
+   "cluster_id": 46,
+   "substitute_key": "mecanique|mecanique|boitier|-",
+   "system_role": "mecanique",
+   "size": 28,
+   "examples": [
+    "Boîtier en plastique ABS blanc pour UNO R3",
+    "Boîtier en ABS rouge + blanc Raspberry Pi 4B",
+    "Boîtier en métal du kit de développement Nvidia Jetson Nano comprend l",
+    "Boîtier Officiel Raspberry Pi 4B"
+   ]
+  },
+  {
+   "cluster_id": 265,
+   "substitute_key": "connectique|connectique|cosse|-",
+   "system_role": "connectique",
+   "size": 28,
+   "examples": [
+    "pince a sertir de cosse modulaire 215mm",
+    "Cosse À Sertir 6-6 2,5mm",
+    "Cosse 28A",
+    "Cosse Femelle 9.5 x 1.1 mm"
+   ]
+  },
+  {
+   "cluster_id": 22,
+   "substitute_key": "mesure|capteur|multimetre|-",
+   "system_role": "capteur",
+   "size": 26,
+   "examples": [
+    "Multimètre Numérique DT9205M",
+    "Multimètre Uni-T UT200A AC",
+    "Multimètre UNI-T UT123, fonction NCV,",
+    "Multimètre UNI-T UT136B +"
+   ]
+  },
+  {
+   "cluster_id": 177,
+   "substitute_key": "soudure|autre|fer|-",
+   "system_role": "autre",
+   "size": 25,
+   "examples": [
+    "Fer à souder 60W",
+    "Bec de fer à souder 900M-T-IS",
+    "Bec de fer à souder 900M-T-I",
+    "Nettoyeur de soudage jaune 3.5*5CM pour la fer à souder"
+   ]
+  },
+  {
+   "cluster_id": 262,
+   "substitute_key": "connectique|connectique|adaptateur|-",
+   "system_role": "connectique",
+   "size": 25,
+   "examples": [
+    "Adaptateur HDMI femelle vers micro HDMI",
+    "Adaptateur Apple Lightning vers Mini-Jack 3.5 mm Blanc",
+    "Adaptateur OTG USB 2.0 vers Micro USBT",
+    "Adaptateur Type-C vers HDMI / USB 3.0 / USB-C"
+   ]
+  },
+  {
+   "cluster_id": 69,
+   "substitute_key": "alimentation|alimentation|alimentation|logic",
+   "system_role": "alimentation",
+   "size": 24,
+   "examples": [
+    "MODULE D ALIMENTATION 3.3V/5V SUR PLAQUE ESSAIS",
+    "Module d’alimentation abaisseur AMS1117 3.3V/5V DC/DC",
+    "Alimentation a decoupage 5V / 3A",
+    "Alimentation a Decoupage 5V / 12A"
+   ]
+  },
+  {
+   "cluster_id": 167,
+   "substitute_key": "soudure|autre|generic|-",
+   "system_role": "autre",
+   "size": 24,
+   "examples": [
+    "Station de soudure Portable Pistolet à air chaud numérique BGA Yarboly",
+    "Pack Station de soudure Portable Pistolet à air chaud complet Yarboly",
+    "Tube chauffant circulaire puissance 200w, diamètre 21cm",
+    "Masque de soudure photosensible UV rouge"
+   ]
+  },
+  {
+   "cluster_id": 220,
+   "substitute_key": "outillage|outil|cutter|-",
+   "system_role": "outil",
+   "size": 24,
+   "examples": [
+    "MINI CUTTER 9*80MM",
+    "CUTTER 18x100mm TOLSEN",
+    "CUTTER 18x100mm ALUMINIUM EXTRA TOLSEN",
+    "CUTTER PLASTIC GM 18CM WADFO"
+   ]
+  },
+  {
+   "cluster_id": 223,
+   "substitute_key": "outillage|outil|filament|-",
+   "system_role": "outil",
+   "size": 24,
+   "examples": [
+    "Kit d’extrudeuse Bowden tout métal MK8 côté droit de filament de 1,75 ",
+    "Buse universelle MK8 Ultimaker : filament 1,75 mm/taille 0,4mm",
+    "Filament PLA1,75 mm 1 kg SILK multicolore arc-en-ciel",
+    "Filament PLA en Orangé SILK 1,75 mm 0.250 kg"
+   ]
+  },
+  {
+   "cluster_id": 0,
+   "substitute_key": "carte|controle|esp32|-",
+   "system_role": "controle",
+   "size": 23,
+   "examples": [
+    "ESP32S - WROOM-32S Carte Developpement WIFI+BLUETOOTH 38 BROCHES",
+    "ESP32-CAM Avec Module Camera OV2640 (sans port micro usb)",
+    "ESP32-CAM-CH340 ESP32 CP2102 : Carte Developpement Avec Module Camera ",
+    "Module sans fil TTGO t-call V1.4 ESP32, carte SIM, Module SIM800H et a"
+   ]
+  },
+  {
+   "cluster_id": 23,
+   "substitute_key": "electronique|actionneur|relais|logic",
+   "system_role": "actionneur",
+   "size": 23,
+   "examples": [
+    "Module Relais Omron 8 CANAUX SSR 5V",
+    "Bouclier Relais 4 Cannaux 5V",
+    "MODULE RELAIS 8 CANAUX 5V",
+    "Module de relais WiFi ESP8266 5V. composant de maison intelligente. mo"
+   ]
+  },
+  {
+   "cluster_id": 155,
+   "substitute_key": "outillage|outil|perceuse|-",
+   "system_role": "outil",
+   "size": 23,
+   "examples": [
+    "Super Mini Perceuse électrique avec boîtier en plastique Outils portab",
+    "Perceuse à percussion 570W BOSCH",
+    "Coffret perceuse à percussion Tolsen 710w+ accessoires",
+    "Perceuse 850W GBM 1600 RE PROFESSIONAL BOSCH"
+   ]
+  },
+  {
+   "cluster_id": 331,
+   "substitute_key": "outillage|outil|niveau|-",
+   "system_role": "outil",
+   "size": 23,
+   "examples": [
+    "Niveau d'eau magnétique alu 400MM YATO",
+    "Jauge De Niveau Trepied Industriel",
+    "Niveau Laser Vert 12 Lignes 3D",
+    "Niveau Laser Vert A Ligne Croisee"
+   ]
+  },
+  {
+   "cluster_id": 2,
+   "substitute_key": "connectique|connectique|borne|-",
+   "system_role": "connectique",
+   "size": 22,
+   "examples": [
+    "Ensemble de bornes à sertir de fil de connecteur femelle et mâle isolé",
+    "Borne de connexion rapide PCT-213 3 broches",
+    "Carte amplificateur TDA7297 avec bornes 2.0 double canal 15W + 15W",
+    "Kit de bornes à sertir (Embouts) 800PCS"
+   ]
+  },
+  {
+   "cluster_id": 26,
+   "substitute_key": "carte|controle|generic|-",
+   "system_role": "controle",
+   "size": 22,
+   "examples": [
+    "Carte principale LilyPad 328 ATmega328P 16M",
+    "USBISP AVR Programmateur Programmer ISP Downloader USB ATMEGA8 AVR",
+    "Carte de pilote de moteur L293D pour NodeMcu WiFi ESP8266 Lua ESP12E",
+    "Carte de développement Mega2560 Pro ATMEGA2560-16AU USB CH340G"
+   ]
+  },
+  {
+   "cluster_id": 42,
+   "substitute_key": "alimentation|alimentation|alimentation|-",
+   "system_role": "alimentation",
+   "size": 22,
+   "examples": [
+    "Module abaisseur d’alimentation réglable DC-DC XL4015 bleu 5A 75W",
+    "Plaque A Essai 830 + Module d’alimentation + 65 fils de raccordement",
+    "Fiche d’alimentation Jack male 5.5-2.1",
+    "Douille d’alimentation Jack DC-005 Femelle DC socket 5.5x2.1mm"
+   ]
+  },
+  {
+   "cluster_id": 49,
+   "substitute_key": "electronique|actionneur|relais|lv",
+   "system_role": "actionneur",
+   "size": 22,
+   "examples": [
+    "Module de relais 4 canaux (avec couplage de lumière) 12 V",
+    "Module de relais 2 canaux (avec couplage lumière) 24 V",
+    "Module de relais 2 canaux (avec couplage lumière) 12V",
+    "Module de relais 12 V 1 canal"
+   ]
+  },
+  {
+   "cluster_id": 171,
+   "substitute_key": "composant|traitement|zener|lv",
+   "system_role": "traitement",
+   "size": 22,
+   "examples": [
+    "Diodes Zener 1N4738 (8.2V)",
+    "Kit assorti de diodes Zener (10 diodes) 1N4752 33V",
+    "Kit assorti de diodes Zener (10 diodes) 1N4741 11V",
+    "Kit assorti de diodes Zener (10 diodes) 1N4756 47V"
+   ]
+  },
+  {
+   "cluster_id": 240,
+   "substitute_key": "moteur|actionneur|generic|-",
+   "system_role": "actionneur",
+   "size": 22,
+   "examples": [
+    "WeDo 2.0 Kit educatif LEGO Education [copie]",
+    "Pattex 2k Activateur Adhésif Instantané 400 ml + 100 gr",
+    "Plexiglas transparent 3 mm 20x30cm",
+    "with Banana plug+T Plug Solded XXD Brushless ESC 30A"
+   ]
+  },
+  {
+   "cluster_id": 41,
+   "substitute_key": "batterie|alimentation|18650|-",
+   "system_role": "alimentation",
+   "size": 20,
+   "examples": [
+    "Batterie rechargeable 18650",
+    "Support pour 4 piles 18650",
+    "Support pour 2 piles 18650",
+    "Support pour pile 1x18650"
+   ]
+  },
+  {
+   "cluster_id": 109,
+   "substitute_key": "audio|interface|haut parleur|-",
+   "system_role": "interface",
+   "size": 20,
+   "examples": [
+    "Haut-parleur sans fil, Support TF FM AUX micro avec Bluetooth",
+    "T&G Bluetooth haut-parleur portable extérieur haut-parleur sans fil Mi",
+    "T&G Haut-Parleur Bluetooth TG-533",
+    "T&G Haut-Parleur Bluetooth TG-144"
+   ]
+  },
+  {
+   "cluster_id": 256,
+   "substitute_key": "led|interface|generic|lv",
+   "system_role": "interface",
+   "size": 20,
+   "examples": [
+    "Thermostat Numérique Pour Incubateur 24V DC W1209 Aff Bleu",
+    "Domino LED Blanc 12V 1.5W 6000K BLANC FROID",
+    "Domino LED étanche DC 12 V Blanc",
+    "Ventilateur PC 80mm avec LED 12V"
+   ]
+  },
+  {
+   "cluster_id": 288,
+   "substitute_key": "outillage|outil|coffret|-",
+   "system_role": "outil",
+   "size": 20,
+   "examples": [
+    "Coffret de 12 poinçons creux 3-16 mm et étui Harden",
+    "COFFRET ASSORTIMENT DE 150 ECROU A SERTIR ALUMINIUM M3--M10 YATO",
+    "Coffret Tarraud & Filiers 12 PCS HARDEN",
+    "Coffret outil à main 36PCS HARDEN"
+   ]
+  },
+  {
+   "cluster_id": 27,
+   "substitute_key": "moteur|actionneur|servo|-",
+   "system_role": "actionneur",
+   "size": 19,
+   "examples": [
+    "S3003 Servo Moteur Futaba 12KG 180 degrés de haute qualité",
+    "MG90 MG90S 180 degrés de haute qualité",
+    "Servo S3003 12KG 360 degrés de haute qualité",
+    "MG90 MG90S 360 degrés de haute qualité"
+   ]
+  },
+  {
+   "cluster_id": 31,
+   "substitute_key": "rf|communication|bluetooth|-",
+   "system_role": "communication",
+   "size": 19,
+   "examples": [
+    "Module de transmission série Bluetooth SPP-C Communication série sans ",
+    "HM-10 Module Bluetooth",
+    "WT32-ETH01 WIFI+Bluetooth RJ45 Gateway deux-en-un Ethernet intégré",
+    "Casque Bluetooth -HM02 - Wirelesss Stéréo 4.2 - Noir"
+   ]
+  },
+  {
+   "cluster_id": 53,
+   "substitute_key": "mobilite|actionneur|robot|-",
+   "system_role": "actionneur",
+   "size": 19,
+   "examples": [
+    "Ventilateur pour robot pompier L9110",
+    "Pince manipulateur 3DOF pour bras de robot (sans servo moteur)",
+    "Roue avec jante argentée 65mm pour robot et châssis",
+    "RobotbitV2.0 Micro:bit Présentation de la carte d’extension à la forma"
+   ]
+  },
+  {
+   "cluster_id": 224,
+   "substitute_key": "led|interface|strip|mains",
+   "system_role": "interface",
+   "size": 19,
+   "examples": [
+    "RUBAN LED RGB 5050 220V (1 Metre)",
+    "Ruban LED 3Ship Rose 220V (1 Metre)",
+    "Ruban LED 3Ship Jaune 220V (1 Metre)",
+    "Ruban LED 3Ship Bleu 220V(1 Metre)"
+   ]
+  },
+  {
+   "cluster_id": 56,
+   "substitute_key": "moteur|actionneur|dc|lv",
+   "system_role": "actionneur",
+   "size": 18,
+   "examples": [
+    "Pilote Moteur Deux Cannaux 5A 3V-14V (pont h)",
+    "Moteur à engrenages réducteur 25GA-370 12V 620RPM DC",
+    "Moteur à engrenages réducteur 25GA-370 12V 1360RPM DC",
+    "GA12-N20 Moteur de réduction à engrenages en métal 12V 300RPM Micro DC"
+   ]
+  },
+  {
+   "cluster_id": 118,
+   "substitute_key": "connectique|connectique|gaine|-",
+   "system_role": "connectique",
+   "size": 18,
+   "examples": [
+    "Gaine Thermorétractable 5mm Noir 1 Mètre",
+    "Gaine Thermorétractable 8mm Noir 1 Mètre",
+    "Gaine Thermorétractable 2,5 mm noir 1 mètre",
+    "Gaine Thermorétractable 4mm Noir 1 Mètre"
+   ]
+  },
+  {
+   "cluster_id": 164,
+   "substitute_key": "composant|traitement|zener|-",
+   "system_role": "traitement",
+   "size": 18,
+   "examples": [
+    "Kit de diodes Zener 200pcs 10 Valeurs avec boîtier transparent 1N4738~",
+    "Kit de diodes Zener 200pcs 10 Valeurs avec boîtier transparent 1N4728 ",
+    "Kit assorti de diodes Zener (10 diodes) (28 valeurs x 10pcs)",
+    "Kit assorti de diodes Zener (10 diodes) 1N4738 8V2"
+   ]
+  },
+  {
+   "cluster_id": 181,
+   "substitute_key": "alimentation|alimentation|fusible|-",
+   "system_role": "alimentation",
+   "size": 18,
+   "examples": [
+    "Fusible verre 20A 5x20mm",
+    "Fusible verre 15A 5x20mm",
+    "Fusible verre 10A 5x20mm",
+    "Fusible verre 8A 5x20mm"
+   ]
+  },
+  {
+   "cluster_id": 191,
+   "substitute_key": "outillage|outil|generic|lv",
+   "system_role": "outil",
+   "size": 18,
+   "examples": [
+    "P30/25 Électro-aimant à ventouse électrique 15KG 24V DC",
+    "Kit Outils 20V TOTAL TUNISIA Pour Tous Projets THKTHP11652",
+    "Kit D'Outils De Distribution Renault 1.4 1.6 1.8 2.0 16V",
+    "Kit D'Outils Callage Arbre A Camme Fiat/Lancia/Alfa Romeo 1.2 16V"
+   ]
+  },
+  {
+   "cluster_id": 86,
+   "substitute_key": "batterie|alimentation|aa|-",
+   "system_role": "alimentation",
+   "size": 17,
+   "examples": [
+    "4 x boîte de support de batterie AA. sans couvercle",
+    "2 x Boîte de support de batterie AA. sans couvercle",
+    "support de 4 x PILE AA sans couvercle",
+    "4 Piles AA carbone-zinc R6(4B)F-GP"
+   ]
+  },
+  {
+   "cluster_id": 125,
+   "substitute_key": "audio|interface|generic|-",
+   "system_role": "interface",
+   "size": 17,
+   "examples": [
+    "Portable Wireless Speaker",
+    "Detecteur de CO2 portable numérique SNDWAY SW-723",
+    "Adaptateur TSSOP/SOP8-DIP8 200-209mil",
+    "Programmeur EZP2019 + Adaptateur 7 SOP8 pour DIP8"
+   ]
+  },
+  {
+   "cluster_id": 145,
+   "substitute_key": "batterie|alimentation|generic|logic",
+   "system_role": "alimentation",
+   "size": 17,
+   "examples": [
+    "Module de charge 5V BOOST pour batterie LI-ION 134N3P",
+    "3-FM-4.5/ 6V 4.5ah/ 20HR batterie",
+    "Batterie Rechargeable 6V / 10000 mAH Ni-MH",
+    "Batterie Lipo 502530 3.7V 300mAh"
+   ]
+  },
+  {
+   "cluster_id": 169,
+   "substitute_key": "composant|traitement|generic|lv",
+   "system_role": "traitement",
+   "size": 17,
+   "examples": [
+    "Triode commun 2N2222 NPN 40V 0.6A TO-92",
+    "Triode commun 2N3906 PNP 40V 0.2A TO92",
+    "Triode commun 2N3904 NPN 40V 0.2A TO-92",
+    "Triode commun S8550 PNP 25V 1.5A TO-92"
+   ]
+  },
+  {
+   "cluster_id": 233,
+   "substitute_key": "outillage|outil|lime|-",
+   "system_role": "outil",
+   "size": 17,
+   "examples": [
+    "JEUX LIME 100MM 06PCS TOLSEN",
+    "Lot de 10 limes à aiguilles Professional 4 x 160 x 75 mm Yato YT-6164",
+    "Lot de 10 limes à aiguilles diamantées 4 x 160 x 50 mm YATO YT-6151",
+    "Lot de 5 limes à aiguilles diamantées 5 x 180 x 70 mm Yato YT-6156"
+   ]
+  },
+  {
+   "cluster_id": 296,
+   "substitute_key": "batterie|alimentation|aaa|-",
+   "system_role": "alimentation",
+   "size": 17,
+   "examples": [
+    "Piles AAA HR03 Rechargeables Instant Energy 900mAh AGFA (1 pcs)",
+    "LR03/MN244 Pile Duracell AAA",
+    "Pile Ordinaire MAXELL LR03",
+    "Pile Alkaline MAXELL LR03 4pcs"
+   ]
+  },
+  {
+   "cluster_id": 13,
+   "substitute_key": "batterie|alimentation|18650|logic",
+   "system_role": "alimentation",
+   "size": 16,
+   "examples": [
+    "2 x 18650 Bouclier de batterie au Lithium V8 Module de carte d’extensi",
+    "Batterie Rechargeable 18650 3.7 V 4200mAh Li-Ion",
+    "MODULE DE CHARGE /SUPPORT POUR UNE BATTERIE 18650 AVEC PROTECTION DE S",
+    "Batterie au lithium Rechargeable 18650 3.7V 1800MAH, Tête plate"
+   ]
+  },
+  {
+   "cluster_id": 101,
+   "substitute_key": "mecanique|mecanique|ecrou|-",
+   "system_role": "mecanique",
+   "size": 16,
+   "examples": [
+    "Ecrou en nylon blanc M3",
+    "ENTRETOISE PLASTIQUE - TIGE A ECROU PLASTIQUE M3 * 30 + 6mm",
+    "Ecrou M3 noir plastique (1 pièces)",
+    "ENTRETOISE PLASTIQUE - TIGE A ECROU PLASTIQUE M3*10*6MM"
+   ]
+  },
+  {
+   "cluster_id": 339,
+   "substitute_key": "outillage|outil|cric|-",
+   "system_role": "outil",
+   "size": 16,
+   "examples": [
+    "Cric A Cremaillere 3T 48\"",
+    "Cric Rouleur Hydraulique 3T",
+    "Cric Hydraulique Roulant 2,5 T Capacité De Levage 14,2 Kg THT108256",
+    "Cric Bouteille Hydraulique 50 Tonnes Total Avec Corps En Acier Renforc"
+   ]
+  },
+  {
+   "cluster_id": 19,
+   "substitute_key": "capteur|capteur|gaz|-",
+   "system_role": "capteur",
+   "size": 15,
+   "examples": [
+    "Module Capteur De Pollution DSM501A",
+    "MG811 Capteur de Gaz en Dioxyde de Carbone CO2 NOUVEAU MODEL",
+    "MQ-8 CAPTEUR GAZ D HYDROGENE",
+    "MQ-6 CAPTEUR DE GAZ BUTANE ET GPL"
+   ]
+  },
+  {
+   "cluster_id": 33,
+   "substitute_key": "capteur|capteur|temp_humid|-",
+   "system_role": "capteur",
+   "size": 15,
+   "examples": [
+    "Capteur numérique de température et d’humidité DHT22 / AM2302",
+    "Capteur Digital De Précision Température Et Humidité DHT21 AM2301",
+    "Module de capteur numérique de température et d’humidité DHT22 avec câ",
+    "AM2320 CAPTEUR DE TEMPERATURE & HUMIDITÉ"
+   ]
+  },
+  {
+   "cluster_id": 112,
+   "substitute_key": "mesure|capteur|generic|-",
+   "system_role": "capteur",
+   "size": 15,
+   "examples": [
+    "PZEM-016 avec CT ouvert",
+    "PZEM-004T avec Split CT",
+    "PZEM-004T-100A avec Split CT avec boitier",
+    "Livraison"
+   ]
+  },
+  {
+   "cluster_id": 271,
+   "substitute_key": "outillage|outil|extracteur|-",
+   "system_role": "outil",
+   "size": 15,
+   "examples": [
+    "Jeu d’extracteurs de vis tailles 1 - 55 pièces BGS",
+    "Extracteur 150 Mm LUMEX",
+    "Jeu Extracteur De Goujon 5PCS -KING TONY",
+    "Extracteur D'Arbre D'Equilibrage Vag"
+   ]
+  },
+  {
+   "cluster_id": 277,
+   "substitute_key": "batterie|alimentation|coin|logic",
+   "system_role": "alimentation",
+   "size": 15,
+   "examples": [
+    "Pile LR44 1.5V 10 pieces",
+    "Lot de 5 piles CR2016 3V",
+    "lot de 5 Pile CR2032 3v LITHIUM",
+    "Lot de 5 Piles LITHIUM CR2016 GP 3V"
+   ]
+  },
+  {
+   "cluster_id": 281,
+   "substitute_key": "mecanique|mecanique|entretoise|-",
+   "system_role": "mecanique",
+   "size": 15,
+   "examples": [
+    "Kit Entretoise M3 120 Pièces",
+    "Entretoise Hexagonale en Nylon Blanc à Tête Unique - M2,5x10+6mm",
+    "Entretoise en Cuivre/Laiton - M2,5x8+6mm",
+    "Entretoise M3*20+6MM"
+   ]
+  },
+  {
+   "cluster_id": 306,
+   "substitute_key": "outillage|outil|gant|-",
+   "system_role": "outil",
+   "size": 15,
+   "examples": [
+    "Gant antistatique ESD avec point antidérapant 8\"",
+    "Gants Cuir Croûte De Haute Qualité 10 Pouces Total TSP14210",
+    "Gants de Travail Nitrile Enduit Frosted Coated Total TSPTG01",
+    "Gants Enduits PU Nylon Pour Travail Fin XL Total TSPUG02"
+   ]
+  },
+  {
+   "cluster_id": 341,
+   "substitute_key": "outillage|outil|burin|-",
+   "system_role": "outil",
+   "size": 15,
+   "examples": [
+    "Burin Ciseau Nervire  176X16Mm",
+    "Perfo.Burineur Thermique Sds-Max 45J",
+    "Burin Ciseau De Mecanicien 300X25Mm",
+    "Burin Ciseau De Mecanicien 250X22Mm"
+   ]
+  },
+  {
+   "cluster_id": 6,
+   "substitute_key": "carte|controle|esp8266|-",
+   "system_role": "controle",
+   "size": 14,
+   "examples": [
+    "Carte principale WEMOS ESP-WROOM-02. Mini Module WiFi D1 (Same as Node",
+    "Arduino WiFi R3 ATmega328P + ESP8266 4Mo ( 32 Mbit). USB-TTL CH340G",
+    "Arduino WIFI R3 ATMEGA2560 + ESP8266 （32 Mo de mémoire) USB-TTL CH340G",
+    "Carte de développement Internet NodeMcu Lua WIFI basée sur ESP8266 CP2"
+   ]
+  },
+  {
+   "cluster_id": 15,
+   "substitute_key": "rf|communication|wifi|-",
+   "system_role": "communication",
+   "size": 14,
+   "examples": [
+    "Sonoff basique Wifi commutateur intelligent, Module d’automatisation d",
+    "Sonoff Dual 2 canaux Sonoff Smart Home WiFi Télécommande mobile Interr",
+    "ANTENNE WIFI / FPC 2.4GHZ AVEC CONNECTEUR IPEX 3DBI",
+    "Carte réseau RT5370 USB MINI WIFI"
+   ]
+  },
+  {
+   "cluster_id": 36,
+   "substitute_key": "rf|communication|nfc|-",
+   "system_role": "communication",
+   "size": 14,
+   "examples": [
+    "JT308 Lecteur de Carte RFID 125KHZ",
+    "Module RFID 13.56 Mhz RC522 MFRC-522",
+    "KIT 13.56Mhz MFRC-522 RC522 RFID + Carte S50 + Porte-clés",
+    "porte clé rfid rc522 125khz"
+   ]
+  },
+  {
+   "cluster_id": 276,
+   "substitute_key": "outillage|outil|cle|lv",
+   "system_role": "outil",
+   "size": 14,
+   "examples": [
+    "Hotend Ender 3 24V 40W pour Creality Ender 3 CR10 avec couvercle en si",
+    "TOTAL P20S Coffret 288P 20V Brushless Clé À Choc Sans Fil Servante THP",
+    "TOTAL Clé À Choc Sans Fil 20V Brushless 1/2 Pouce 405 Nm Kit TIWLI2045",
+    "TOTAL Clé à Choc Sans Fil Carré 12,7 mm 405 Nm Brushless 20V Pro TIWLI"
+   ]
+  },
+  {
+   "cluster_id": 8,
+   "substitute_key": "capteur|capteur|distance|-",
+   "system_role": "capteur",
+   "size": 13,
+   "examples": [
+    "GP2Y0A41SK0F Capteur Infrarouge SHARP 4-30cm + Câble",
+    "GP2Y0A02YK0F Capteur Infra Rouge Sharp 20-150 cm + câble",
+    "JSN-SR04T Capteur Ultrasons Étanche À L’eau LONG CABLE=250CM",
+    "GP2Y0A21YK0F Capteur Infra Rouge Sharp 10-80CM"
+   ]
+  },
+  {
+   "cluster_id": 65,
+   "substitute_key": "connectique|connectique|bornier|-",
+   "system_role": "connectique",
+   "size": 13,
+   "examples": [
+    "ADAPTATEUR POUR ARDUINO NANO V3.0 AVEC BORNIERS DESSOUDEES",
+    "BORNIER A VISSER 2 POLES",
+    "BORNIER A VISSER 3 POLES",
+    "Bornier coudé 2 voies mâle 5,08 mm KF2EDGK-2P"
+   ]
+  },
+  {
+   "cluster_id": 128,
+   "substitute_key": "moteur|actionneur|stepper|-",
+   "system_role": "actionneur",
+   "size": 13,
+   "examples": [
+    "Contrôleur Moteur Pas à Pas avec A4988 - 2,0",
+    "ULN2003 Pilote Moteur pas à pas vert",
+    "NEMA17 Moteur Pas à Pas 40mm, 1.5A",
+    "Câble de longueur 720 mm en cuivre pur avec connecteur Dupont pour mot"
+   ]
+  },
+  {
+   "cluster_id": 136,
+   "substitute_key": "electronique|interface|interrupteur|mains",
+   "system_role": "interface",
+   "size": 13,
+   "examples": [
+    "KCD3-101N 16A/250V Interrupteur à bascule Lumineux Rouge 2P 3Pin",
+    "Interrupteur 4Pin KCD4 220V ON/OFF",
+    "Micro-interrupteur de fin de course KW4-3Z-3 SS-5GL 250V 5A",
+    "Micro-interrupteur de fin de course, AC 2A 125V 3"
+   ]
+  },
+  {
+   "cluster_id": 158,
+   "substitute_key": "alimentation|alimentation|generic|lv",
+   "system_role": "alimentation",
+   "size": 13,
+   "examples": [
+    "Adaptateur DC 12V 2A JACK 5.5",
+    "Voltage to PWM Converter Module 0-5V 0-10V to 0%-100%",
+    "Original 12V L7812CV",
+    "BMS 10S 36V 15A"
+   ]
+  },
+  {
+   "cluster_id": 199,
+   "substitute_key": "alimentation|alimentation|generic|mains",
+   "system_role": "alimentation",
+   "size": 13,
+   "examples": [
+    "Protecteur de surtension numérique réglable Din Rail 63A 230V avec dou",
+    "Stabilisateur de tension KEBO ODR-5KVA-100v / 260V",
+    "Stabilisateur de tension KEBO HDR-2KVA-100v / 260V",
+    "Stabilisateur de tension KEBO ODR-8KVA-100v / 260V"
+   ]
+  },
+  {
+   "cluster_id": 336,
+   "substitute_key": "outillage|outil|ponceuse|-",
+   "system_role": "outil",
+   "size": 13,
+   "examples": [
+    "Ponceuse Excentric Pneumatic 50Mm",
+    "Ponceuse Orbital Pneumatic 150Mm",
+    "Ponceuse Excentric Pneumatic1/4\" 150Mm",
+    "Ponceuse Giraffe 710W Diam.225Mm"
+   ]
+  },
+  {
+   "cluster_id": 12,
+   "substitute_key": "connectique|connectique|carte memoire|-",
+   "system_role": "connectique",
+   "size": 12,
+   "examples": [
+    "Carte mémoire Micro SD 32G Original Sandisk classe 10 ultra A1 avec em",
+    "Carte Memoire 128GB",
+    "Carte Memoire 32GB",
+    "Carte Memoire 16GB"
+   ]
+  },
+  {
+   "cluster_id": 28,
+   "substitute_key": "alimentation|alimentation|alimentation|mains",
+   "system_role": "alimentation",
+   "size": 12,
+   "examples": [
+    "Module d’alimentation AC-DC HLK-5M05 220v à 5v 1a",
+    "Module d’alimentation à découpage ZFX-M302 AC100-240V DC12V 550MA",
+    "Module d’alimentation à découpage ZFX-M301 AC100-240V DC12V 300MA",
+    "HLK-10M05 Module d’alimentation AC-DC 220V à 5V 2A 10W"
+   ]
+  },
+  {
+   "cluster_id": 40,
+   "substitute_key": "electronique|actionneur|relais|mains",
+   "system_role": "actionneur",
+   "size": 12,
+   "examples": [
+    "Module Relais Omron 4 Cannaux 5V SSR 250V/2A Avec Fusible",
+    "Module Relais Omron 2 Cannaux 5v SSR 250V/2A AVEC FUSIBLE",
+    "MODULE RELAIS OMRON 1 CHANNEL 5V SSR 250V/2A AVEC FUSIBLE",
+    "fotek ssr-100da 100a relais statique ssr dc control ac 3-32v/24-380v"
+   ]
+  },
+  {
+   "cluster_id": 79,
+   "substitute_key": "electronique|capteur|generic|-",
+   "system_role": "capteur",
+   "size": 12,
+   "examples": [
+    "KY-028 Module de température numérique",
+    "Module MPU-6050 GY-521 Module 3 Axes Gyro + 3 Axes Accelerometer",
+    "XH-W1219 Contrôleur de température numérique de haute précision à doub",
+    "Boîtier acrylique pour module de contrôle de température XH-W1209"
+   ]
+  },
+  {
+   "cluster_id": 94,
+   "substitute_key": "moteur|actionneur|dc|logic",
+   "system_role": "actionneur",
+   "size": 12,
+   "examples": [
+    "Moteur DC 3v avec fil",
+    "Moteur à engrenages réducteur 25GA-370 6V, 620 RMP DC",
+    "Moteur à engrenages réducteur 25GA-370 6V 280 RPM DC",
+    "GA12-N20 Moteur de réduction à engrenages en métal 6V 300RPM Micro DC"
+   ]
+  },
+  {
+   "cluster_id": 115,
+   "substitute_key": "composant|traitement|diode|-",
+   "system_role": "traitement",
+   "size": 12,
+   "examples": [
+    "DIODE 1N4001 DO-41",
+    "DIODE 1N4007 DIP",
+    "Série de redresseurs à diodes 200 pièces de valeur 10",
+    "DIODE emettrice Infra Rouge 940NM"
+   ]
+  },
+  {
+   "cluster_id": 152,
+   "substitute_key": "composant|traitement|generic|-",
+   "system_role": "traitement",
+   "size": 12,
+   "examples": [
+    "Kit d’oscillateur à cristal, 27 pièces 9 valeurs * 3 pièces",
+    "Kit de triode commun 180PCS",
+    "Frais CERT importation ( inférieur à 100 pièces)",
+    "Triode commun S9012 NPN 0.5A TO-92"
+   ]
+  },
+  {
+   "cluster_id": 193,
+   "substitute_key": "led|interface|generic|mains",
+   "system_role": "interface",
+   "size": 12,
+   "examples": [
+    "Voltmètre Ampèremètre Bleu+Rouge Double LED 100V 10A 0.28 pouces",
+    "Voltmètre numérique LED 60-500V 0-100A haute précision Signal lumineux",
+    "SM852B 60V ~ 600V AC testeur de Rotation à 3 phases détecteur d’indica",
+    "Voltmètre circulaire à affichage numérique LED DC 4-100V 2 fils"
+   ]
+  },
+  {
+   "cluster_id": 198,
+   "substitute_key": "electrique|outil|generic|-",
+   "system_role": "outil",
+   "size": 12,
+   "examples": [
+    "Industrial Shield M-DUINO PLC ARDUINO 19R",
+    "Industrial Shield PLC, ESP32 board PLC 10R I/Os Analog/Digital",
+    "Industrial Shield - M-DUINO PLC Arduino 38R E/S Ethernet, USB, RS485, ",
+    "Industrial Shield M-DUINO PLC ARDUINO LoRa 19R"
+   ]
+  },
+  {
+   "cluster_id": 203,
+   "substitute_key": "composant|traitement|condensateur|mains",
+   "system_role": "traitement",
+   "size": 12,
+   "examples": [
+    "Condensateur chimique 2.2µF 100V",
+    "Condensateur polyester 0.33µF 100V",
+    "Condensateur pour Réparation moteur climatiseur CBB65 35 µF 450 V",
+    "Condensateur chimique 180 µF/450 V"
+   ]
+  },
+  {
+   "cluster_id": 338,
+   "substitute_key": "outillage|outil|cisaille|-",
+   "system_role": "outil",
+   "size": 12,
+   "examples": [
+    "Cisaille A Tole Chantourneuse S55C 300Mm",
+    "Cisaille A Tole Chantourneuse S55C 200Mm",
+    "Cisaille A Tole Droite 250Mm",
+    "Cisaille A Haie 22\" 550Mm"
+   ]
+  },
+  {
+   "cluster_id": 21,
+   "substitute_key": "carte|controle|stm32|-",
+   "system_role": "controle",
+   "size": 11,
+   "examples": [
+    "ST ST-LINK / V2 ST LINK STLINK STM8 STM32 partie à télécharger",
+    "ST Original MB997E (nouveau) STM32F4DISCOVERY compatible STM32F407G-DI",
+    "Carte de Développement TENSTAR STM32F103C8T6",
+    "Carte de développement STM32F411-DISCOVERY série STM32F4 compatible Ar"
+   ]
+  },
+  {
+   "cluster_id": 47,
+   "substitute_key": "alimentation|alimentation|regulateur|lv",
+   "system_role": "alimentation",
+   "size": 11,
+   "examples": [
+    "Regulateur de Vitesse PWM 12V-36VDC 10A",
+    "Transistor / Régulateur de Tension 24V - L7824CV",
+    "Transistor / Régulateur de Tension 18V - L7818CV.",
+    "Transistor / Régulateur de Tension 15V - L7815CV."
+   ]
+  },
+  {
+   "cluster_id": 64,
+   "substitute_key": "alimentation|alimentation|convertisseur|-",
+   "system_role": "alimentation",
+   "size": 11,
+   "examples": [
+    "Module Convertisseur RS232 Serie Vers TTL",
+    "Adaptateur de convertisseur USB vers RS485",
+    "Convertisseur Courant Tension /4 -20mA",
+    "Carte convertisseur RS422 vers TTL"
+   ]
+  },
+  {
+   "cluster_id": 90,
+   "substitute_key": "batterie|alimentation|9v|lv",
+   "system_role": "alimentation",
+   "size": 11,
+   "examples": [
+    "Boîte de cellules 9V. sans couvercle",
+    "Batterie 9V 6F22 1604D",
+    "Boîte de cellules 9V. sans couvercle avec DC",
+    "CORDON 15 cm JACK 5.5 - PILE 9V"
+   ]
+  },
+  {
+   "cluster_id": 4,
+   "substitute_key": "led|interface|matrix|-",
+   "system_role": "interface",
+   "size": 10,
+   "examples": [
+    "CJMCU-64 Matrice Led RGB WS2812 5050 RGB 8x8 64 LED Feux de conduite p",
+    "Écrans matriciels 8x8 RGB 64 LED 5 mm CA",
+    "WS2812 5050 ANNEAU RGB 24 LED",
+    "MAX7219 MODULE MATRICE LED 8*8"
+   ]
+  },
+  {
+   "cluster_id": 219,
+   "substitute_key": "mesure|capteur|testeur|-",
+   "system_role": "capteur",
+   "size": 10,
+   "examples": [
+    "Tournevis testeur 190mm HARDEN",
+    "Testeur numérique d’humidité des grains Mestek-MD7822",
+    "Tournevis Testeur voltage 3x140mm WOKIN",
+    "XH-M354 Testeur de capacité de batterie batterie lithium"
+   ]
+  },
+  {
+   "cluster_id": 247,
+   "substitute_key": "outillage|outil|visseuse|-",
+   "system_role": "outil",
+   "size": 10,
+   "examples": [
+    "Mini Visseuse électronique de Procision 40 embouts GRIS",
+    "Mini Visseuse électronique de Procision 30 embouts GRIS",
+    "EMBOUT pour visseuse 65 PH2 BATI (une piece)",
+    "Jeu D Embout visseuse magnetique 10 PCS PH2 X 65mm HARDEN"
+   ]
+  },
+  {
+   "cluster_id": 264,
+   "substitute_key": "outillage|outil|laser|-",
+   "system_role": "outil",
+   "size": 10,
+   "examples": [
+    "Laser lignes GLL 3-50 Professional Bosch",
+    "Degrippant solvant laser SARATOGA 200 ml",
+    "Mètre laser 60m Wokin",
+    "Pointeur Laser Stylo 2.4GHz"
+   ]
+  },
+  {
+   "cluster_id": 298,
+   "substitute_key": "outillage|outil|meche|-",
+   "system_role": "outil",
+   "size": 10,
+   "examples": [
+    "Jeu de mèche acier HSS 13PCS 1.5-6.5MM DELI",
+    "Jeu de mèche acier +Beton+Embout 16PCS Total",
+    "Jeu De Meche Acier HSS 8pcs 2-8mm TOTAL",
+    "Jeu De Meche Acier HSS 6pcs 2-8mm TOTAL"
+   ]
+  },
+  {
+   "cluster_id": 93,
+   "substitute_key": "alimentation|alimentation|regulateur|-",
+   "system_role": "alimentation",
+   "size": 9,
+   "examples": [
+    "Carte D’adaptation Pour Module NRF24L01 8pin Avec Régulateur AMS1117 I",
+    "Convertisseurs de tension à condensateur commuté LT1054 d’origine avec",
+    "LM1085IT-5.0 Régulateurs de tension LDO 3A LDO POS REG",
+    "LM2596T-5.0 150KHZ 3A Régulateurs de tension de commutation STEP-DOWN"
+   ]
+  },
+  {
+   "cluster_id": 230,
+   "substitute_key": "outillage|outil|visseuse|lv",
+   "system_role": "outil",
+   "size": 9,
+   "examples": [
+    "Visseuse 14.4V BVPN14 BATI",
+    "Visseuse 21V 2Batt 1.5Ah réf BK-CD521 Humhon",
+    "Visseuse Perc.Percu.120Nm 2Batt.4Ah 18V Brushless",
+    "TOTAL Visseuse Plaquiste Sans Fil 20V Brushless P20S 2,0Ah TDSLI204281"
+   ]
+  },
+  {
+   "cluster_id": 263,
+   "substitute_key": "outillage|outil|aspirateur|-",
+   "system_role": "outil",
+   "size": 9,
+   "examples": [
+    "Aspirateur souffleur 400W nettoyeur de poussière électrique WAB15401",
+    "Souffleur Aspirateur électrique 2 en1 - TOTAL 650W",
+    "Soufleur - Aspirateur  600W",
+    "Soufleur-Aspirateur-Broyeur 3En1 3500W Sac35L"
+   ]
+  },
+  {
+   "cluster_id": 324,
+   "substitute_key": "electrique|outil|contacteur|mains",
+   "system_role": "outil",
+   "size": 9,
+   "examples": [
+    "CONTACTEUR 3P+1NO+1NC NC1-8011 220V 50/60Hz CHINT",
+    "CONTACTEUR 3P+1NO+1NC NC1-5011 220V 50/60Hz CHINT",
+    "CONTACTEUR 3P+1NO NC1-3210 220V 50/60Hz CHINT",
+    "CONTACTEUR 3P+1NO NC1-1810 220V 50/60Hz CHINT"
+   ]
+  },
+  {
+   "cluster_id": 43,
+   "substitute_key": "led|interface|discrete|-",
+   "system_role": "interface",
+   "size": 8,
+   "examples": [
+    "Diode Lumière Assortis Rouge Blanc Jaune Vert Bleu 5mm",
+    "Module LED RGB DIP 3 couleurs 5mm",
+    "LED RGB 5mm 4 broches AC (1 pièces)",
+    "LED RGB 5mm 4 broches CC (1 pièces)"
+   ]
+  },
+  {
+   "cluster_id": 75,
+   "substitute_key": "electronique|traitement|generic|lv",
+   "system_role": "traitement",
+   "size": 8,
+   "examples": [
+    "SX1308 module step-up reglable dc-dc 28v 2a 1.2mhz dc",
+    "Module Temporisation Retardée Relai 6-30V XY-J02 MOSFET",
+    "Module Temporisation Retardée 5-36V XY-J04 Double MOSFET",
+    "Mosfet IRF3205 55V/110A"
+   ]
+  },
+  {
+   "cluster_id": 108,
+   "substitute_key": "capteur|capteur|generic|lv",
+   "system_role": "capteur",
+   "size": 8,
+   "examples": [
+    "CAPTEUR DE TENSION 25V POUR ARDUINO",
+    "LJ12A3-4-Z / BX NPN 24V Capteur de proximité inductif 3 fils",
+    "XKC-Y26-V Capteur de niveau de liquide sans contact intelligent 5-24V ",
+    "Capteur de proximité capacitif commutateur NO DC6-36V 300mA LJC18A3-H-"
+   ]
+  },
+  {
+   "cluster_id": 161,
+   "substitute_key": "led|interface|tube|-",
+   "system_role": "interface",
+   "size": 8,
+   "examples": [
+    "Ring Led light pour Selfie 32 cm-Maquillage- Vidéo- Diffusion en Direc",
+    "Ring Led light pour Selfie 30 cm-Maquillage- Vidéo- Diffusion en Direc",
+    "Ring Led light pour Selfie 26 cm-Maquillage- Vidéo- Diffusion en Direc",
+    "Tube humidificateur en forme de U puissance 200w, longueur 24cm"
+   ]
+  },
+  {
+   "cluster_id": 162,
+   "substitute_key": "led|interface|bulb|mains",
+   "system_role": "interface",
+   "size": 8,
+   "examples": [
+    "Lampe pour croissance de plantes 220V / 50W",
+    "Lampe E27 LED Multicolor RGB 220V avec telecommande",
+    "Lampe Capsul G4 220V 6000k Newlight",
+    "Lampe LED E14 220V 6500K"
+   ]
+  },
+  {
+   "cluster_id": 183,
+   "substitute_key": "led|interface|cob|mains",
+   "system_role": "interface",
+   "size": 8,
+   "examples": [
+    "Projecteur LED corissance de plante lumière Phyto lampe AC 220V 50W LE",
+    "Projecteur LED de croissance des plantes à spectre complet 100W 220V l",
+    "Projecteur LED de croissance des plantes à spectre complet 100W 220V L",
+    "Projecteur LED de croissance horticole LED chaude à spectre complet 50"
+   ]
+  },
+  {
+   "cluster_id": 249,
+   "substitute_key": "mesure|capteur|pince|-",
+   "system_role": "capteur",
+   "size": 8,
+   "examples": [
+    "Pince ampèremétrique DT-266",
+    "Pince ampèremétrique AC/DC 600A YATO",
+    "Pince Porte Électrode MMA 800A",
+    "Pince Porte Électrode 500A Pour Soudage MMA"
+   ]
+  },
+  {
+   "cluster_id": 278,
+   "substitute_key": "mecanique|mecanique|equerre|-",
+   "system_role": "mecanique",
+   "size": 8,
+   "examples": [
+    "Regle triangulaire equerre 178MM 7\" HARDEN",
+    "Équerre menuisier 300mm HARDEN",
+    "Équerre combinée à base en aluminium de 300 mm Harden 580720",
+    "Équerre en acier Harden 40x60cm"
+   ]
+  },
+  {
+   "cluster_id": 287,
+   "substitute_key": "outillage|outil|agrafeuse|-",
+   "system_role": "outil",
+   "size": 8,
+   "examples": [
+    "Agrafeuse Harden 620803 + 600 clous",
+    "Agrafeuse Manuelle TOTAL 3 en 1",
+    "Agrafeuse Manuelle 3 en 1 Ref WGU2614 WADFOW",
+    "Agrafeuse Pneumatique  6-16Mm"
+   ]
+  },
+  {
+   "cluster_id": 292,
+   "substitute_key": "led|interface|voyant|mains",
+   "system_role": "interface",
+   "size": 8,
+   "examples": [
+    "Voyant LED Rouge 220V AC-DC ø22mm",
+    "Voyant Jaune  ND16-22DS 220V",
+    "Voyant LED Bleu 220V AC ø22mm",
+    "Voyant LED Verte 220V AC-DC ø22mm"
+   ]
+  },
+  {
+   "cluster_id": 302,
+   "substitute_key": "moteur|actionneur|pompe|mains",
+   "system_role": "actionneur",
+   "size": 8,
+   "examples": [
+    "Pompe a Eau 220V 3W 180L/H",
+    "Total Pompe Électrique 750 W 1 CV 220-240 V 50 Hz 1 Pouce Entrée Sorti",
+    "Pompe Submersible 750W 1HP TOTAL 220-240V TWP67506",
+    "Pompe Électrique 3CV 2200W 220-240V 50Hz Pour Électrophorèse TWP222002"
+   ]
+  },
+  {
+   "cluster_id": 323,
+   "substitute_key": "outillage|outil|metre|-",
+   "system_role": "outil",
+   "size": 8,
+   "examples": [
+    "Tuyau pvc Pour Mini Pompe à Eau 6/8 mm souple transparent (Au Mètre)",
+    "Sonometre numerique 30-130dB haute precision et retroeclaire total",
+    "Kit Manometre De Mesure  Pression D'Huile 12Pcs",
+    "Compressiometre Pour Moteur Essence Et Diesel"
+   ]
+  },
+  {
+   "cluster_id": 38,
+   "substitute_key": "solaire|alimentation|generic|-",
+   "system_role": "alimentation",
+   "size": 7,
+   "examples": [
+    "Panneau Solaire 110 * 135mm 6V2W",
+    "Contrôleur solaire 50A pour panneau solaire amélioré avec port USB",
+    "Applique murale solaire avec detecteur de mouvement-blanche",
+    "Applique murale solaire avec detecteur de mouvement-vert"
+   ]
+  },
+  {
+   "cluster_id": 84,
+   "substitute_key": "composant|traitement|transistor|-",
+   "system_role": "traitement",
+   "size": 7,
+   "examples": [
+    "Phototransistor 3DU33",
+    "TRANSISTOR TIP120",
+    "Transistor BC557B PNP TO-92",
+    "Transistor C4977"
+   ]
+  },
+  {
+   "cluster_id": 107,
+   "substitute_key": "alimentation|alimentation|regulateur|logic",
+   "system_role": "alimentation",
+   "size": 7,
+   "examples": [
+    "Module AMS1117 5v Régulateur De Tension Fixe",
+    "Module AMS1117-3.3v Régulateur De Tension",
+    "Transistor / Régulateur de Tension 6V - L7806CV.",
+    "Régulateur de vitesse pour Moteur à courant continu PWM a haute effica"
+   ]
+  },
+  {
+   "cluster_id": 121,
+   "substitute_key": "capteur|capteur|courant|-",
+   "system_role": "capteur",
+   "size": 7,
+   "examples": [
+    "Module capteur de courant 50A/50mA- Protection contre les surintensité",
+    "capteur courant ACS 712",
+    "Module de capteur de transformateurs de courant alternatif monophasé d",
+    "capteur courant ACS 712 5A"
+   ]
+  },
+  {
+   "cluster_id": 127,
+   "substitute_key": "moteur|actionneur|ventilateur|-",
+   "system_role": "actionneur",
+   "size": 7,
+   "examples": [
+    "Boîtier en aluminium métal avec double ventilateurs pour Raspberry Pi ",
+    "Boîtier ABS noir Raspberry PI 4B (permet d'installer des ventilateurs ",
+    "Kit Raspberry 3 Model B+ (Boitier Aluminium + Ventilateurs)",
+    "Dissipateur thermique doré haute puissance avec refroidissement par ve"
+   ]
+  },
+  {
+   "cluster_id": 131,
+   "substitute_key": "connectique|connectique|dupont|-",
+   "system_role": "connectique",
+   "size": 7,
+   "examples": [
+    "Câble Dupont femelle à 4 broches 2,54 mm torsadé",
+    "Câble Dupont femelle à 2 broches 2,54 mm torsadé",
+    "Connecteur dupont 2P",
+    "Connecteur dupont 3P"
+   ]
+  },
+  {
+   "cluster_id": 135,
+   "substitute_key": "rf|communication|generic|-",
+   "system_role": "communication",
+   "size": 7,
+   "examples": [
+    "Récepteur de télécommande de tête de réception IR 1838B",
+    "MAX232ESE-SMD Pilote De Récepteur RS-232 Multicanal 16-SOIC",
+    "POINTEUR LASER SANS FIL AVEC RÉCEPTEUR USB",
+    "C57 Allume Cigar 12W 2.4A"
+   ]
+  },
+  {
+   "cluster_id": 143,
+   "substitute_key": "chargeur|alimentation|generic|logic",
+   "system_role": "alimentation",
+   "size": 7,
+   "examples": [
+    "Module Balance Chargeur Intelligent PCB BMS 4S-4,2V LI-ION Batterie 18",
+    "Module de Chargeur PCB BMS 1S 3A 3.7V",
+    "Chargeur Usb pour batterie Lipo 3.7v 1S à 2pin Jst 2.54mm",
+    "Chargeur Usb type Mini pour Manette de jeux PS2/ps3 5V 0.5A"
+   ]
+  },
+  {
+   "cluster_id": 154,
+   "substitute_key": "soudure|autre|etain|-",
+   "system_role": "autre",
+   "size": 7,
+   "examples": [
+    "Bobine Etain 0.5mm 2% Flux 50g",
+    "Bobine Etain 1.0 mm 1.8% Flux 100g",
+    "Etain 0.8mm 2% Flux (1 Mètre)",
+    "Bobine Etain 0.8mm 2% Flux 500g"
+   ]
+  },
+  {
+   "cluster_id": 163,
+   "substitute_key": "moteur|actionneur|ventilateur|lv",
+   "system_role": "actionneur",
+   "size": 7,
+   "examples": [
+    "Ventilateur de refroidissement 12V 3010",
+    "Ventilateur de refroidissement 12V 4010",
+    "ventilateur de refroidissement sans balais (brushless) avec borne 2 br",
+    "Ventilateur de refroidissement 7010 12 V"
+   ]
+  },
+  {
+   "cluster_id": 173,
+   "substitute_key": "rf|communication|433|-",
+   "system_role": "communication",
+   "size": 7,
+   "examples": [
+    "433MHZ STX882+SRX882 Kit RF Récepteur Émetteur ASK",
+    "Module récepteur sans fil superhétérodyne RXB6 433Mhz",
+    "Kit RF sans fil 433Mhz (Émetteur+Récepteur)",
+    "Module LoRa SX1278 Ra-02 433Mhz 8pin"
+   ]
+  },
+  {
+   "cluster_id": 214,
+   "substitute_key": "batterie|alimentation|coin|-",
+   "system_role": "alimentation",
+   "size": 7,
+   "examples": [
+    "Module d’horloge en temps réel RTC DS1307 24C32 avec pile CR2032",
+    "Support de douille de pile CR2032 CR2025",
+    "EZ9908 Kit de test d’eau multifonction 4 en 1 pH/TDS/EC/TEMP (avec pil",
+    "Piles CR2032 (lot de 5)"
+   ]
+  },
+  {
+   "cluster_id": 226,
+   "substitute_key": "mecanique|mecanique|roulement|-",
+   "system_role": "mecanique",
+   "size": 7,
+   "examples": [
+    "Roulement à mouvement linéaire LM8UU 8 MM",
+    "Roulement à billes blindés 608ZZ 8x22x7",
+    "Bloc d’oreiller roulement à bride 8mm KFL8",
+    "Extracteur De Roulement 3 Bras 100Mm"
+   ]
+  },
+  {
+   "cluster_id": 232,
+   "substitute_key": "outillage|outil|generic|mains",
+   "system_role": "outil",
+   "size": 7,
+   "examples": [
+    "Goupe Electrogène 7.5 KVA Essence/Gaz 220V LUTIAN LT9000EB-LPG",
+    "Détecteur de mouvement encastrable avec temporisateur, luminosité régl",
+    "Groupe Electrogene Essnce5500W Avr 220/380V",
+    "Groupe Electrogeneessence 2700W Avr 220V"
+   ]
+  },
+  {
+   "cluster_id": 305,
+   "substitute_key": "mecanique|mecanique|boulon|-",
+   "system_role": "mecanique",
+   "size": 7,
+   "examples": [
+    "Boulon hexagonal double en cuivre M2,5 x 20 mm Goujon",
+    "THT113426 Coupe Boulon Total 42 Pouces Acier Ergonomique",
+    "THT113486 Coupe Boulon Total 48 Pouces Acier Chrome Durable",
+    "THT113146 Coupe Boulon TOTAL 14 Pouces Pour Coupe Précise"
+   ]
+  },
+  {
+   "cluster_id": 340,
+   "substitute_key": "outillage|outil|compresseur|-",
+   "system_role": "outil",
+   "size": 7,
+   "examples": [
+    "Paire De Compresseur A Ressort 82X370Mm",
+    "Pack Compresseur 24L 1.5hpW TOTAL Atelier Pack TC2202461E",
+    "Compresseur Portatif 11Bar20V Util - TOTAL TACLI2012",
+    "Pack Compresseur 50L 1,1kW–TOTAL Atelier–PACK50L1K"
+   ]
+  },
+  {
+   "cluster_id": 10,
+   "substitute_key": "rf|communication|gsm|-",
+   "system_role": "communication",
+   "size": 6,
+   "examples": [
+    "SIM800L MODULE GPRS- GSM 3.7-4.5 VDC SIMCOM Original",
+    "ANTENNE GPRS GSM 800MHZ-1800MHZ 908 & 900A",
+    "Antenne IPEX 15cm 3DBI GSM/GPRS/3G PCB",
+    "MODULE SIM808, GSM GPRS GPS avec l’antenne GPS"
+   ]
+  },
+  {
+   "cluster_id": 11,
+   "substitute_key": "capteur|capteur|pression|-",
+   "system_role": "capteur",
+   "size": 6,
+   "examples": [
+    "Capteur de Pression Atmoshperique GY-63 MS5611-01BA03",
+    "GY-BME280 - 3.3 Capteur de Pression Atmospherique Haute Precision",
+    "Module Capteur De Pression Barométrique BMP180",
+    "GY-BMP280-3.3 CAPTEUR DE PRESSION ATMOSPHERIQUE"
+   ]
+  },
+  {
+   "cluster_id": 102,
+   "substitute_key": "connectique|connectique|cordon|-",
+   "system_role": "connectique",
+   "size": 6,
+   "examples": [
+    "CORDON PIL 9 Longueur 10 cm",
+    "Cordon Banane Sécurisé Avec Récupération 4mm L= 50cm Rouge",
+    "Cordon UTP Cat6 Gris 1,5 M",
+    "Cordon De Brassage Cat6 FTP Gris 1 M"
+   ]
+  },
+  {
+   "cluster_id": 129,
+   "substitute_key": "capteur|capteur|lumiere|-",
+   "system_role": "capteur",
+   "size": 6,
+   "examples": [
+    "Module photoresistance LDR à 3 broches",
+    "LDR résistance dépendante de la lumière (PHOTORESISTANCE)",
+    "Module de capteur photorésistance LDR KY-018",
+    "LDR Photosensitive Resistor 12528 10-20K"
+   ]
+  },
+  {
+   "cluster_id": 134,
+   "substitute_key": "connectique|connectique|barrette|-",
+   "system_role": "connectique",
+   "size": 6,
+   "examples": [
+    "Barrette Stackable 2.54 M/F 4 PINES L=11MM",
+    "Barrette Stackable 2.54 M/F 6 PINES L=11MM",
+    "Barrette Stackable 2.54 M/F 8 PINES L=11MM",
+    "Barrette Stackable 2.54 M/F 10 PINES L=11MM"
+   ]
+  },
+  {
+   "cluster_id": 144,
+   "substitute_key": "alimentation|alimentation|regulateur|mains",
+   "system_role": "alimentation",
+   "size": 6,
+   "examples": [
+    "Regulateur de tension SCR 220V/55-220V P=2000W",
+    "Régulateur de tension AC 220V 5000W, sortie 0-220V",
+    "STC-3028 Controleur Regulateur De Température Et Humidité 220V",
+    "Régulateur de température numérique STC-9200 AC 220V Double Sonde"
+   ]
+  },
+  {
+   "cluster_id": 194,
+   "substitute_key": "soudure|autre|flux|-",
+   "system_role": "autre",
+   "size": 6,
+   "examples": [
+    "Pate à souder XG-Z40 Flux (35g)",
+    "Flux pour soudure 100gr",
+    "Flux Pate à Souder 50g",
+    "Flux Pate à Souder 80g"
+   ]
+  },
+  {
+   "cluster_id": 201,
+   "substitute_key": "capteur|capteur|temp_rtd|-",
+   "system_role": "capteur",
+   "size": 6,
+   "examples": [
+    "Capteur de température à sonde PT100 - WZP 2 FILS/1 METRES",
+    "Module MAX6675 + Capteur de thermocouple à thermocouple de type K peut",
+    "Nouveau bloc chauffant V6 compatible avec le capteur PT100",
+    "Capteur de Température PT100 3 fils , en Acier Inoxydable avec Câble d"
+   ]
+  },
+  {
+   "cluster_id": 217,
+   "substitute_key": "electrique|outil|generic|lv",
+   "system_role": "outil",
+   "size": 6,
+   "examples": [
+    "Serrure de porte solénoïde à cadre ouvert DC 12V 1A 10mm Course 15N Fo",
+    "Alimentation triphasé PRO MAX3 480W 24V 20A Weidmüller",
+    "Alimentation Triphasée PRO ECO3 960W 24V 40A Weidmüller",
+    "Variateur led Dimmer 12v"
+   ]
+  },
+  {
+   "cluster_id": 251,
+   "substitute_key": "outillage|outil|rouleau|-",
+   "system_role": "outil",
+   "size": 6,
+   "examples": [
+    "Filament PLA 3D 1,75 mm Noir 1KG/Rouleau",
+    "Rouleau SCOTCH DE TRACAGE AU SOL JAUNE/NOIR 50MM X 33M VE-QE BART Q",
+    "Rouleau Microfibre 230 Mm Sans Manche Pour Murs Et Plafonds THT85951",
+    "Rouleau Mohair 12 Mm Microfibre 230 Mm Pour Peinture Intérieur Murs Pl"
+   ]
+  },
+  {
+   "cluster_id": 293,
+   "substitute_key": "alimentation|alimentation|onduleur|-",
+   "system_role": "alimentation",
+   "size": 6,
+   "examples": [
+    "Onduleur 1000 VA Hikvision 1KVA",
+    "TW213028 – Poste MMA Onduleur TOTAL 15–130A – Efficace",
+    "TIG1601 Poste Soudage TIG MMA Total Onduleur 160A Compact",
+    "TW216028 - Poste MMA Onduleur 4/160A TOTAL - Efficace"
+   ]
+  },
+  {
+   "cluster_id": 308,
+   "substitute_key": "composant|traitement|zener|logic",
+   "system_role": "traitement",
+   "size": 6,
+   "examples": [
+    "Diodes Zener 1N4729 3.6V",
+    "Diodes Zener 1N4730 3.9V",
+    "Diodes Zener 1N4734 5.6V",
+    "Diodes Zener 1N4733 5.1V"
+   ]
+  },
+  {
+   "cluster_id": 327,
+   "substitute_key": "outillage|outil|rabot|-",
+   "system_role": "outil",
+   "size": 6,
+   "examples": [
+    "Rabot Manuel Métallique 135 x 33 mm Harden H614505",
+    "Systeme Aspiration Rabotage Beton 180Mm - M14",
+    "Lames De Rabot 82x5.5x1.2mm Pour Raboteuse Pro TOTAL TAC618201",
+    "THT9391 Rabot Manuel Réglable Total 235mm Finition Précise"
+   ]
+  },
+  {
+   "cluster_id": 337,
+   "substitute_key": "soudure|autre|panne|-",
+   "system_role": "autre",
+   "size": 6,
+   "examples": [
+    "Jeu De Demontage Du Panneau 11Pcs",
+    "Jeu De Demontage Du Panneau 6Pcs",
+    "Scie A Panneaux De Platre 300Mm",
+    "Scie Panneaux SK5 150 8TPI TOTAL Coupes THWBSW1508"
+   ]
+  },
+  {
+   "cluster_id": 353,
+   "substitute_key": "outillage|outil|palan|-",
+   "system_role": "outil",
+   "size": 6,
+   "examples": [
+    "TOTAL Palan À Chaîne Manuel 5 T Hauteur Levage 3 m TCBK0205",
+    "Palan À Chaîne Manuelle 2 Tonnes Hauteur 3 M Chaîne Simple CE Conforme",
+    "Palan À Levier 1,5T THSLB1501 Pour Levage Efficace TOTAL",
+    "TLH1952 Palan Électrique TOTAL 250 et 500 kg Levage"
+   ]
+  },
+  {
+   "cluster_id": 20,
+   "substitute_key": "capteur|capteur|temp_generic|-",
+   "system_role": "capteur",
+   "size": 5,
+   "examples": [
+    "MLX90614 Capteur De Temperature Humaine",
+    "Capteur de température thermistance ntc 100k NTC MF52AT",
+    "Résistance de détection de température d’imprimante 3D Pièces de capte",
+    "Capteur de température à thermistance NTC B3950 10K pour STC1000"
+   ]
+  },
+  {
+   "cluster_id": 37,
+   "substitute_key": "carte|controle|arduino|logic",
+   "system_role": "controle",
+   "size": 5,
+   "examples": [
+    "Arduino Pro Micro Mini USB ATmega32U4 Pro Micro 5v 16Mhz",
+    "Arduino Pro Mini ATMEGA328P 3.3 V / 8 MHZ",
+    "Arduino Pro Mini ATMEGA328P 5V / 16MHz",
+    "Nano V3.0 ATmega328P 5V 16MHz avec câble Type-C de 1 m"
+   ]
+  },
+  {
+   "cluster_id": 67,
+   "substitute_key": "capteur|capteur|humidite|-",
+   "system_role": "capteur",
+   "size": 5,
+   "examples": [
+    "Capteur de détection d’humidité du sol YL-100 3 broches",
+    "Module de capteur d’humidité de détection d’humidité du sol (fil Dupon",
+    "Capteur de détection de gouttes de pluie",
+    "Module de capteur d'humidité du sol avec câble de 1,3 m"
+   ]
+  },
+  {
+   "cluster_id": 73,
+   "substitute_key": "audio|interface|ampli|-",
+   "system_role": "interface",
+   "size": 5,
+   "examples": [
+    "Micro Electret Amplifier- MAX4466 Avec Gain Réglable",
+    "CI LM324NE4 - Amplificateurs opérationnels à 4 canaux",
+    "Amplificateurs opérationnels TL081C DIP8",
+    "Carte amplificateur audio numérique mono XH-M544 150W TPA3116DA"
+   ]
+  },
+  {
+   "cluster_id": 85,
+   "substitute_key": "capteur|capteur|motion|-",
+   "system_role": "capteur",
+   "size": 5,
+   "examples": [
+    "Capteur de mouvement PIR HC-SR501 vert",
+    "Capteur de mouvement PIR HC-SR501 Bleu",
+    "Détecteur de mouvements PIR JK1070 intérieure plafond, encastré 360 ° ",
+    "Détecteur de mouvement à micro-ondes plafonnier blanc 360/180⁰ IP20 DD"
+   ]
+  },
+  {
+   "cluster_id": 92,
+   "substitute_key": "mecanique|mecanique|dissipateur|-",
+   "system_role": "mecanique",
+   "size": 5,
+   "examples": [
+    "Ensemble dissipateur 3 en 1 blanc en aluminium pour Raspberry Pi 4B",
+    "Dissipateur thermique de refroidissement en cuivre pur pour Raspberry ",
+    "Pâte thermique pour PC GPU IC 5g pour dissipateur thermique",
+    "Dissipateur thermique en aluminium noir 16,5x15,5x1,3 cm pour Raspberr"
+   ]
+  },
+  {
+   "cluster_id": 105,
+   "substitute_key": "electronique|traitement|generic|mains",
+   "system_role": "traitement",
+   "size": 5,
+   "examples": [
+    "INERRUPTEUR A BASCULE ROUGE 6A / 250V 2 broches KCD1-101",
+    "Contrôleur d’incubateur d’œufs 220V XM-18, Thermostat et hygrostat, co",
+    "Transistor MOSFET à canal N d’origine IRFP250N 30A 200V",
+    "Panneau JY-16 de carte PCB de contrôle de minuterie de 110V/220V avec "
+   ]
+  },
+  {
+   "cluster_id": 133,
+   "substitute_key": "electronique|traitement|registre|-",
+   "system_role": "traitement",
+   "size": 5,
+   "examples": [
+    "74HC595N 8-Bit Registre à décalage DIP-1",
+    "SN74HC164N Registre à décalage série 8 bits de l’instrument Texas",
+    "74HC595 Registres à décalage de compteur à trois états 8 bits",
+    "SN74HC165N - Registre à décalage DIP16 parallèle 8 bits"
+   ]
+  },
+  {
+   "cluster_id": 159,
+   "substitute_key": "electronique|interface|interrupteur|lv",
+   "system_role": "interface",
+   "size": 5,
+   "examples": [
+    "Interrupteur etanche en metal bleu 12MM 12-24V",
+    "Interrupteur etanche en metal Vert 16MM 12-24V",
+    "Interrupteur etanche en metal Blanc 16MM 12-24V",
+    "Interrupteur etanche en metal rouge 16MM 12-24V"
+   ]
+  },
+  {
+   "cluster_id": 204,
+   "substitute_key": "composant|traitement|transistor|mains",
+   "system_role": "traitement",
+   "size": 5,
+   "examples": [
+    "TRANSISTOR GT30J127 600V 200A IGBT",
+    "BD237 Single NPN Transistor 2A 80V",
+    "BD139 Single Bipolar Transistor (BJT) NPN 80V 1.25W 1.5A 250 hFE",
+    "Transistor IGBT 30F124 300V/200A TO-220"
+   ]
+  },
+  {
+   "cluster_id": 216,
+   "substitute_key": "moteur|actionneur|ventilateur|mains",
+   "system_role": "actionneur",
+   "size": 5,
+   "examples": [
+    "Ventilateur de refroidissement 120*120*38mm à double bille 220V",
+    "Ventilateur 220V 150 X 150 mm",
+    "Ventilateur extractuer 220V D=240mm L=310mm",
+    "Ventilateur extractuer 220V D=172mm L=270mm"
+   ]
+  },
+  {
+   "cluster_id": 225,
+   "substitute_key": "mecanique|mecanique|rail|-",
+   "system_role": "mecanique",
+   "size": 5,
+   "examples": [
+    "Support de type vertical SK8 SH8 d’extrémité d’arbre de rail linéaire ",
+    "Serveur série Ethernet Waveshare 2 canaux RS485 vers port réseau commu",
+    "Socle Voyant sur rail – F129S",
+    "Kit Adaptateur Pour Common Rail Pour Debitmetre"
+   ]
+  },
+  {
+   "cluster_id": 241,
+   "substitute_key": "outillage|outil|decapeur|-",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "Pistolet decapeur thermique TOTAL 2000W",
+    "DÉCAPEUR THERMIQUE reglable 1800W",
+    "Decapeur thermique TOTAL 2000W TB20078",
+    "Decapeur Thermique 450-600°C 2000W 2 Vitesses"
+   ]
+  },
+  {
+   "cluster_id": 242,
+   "substitute_key": "outillage|outil|perceuse|lv",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "Perceuse visseuse 10,8 V BOSCH AVEC KIT d’embouts de vissage",
+    "Perceuse Percussion Compacte TOTAL 20V 66Nm",
+    "TOTAL P20S Perceuse Visseuse Sans Fil 20V Brushless Compacte 55 Nm TDL",
+    "Visseuse Perceuse Sans Fil TOTAL P20S 20V Brushless 66 Nm TDLI206681"
+   ]
+  },
+  {
+   "cluster_id": 274,
+   "substitute_key": "mobilite|actionneur|drone|-",
+   "system_role": "actionneur",
+   "size": 5,
+   "examples": [
+    "Châssis Quadcoptere DJI F330",
+    "Châssis Quadcoptere S500 480 mm PDB intégré",
+    "Châssis Quadcoptere DJI 450",
+    "Hélice en fibre de carbone 10x4.5 CW/CCW (Lot de 2) pour drone multico"
+   ]
+  },
+  {
+   "cluster_id": 312,
+   "substitute_key": "connectique|connectique|domino|-",
+   "system_role": "connectique",
+   "size": 5,
+   "examples": [
+    "Domino Etanche Forme I 3 Pole",
+    "Domino Etanche Forme T 3 Pole",
+    "Domino Etanche 3 Pole Forme Y",
+    "Domino étanche IP68 3 entrées PG9 + presse-étoupe P2-D4 3 sorties"
+   ]
+  },
+  {
+   "cluster_id": 328,
+   "substitute_key": "mobilite|actionneur|voiture|lv",
+   "system_role": "actionneur",
+   "size": 5,
+   "examples": [
+    "Testeur de batterie de voiture 12 V, testeur d'alternateur numérique, ",
+    "Gonfleur De Voiture Digital 12V",
+    "Chargeur intelligent de batterie voiture 12V 6A, prise EU",
+    "Chargeur de batterie voiture 12V 1,25A, prise EU"
+   ]
+  },
+  {
+   "cluster_id": 351,
+   "substitute_key": "outillage|outil|truelle|-",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "TOTAL Truelle De Maçon 230 mm Forge Monobloc Pour Mortier THT82909",
+    "TP9361-2 Truelle Électrique TOTAL 6,5 CV - Performante 90cm",
+    "THT82836 - Truelle Total 200mm - Nivellement Précis",
+    "THT82716  – Truelle TOTAL 180mm – Lissage Plâtre Ciment"
+   ]
+  },
+  {
+   "cluster_id": 354,
+   "substitute_key": "outillage|outil|scie|lv",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "TOTAL Scie À Chaîne Sans Fil 8 Pouces Brushless Haute Performance 20V ",
+    "TRSLI1151 Scie A Sabre Total 20V 115mm Bois Métal Précises",
+    "TRSLI65061 - Scie À Guichet TOTAL 20V - Performante",
+    "TSLI14021 Scie Circulaire SansFil 20V 140mm Total Brushless"
+   ]
+  },
+  {
+   "cluster_id": 355,
+   "substitute_key": "outillage|outil|compresseur|mains",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "Compresseur Air 500 L 380 V 4 KW 5,5 CV Total Pour Atelier Pro TC15550",
+    "Compresseur 24L Lubrifié Huile 1,5 CV 220V TOTAL Pro TC2202461E",
+    "Compresseur 050L 220V 2CV – TOTAL Brico – TC255061E",
+    "Compresseur 100L 220V 3CV – TOTAL Brico – TC1301006E"
+   ]
+  },
+  {
+   "cluster_id": 358,
+   "substitute_key": "outillage|outil|meuleuse|lv",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "Meuleuse Angle Brushless 20V P20S 4Ah 115 Mm TOTAL TAGLI261521",
+    "Meuleuse Angle Sans Fil 20 V Brushless 1000 W TAGLI271531",
+    "TMGLI0801 Meuleuse Droite 8V TOTAL Vitesse 5k-28k Poncer",
+    "Meuleuse Angulaire 20V 76mm - Coupe Meulage - TAGLI76012"
+   ]
+  },
+  {
+   "cluster_id": 3,
+   "substitute_key": "capteur|capteur|imu|-",
+   "system_role": "capteur",
+   "size": 4,
+   "examples": [
+    "MPU9250 Accelerometre Magnetometre ET Gyroscope 9 AXES",
+    "ADXL335 Accéléromètre 3 Axes",
+    "Carte accéléromètre BIGTREETECH ADXL345/S2DW pour Klipper",
+    "Télécommande Air Fly Mouse 2.4G – Sans Fil avec Gyroscope pour Android"
+   ]
+  },
+  {
+   "cluster_id": 5,
+   "substitute_key": "capteur|capteur|courant|logic",
+   "system_role": "capteur",
+   "size": 4,
+   "examples": [
+    "Capteur de Courant SCT-013-000V 60A:1V",
+    "Capteur de Courant SCT-013-000V 100A:1V",
+    "SCT-013-030 Capteur de Courant SCT-013 30A:1V",
+    "Capteur de Courant SCT-013-000V 50A:1V"
+   ]
+  },
+  {
+   "cluster_id": 35,
+   "substitute_key": "solaire|alimentation|generic|logic",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "Panneau Solaire époxy monocristallin 70 * 70mm 3V 200mA",
+    "Panneau Solaire EPOXY 135x64.7mm 5V 220MA",
+    "Panneau solaire 4W 6V 180mA 125 x 135 mm",
+    "Panneau Solaire Monocristallin 6V 1W 110mm X 60mm"
+   ]
+  },
+  {
+   "cluster_id": 45,
+   "substitute_key": "capteur|capteur|geste|-",
+   "system_role": "capteur",
+   "size": 4,
+   "examples": [
+    "Module de reconnaissance de direction de mouvement. capteur de mouveme",
+    "Capteur de gestes et de lumière GY-9900 (APDS-9900) – Détection infrar",
+    "Capteur de proximité/lumière ambiante APDS9930",
+    "Module de capteur de reconnaissance gestuelle PAJ7620U2"
+   ]
+  },
+  {
+   "cluster_id": 55,
+   "substitute_key": "alimentation|alimentation|transformateur|logic",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "TRANSFORMATEUR-ADAPTATEUR 5V-3A USB TYPE C POUR RASPBERRY PI 4B",
+    "TRANSFORMATEUR-ADAPTATEUR 5V-3A JACK 5.5 de haute qualité",
+    "TRANSFORMATEUR-ADAPTATEUR 5V-2A MICRO USB POUR RASPBERRY 3",
+    "Transformateur Adaptateur 5V-3A Micro USB Pour Raspberry PI 3B+"
+   ]
+  },
+  {
+   "cluster_id": 89,
+   "substitute_key": "alimentation|alimentation|convertisseur|logic",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "CONVERTISSEUR DE NIVEAU BIDIRECTIONEL 3.3V/5V 4 CANNAUX I2C",
+    "Convertisseur De Tension Step Up Booster USB DC-DC (0.9V ~ 5V) Vers 5V",
+    "TXS0108E CONVERTISSEUR DE NIVEAU BIDIRECTIONNEL 3,3V/5V",
+    "RPLiDAR C1 - DTOF LiDAR 360° Scanner Laser , 12 m, 10 Hz, TTL UART ave"
+   ]
+  },
+  {
+   "cluster_id": 130,
+   "substitute_key": "led|interface|projector|lv",
+   "system_role": "interface",
+   "size": 4,
+   "examples": [
+    "LED 50W , 24-26V pour Projecteur",
+    "LED 100W , 24V pour Projecteur",
+    "Projecteur LED électrique 12V 50W en alliage d'aluminium, éclairage ex",
+    "Lampe Torche Sans Fil 20V TOTAL P20S 450 Lumens TWLI2058"
+   ]
+  },
+  {
+   "cluster_id": 147,
+   "substitute_key": "electronique|interface|bouton|lv",
+   "system_role": "interface",
+   "size": 4,
+   "examples": [
+    "Bouton poussoir etanche en metal rouge16MM 12-24V",
+    "Bouton poussoir etanche en metal vert 16MM 12-24V",
+    "Bouton poussoir etanche en metal bleu 16MM 12-24V",
+    "Bouton poussoir etanche en metal vert 16MM 12-24V"
+   ]
+  },
+  {
+   "cluster_id": 153,
+   "substitute_key": "mobilite|actionneur|voiture|logic",
+   "system_role": "actionneur",
+   "size": 4,
+   "examples": [
+    "Kits d’auto-équilibrage de voiture intelligente (Roue 65mm+Moteur 6V 2",
+    "moteur DIY 3- 6V pour voiture intelligente",
+    "CHARGEUR ALLUME CIGARE 2EN1 MUJU POUR VOITURE 5V 2.4A",
+    "Kit de châssis de voiture robotisée intelligente 2WD DC3-6V 1:48 (pneu"
+   ]
+  },
+  {
+   "cluster_id": 165,
+   "substitute_key": "soudure|autre|generic|mains",
+   "system_role": "autre",
+   "size": 4,
+   "examples": [
+    "Station de soudure Pistolet à air chaud 858D 700W BGA 220V pour la rép",
+    "Station de soudure Pistolet à air chaud Yarboly 858D 700W BGA 220V pou",
+    "TOTAL Poste Soudure Inverter 250A 220V 380V MMA TIG Pro IGBT TW225089",
+    "TW218016 - Poste à Souder 180 MMA TOTAL 220-240V Portable"
+   ]
+  },
+  {
+   "cluster_id": 170,
+   "substitute_key": "composant|traitement|generic|mains",
+   "system_role": "traitement",
+   "size": 4,
+   "examples": [
+    "Triode commun 2N5551 NPN 160V 0.6A TO-92",
+    "Triode commun 2N5401 PNP 150V 0.6A TO-92",
+    "Triode commun A92 PNP 300V 0.3A TO-92",
+    "Triode commun A42 NPN 300V 0.625A TO-92"
+   ]
+  },
+  {
+   "cluster_id": 176,
+   "substitute_key": "electrique|outil|generic|mains",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "Module variateur(Dimmer) AC, 1 canal, logique 3.3V/5V, AC 110V~400V",
+    "Protecteur contre sur tension et sous-tension 80A AC 380V Triphasé rég",
+    "Module d’isolation optocoupleur 1 canal 220V AC pour PLC",
+    "Protecteur de tension de courant triphasé 63 A avec N 3 x 230V"
+   ]
+  },
+  {
+   "cluster_id": 184,
+   "substitute_key": "moteur|actionneur|pompe|lv",
+   "system_role": "actionneur",
+   "size": 4,
+   "examples": [
+    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
+    "Mini pompe submersible DC de haute qualité 12V 0.6L/mn",
+    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
+    "MINI pompe à eau d’aquarium DC6-12V R385"
+   ]
+  },
+  {
+   "cluster_id": 186,
+   "substitute_key": "connectique|connectique|prise|mains",
+   "system_role": "connectique",
+   "size": 4,
+   "examples": [
+    "Kit de soudure utile 220V 60W prise",
+    "Prise programmable hebdomadaire minuterie 230V 16A PEREL",
+    "Détecteur de Fuite de Gaz prise 220V AVEL AL-GS",
+    "Adaptateur prise 2P+T 16A 230V  LEGRAND (Prise USA /UK/CA/AUS vers Pri"
+   ]
+  },
+  {
+   "cluster_id": 188,
+   "substitute_key": "alimentation|alimentation|convertisseur|lv",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "Module convertisseur de courant en tension XY-IT0V 4-20mA VERS 0-10V",
+    "TPS54335A Entrée 4,5 V à 28 V, 3 A, synchrone, convertisseur abaisseur",
+    "Convertisseur Boost 150W DC-DC 10-32V à 12-35V",
+    "Convertisseur élévateur Boost 600 W 10-60 V vers 12-60 V 10 A — substr"
+   ]
+  },
+  {
+   "cluster_id": 205,
+   "substitute_key": "composant|traitement|triac|-",
+   "system_role": "traitement",
+   "size": 4,
+   "examples": [
+    "BTA26-800 TRIAC 25A 800V",
+    "TRIAC intelligent TIC263M. isolé. haute immunité dv/dt",
+    "TRIAC (CMS) BTA316X-800E sans snubber. 16A. boîtier TO220F",
+    "TRIAC BTA24-600BW sans réseau d’amortissement (snubberless). 25A. boît"
+   ]
+  },
+  {
+   "cluster_id": 222,
+   "substitute_key": "mecanique|mecanique|courroie|-",
+   "system_role": "mecanique",
+   "size": 4,
+   "examples": [
+    "Courroie GT2 Ouverte Noire Largeur 6mm avec Fibre de verre (softHandfe",
+    "GT2-6mm largeur de courroie 20 dents 5mm alésage poulie synchrone",
+    "Poulie GT2 en aluminium à 16 dents avec alésage de 5 mm pour courroie ",
+    "Tendeur de courroie de distribution GT2 6mm"
+   ]
+  },
+  {
+   "cluster_id": 228,
+   "substitute_key": "led|interface|voyant|-",
+   "system_role": "interface",
+   "size": 4,
+   "examples": [
+    "Voyant LED Rouge DC24V 22mm AD16-22DS",
+    "Voyant LED Vert DC24V 22mm AD16-22DS",
+    "Voyant LED Orange220V AC ø22mm",
+    "Voyant indicateur de température de Temperature LED -20~199 °C 22 mm"
+   ]
+  },
+  {
+   "cluster_id": 254,
+   "substitute_key": "audio|interface|jack|-",
+   "system_role": "interface",
+   "size": 4,
+   "examples": [
+    "Fiche jack Audio 4 pôles mâle stéréo 3.5mm",
+    "Récepteur Audio Bluetooth BT450 – Jack AUX 3,5 mm & Micro Intégré",
+    "Récepteur et Transmetteur Audio USB Jack Bluetooth 5.0 TR6",
+    "Adaptateur Audio Voiture-Bluetooth V5.0 Jack 3.5mm –"
+   ]
+  },
+  {
+   "cluster_id": 255,
+   "substitute_key": "connectique|connectique|rallonge|-",
+   "system_role": "connectique",
+   "size": 4,
+   "examples": [
+    "Rallonge Rg316 0-6g Sma Mâle Vers Sma Femelle L=30cm",
+    "Rallonge Impact 3/4\" 175Mm",
+    "Rallonge Impact 1/2\" 125Mm",
+    "Rallonge Impact 3/8\"X150Mm"
+   ]
+  },
+  {
+   "cluster_id": 258,
+   "substitute_key": "alimentation|alimentation|fusible|mains",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "Fusibles Rapides En Céramique 6x30mm 250V 0.5A",
+    "Fusibles Rapides En Céramique 6x30mm 250v 10A",
+    "Fusible thermique 250 V 10 A RY-240°",
+    "Kit de 100pcs Fusible en Verre, 5x20mm 250V - 0,2~20A"
+   ]
+  },
+  {
+   "cluster_id": 261,
+   "substitute_key": "capteur|capteur|generic|mains",
+   "system_role": "capteur",
+   "size": 4,
+   "examples": [
+    "Capteur de proximité inductif à cylindre NC LJ18A3-8-J/DZ M18 8 mm, dé",
+    "Capteur de proximité capacitif M18 90-250 V CA, 400 mA, Normalement fe",
+    "Veilleuse Prise LED 1W Ronde avec Capteur Crépusculaire 220V",
+    "Veilleuse Prise LED 0.5W Ronde avec Capteur Crépusculaire 220V"
+   ]
+  },
+  {
+   "cluster_id": 286,
+   "substitute_key": "outillage|outil|riveteuse|-",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "Riveteuse à main Harden 9,5",
+    "Riveteuse Pneumatique 60L/Min 12300N",
+    "Riveteuse De Chaine De Tronconneuse",
+    "THT32081 Riveteuse À Main TOTAL 8 Pouces 200 Mm Polyvalente"
+   ]
+  },
+  {
+   "cluster_id": 303,
+   "substitute_key": "led|interface|cob|lv",
+   "system_role": "interface",
+   "size": 4,
+   "examples": [
+    "Guirlande COB 12V 8mm 320LM 5ML Rose",
+    "Guirlande COB 12V 8mm 320LM 5ML Bleu",
+    "Domino LED COB Bleu 12v",
+    "Domino LED COB Blanc 12v"
+   ]
+  },
+  {
+   "cluster_id": 352,
+   "substitute_key": "moteur|actionneur|generic|lv",
+   "system_role": "actionneur",
+   "size": 4,
+   "examples": [
+    "TOTAL Riveteuse Sans Fil 20 V 2 Ah Brushless 20 kN 25 mm Éclairage TRT",
+    "TOTAL Débroussailleuse Sans Fil P20S Brushless 40V 2x20V Performance T",
+    "Total Marteau Perforateur Sans Fil 42V Brushless 26mm TRHLI422682",
+    "TLMLI20185 – Tondeuse Gazon TOTAL 40V Brushless – Sans Bat"
+   ]
+  },
+  {
+   "cluster_id": 362,
+   "substitute_key": "outillage|outil|echelle|-",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "Échelle Aluminium 4x3 Marches 338 cm Polyvalente THLAD04431",
+    "TOTAL THLAD01081 - ÉCHELLE Double Face - 2x8 - Usage Pro",
+    "Échelle Télescopique 3180mm-TOTAL Légère-THLAD08101",
+    "Échelle Aluminium 4x4 Marches - TOTAL - THLAD04441"
+   ]
+  },
+  {
+   "cluster_id": 366,
+   "substitute_key": "outillage|outil|marteau|lv",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "TRHLI201881 - Marteau Perforateur 20V TOTAL Perçage",
+    "TRHLI202882 Marteau Perforateur TOTAL 20V SDS Plus 28mm Kit",
+    "TRHLI202682 – Marteau Perforateur Total 20V 4Ah SDS Plus",
+    "TRHLI202081 - Marteau Perforateur Total 20V 4Ah - Perçage"
+   ]
+  },
+  {
+   "cluster_id": 368,
+   "substitute_key": "outillage|outil|etau|-",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "THT6186 Étau Atelier Total 200 mm Serrage 2500 Kg Bricolage",
+    "TOTAL ETAU ETABLI 150MM – Étau – TOTAL 150MM – Durable THT6166",
+    "TOTAL ETAU ETABLI 60MM THT6126 – Étau – TOTAL 60MM – 1000 kg",
+    "THT6146 - Étau Établi TOTAL 100MM - Pour Bricoleurs"
+   ]
+  },
+  {
+   "cluster_id": 1,
+   "substitute_key": "solaire|alimentation|generic|lv",
+   "system_role": "alimentation",
+   "size": 3,
+   "examples": [
+    "Panneau Solaire époxy Monocrystallilne 213 * 92mm 7.5V 200mA",
+    "Mini panneau solaire portable 12V 2W",
+    "Kit pompe à eau solaire avec panneau photovoltaïque 9 V / 10 W – Débit"
+   ]
+  },
+  {
+   "cluster_id": 50,
+   "substitute_key": "capteur|capteur|temp_1wire|-",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Sonde thermique numérique étanche DS18B20 1m puce d’origine avec prise",
+    "Sonde thermique numérique étanche DS18B20 1m avec puce d’origine（26AWG",
+    "Module de capteur de température KY-001 DS18B20"
+   ]
+  },
+  {
+   "cluster_id": 54,
+   "substitute_key": "alimentation|alimentation|transformateur|lv",
+   "system_role": "alimentation",
+   "size": 3,
+   "examples": [
+    "TRANSFORMATEUR-ADAPTATEUR 9V-2A JACK 5.5 de haute qualité",
+    "Transformateur Adaptateur 12V-1A JACK 5.5 de haute qualité",
+    "TRANSFORMATEUR-ADAPTATEUR 12V-3A JACK 5.5"
+   ]
+  },
+  {
+   "cluster_id": 61,
+   "substitute_key": "capteur|capteur|debit|-",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "YF-S201 DEBIMETRE 1-30L/min",
+    "Capteur de débit d’eau 57QF DN32 – Débitmètre à filetage externe pour ",
+    "Capteur de débit d’eau YF-S401 – Débitmètre à effet Hall 0.3-6 L/min a"
+   ]
+  },
+  {
+   "cluster_id": 66,
+   "substitute_key": "capteur|capteur|distance|logic",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Capteur à ultrasons 4 broches + 3.3-5.5V HC-SR04",
+    "Capteur à ultrasons 5V HC-SR04 4 broches",
+    "Capteur infrarouge réglable E18-D80NK 5V, distance 3 à 80 cm"
+   ]
+  },
+  {
+   "cluster_id": 83,
+   "substitute_key": "electronique|traitement|rtc|-",
+   "system_role": "traitement",
+   "size": 3,
+   "examples": [
+    "TM1637 AFFICHEUR 4 BITS + HORLOGE",
+    "Circuit intégré DS1302",
+    "DS1302N-CI Circuit Horloge Temps Réel RTC Dip"
+   ]
+  },
+  {
+   "cluster_id": 87,
+   "substitute_key": "audio|interface|microphone|-",
+   "system_role": "interface",
+   "size": 3,
+   "examples": [
+    "TRRS 3.5MM JACK CARTE DERIVATION POUR MICROPHONE / CASQUE AUDIO STEREO",
+    "Double microphone K11 Type C avec adaptateur iphone",
+    "Microphone K11 Type C avec adaptateur iphone"
+   ]
+  },
+  {
+   "cluster_id": 91,
+   "substitute_key": "electronique|capteur|generic|logic",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "MODULE BUZZER ACTIF 3.5-5.5V haut courant",
+    "MODULE BUZZER ACTIF 3.5-5.5V Bas courant",
+    "Stylo d’impression et de dessin 3D LCD – 2ᵉ génération – 5 V – Stylo 3"
+   ]
+  },
+  {
+   "cluster_id": 96,
+   "substitute_key": "composant|traitement|transistor|lv",
+   "system_role": "traitement",
+   "size": 3,
+   "examples": [
+    "TRANSISTOR 2N2222 TO-92 0.6A 30V NPN",
+    "transistor bc547c to-92 npn 45v 0.1a",
+    "Transistor LM317T 1,2V-37V - 1,5A"
+   ]
+  },
+  {
+   "cluster_id": 122,
+   "substitute_key": "electronique|capteur|generic|lv",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Module Contrôleur De Température Et Humidité 12V XH-M452",
+    "XH-W1209 Controlleur de température du thermostat CC 12 V",
+    "Module de courant constant anti-diode inverse 60V 10A"
+   ]
+  },
+  {
+   "cluster_id": 124,
+   "substitute_key": "electronique|actionneur|driver|-",
+   "system_role": "actionneur",
+   "size": 3,
+   "examples": [
+    "L298N Double Pont H Nouveau Model",
+    "ULN2003APG",
+    "Jeu 6 Pcs precision screwdriver set WSS2B26"
+   ]
+  },
+  {
+   "cluster_id": 139,
+   "substitute_key": "carte|controle|jetson|-",
+   "system_role": "controle",
+   "size": 3,
+   "examples": [
+    "Carte de développement NVIDIA Jetson Nano 2 Go sans Wifi, Plate-forme ",
+    "KIT NVIDIA Jetson Nano 2 Go pour AI Deep Learning",
+    "Carte de développement Nvidia Jetson Nano 4 GB"
+   ]
+  },
+  {
+   "cluster_id": 166,
+   "substitute_key": "moteur|actionneur|pompe|logic",
+   "system_role": "actionneur",
+   "size": 3,
+   "examples": [
+    "Pompe a eau submersible horizontale Son muet DC 3V-5V",
+    "Mini pompe à vide à oxygène Medicale DC 3V 5V 6V 370",
+    "Pompe N/C 5V-6V"
+   ]
+  },
+  {
+   "cluster_id": 168,
+   "substitute_key": "mesure|capteur|ph|-",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "sonde d’électrode pH metre",
+    "Testeur de salinité d'eau 5-en-1 EC/TDS/PH/TEMP/SAL (EZ-9909, avec bat",
+    "Testeur mécanique T824 SE – Vérification instantanée des ports de char"
+   ]
+  },
+  {
+   "cluster_id": 182,
+   "substitute_key": "composant|traitement|triac|mains",
+   "system_role": "traitement",
+   "size": 3,
+   "examples": [
+    "MAC97A6 97A6 TO-92 Triacs thy-6a 400V TRIAC",
+    "TRIAC (THT) BT136-600E 4A. 600V",
+    "TRIAC (THT) BTA16-600B 16A. 600V. languette isolée"
+   ]
+  },
+  {
+   "cluster_id": 200,
+   "substitute_key": "mesure|capteur|thermometre|-",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "FY-12 Mini thermomètre numérique LCD hygromètre - Blanc réfrigérateur ",
+    "FY-12 Mini thermomètre numérique LCD hygromètre - NOIR réfrigérateur c",
+    "Thermomètre et hygromètre 2 en 1 en acier inoxydable, vert"
+   ]
+  },
+  {
+   "cluster_id": 211,
+   "substitute_key": "alimentation|alimentation|convertisseur|mains",
+   "system_role": "alimentation",
+   "size": 3,
+   "examples": [
+    "Convertisseur CC 36V-72V vers 12V 10A",
+    "Convertisseur de tension 300W DC 12 V / AC 230 V",
+    "Convertisseur de tension TransDevices 2000W AC 220V vers 110V"
+   ]
+  },
+  {
+   "cluster_id": 227,
+   "substitute_key": "mesure|capteur|testeur|mains",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Testeur Numerique AC/DC Tolsen 250V avec affichage",
+    "Tournevis testeur DELI 100-500V",
+    "Tournevis testeur numerique avec affichage 12 V à 220 V Harden"
+   ]
+  },
+  {
+   "cluster_id": 238,
+   "substitute_key": "mesure|capteur|multimetre|mains",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Multimètre numérique mesure universel 5a 0-500V YATO YT-73080",
+    "Multimetre Digital 600V / 10A TOTAL",
+    "Multimètre numérique TOTAL 600V"
+   ]
+  },
+  {
+   "cluster_id": 245,
+   "substitute_key": "led|interface|strip|logic",
+   "system_role": "interface",
+   "size": 3,
+   "examples": [
+    "1M Ruban LED lumière à spectre complet pour plante USB DC 5V 60LED/m N",
+    "Bande lumineuse LED étoile RVB 5 V, rythme musical, application mobile",
+    "Kit Complet RGB 5050 5V USB 5m Ruban Télécommande"
+   ]
+  },
+  {
+   "cluster_id": 250,
+   "substitute_key": "outillage|outil|pistolet|mains",
+   "system_role": "outil",
+   "size": 3,
+   "examples": [
+    "Élément chauffant en céramique pour pistolet à Air chaud, 220V/110V, p",
+    "Pistolet a colle 60W 220V yato",
+    "TT001116 Pistolet Colle Total 16W 220 240V Déco DIY Rapide"
+   ]
+  },
+  {
+   "cluster_id": 260,
+   "substitute_key": "mesure|capteur|oscilloscope|-",
+   "system_role": "capteur",
+   "size": 3,
+   "examples": [
+    "Oscilloscope Numérique UTD2072CL",
+    "Adaptateur d’oscilloscope BNC (Q9) vers double fiche banane 4 mm",
+    "Oscilloscope numérique portable FNIRSI DSO152 — 200 kHz / 2.5 MS/s + s"
+   ]
+  },
+  {
+   "cluster_id": 272,
+   "substitute_key": "batterie|alimentation|5mm|-",
+   "system_role": "alimentation",
+   "size": 3,
+   "examples": [
+    "Pince à epiler 125mm en acier inoxydable HARDEN",
+    "Ventouse A 3 Tetes De 125Mm",
+    "Ventouse Double 120Kg 125Mm"
+   ]
+  },
+  {
+   "cluster_id": 290,
+   "substitute_key": "outillage|outil|visseuse|logic",
+   "system_role": "outil",
+   "size": 3,
+   "examples": [
+    "Mini Visseuse 4V Li-ion TOTAL TSDLI04425",
+    "Visseuse 4V 5N.m T-C + 42 Embouts EMTOP",
+    "Visseuse 4V 4N/M T-C + 19 Embouts - EMTOP"
+   ]
+  },
+  {
+   "cluster_id": 295,
+   "substitute_key": "batterie|alimentation|aa|logic",
+   "system_role": "alimentation",
+   "size": 3,
+   "examples": [
+    "2xPiles Maxell Alkaline AA 1.5V LR6 (2pcs)",
+    "4 Piles AA LR6 BP4 1.5V VARTA",
+    "Batterie rechargeable Ni-MH 1.2 V AA 2200 mAh"
+   ]
+  },
+  {
+   "cluster_id": 315,
+   "substitute_key": "composant|traitement|scr|mains",
+   "system_role": "traitement",
+   "size": 3,
+   "examples": [
+    "SCR (THT) MCR100-6 0.8A. 400V. boîtier TO-92",
+    "SCR (THT) C106DG 4A. 400V. boîtier TO-126",
+    "SCR (CMS) TYN612RG 12A. 600V. boîtier DPAK original"
+   ]
+  },
+  {
+   "cluster_id": 356,
+   "substitute_key": "outillage|outil|compresseur|lv",
+   "system_role": "outil",
+   "size": 3,
+   "examples": [
+    "Compresseur Portable 12V 11 Bar TTAC1601 Total Avec Accessoires",
+    "TOTAL Compresseur D'Air 2 Cylindres TTAC2506 Portable 12V",
+    "TTAC1406 – Compresseur Auto 12V TOTAL 10 Bars – Gonflage"
+   ]
+  },
+  {
+   "cluster_id": 44,
+   "substitute_key": "soudure|autre|fer|mains",
+   "system_role": "autre",
+   "size": 2,
+   "examples": [
+    "Fer à souder 60W 220V EU Plug",
+    "Fer a souder professionnel 220V 20W-200W haute puissance avec support"
+   ]
+  },
+  {
+   "cluster_id": 48,
+   "substitute_key": "rf|communication|nrf24|-",
+   "system_role": "communication",
+   "size": 2,
+   "examples": [
+    "NRF24L01+PA+LNA 2.4G 1100M Module Emetteur Recepteur",
+    "NRF24L01 MODULE EMETTEUR RECEPTEUR 2.4GHZ"
+   ]
+  },
+  {
+   "cluster_id": 59,
+   "substitute_key": "capteur|capteur|generic|logic",
+   "system_role": "capteur",
+   "size": 2,
+   "examples": [
+    "E18-D80NK Interrupteur de capteur infrarouge réglable 5V 3-80cm",
+    "Capteur de proximité inductif LJ12A3-4-Z/BY-5V M12 4mm détectant DC 5V"
+   ]
+  },
+  {
+   "cluster_id": 82,
+   "substitute_key": "electronique|traitement|generic|logic",
+   "system_role": "traitement",
+   "size": 2,
+   "examples": [
+    "MODULE RELAI 1 CHANNEL 5V",
+    "Carte adaptateur NRF 3,3 V pour module sans fil 24L01"
+   ]
+  },
+  {
+   "cluster_id": 95,
+   "substitute_key": "alimentation|alimentation|boost|-",
+   "system_role": "alimentation",
+   "size": 2,
+   "examples": [
+    "MT3608 2A Max DC-DC Module de puissance Booster Power Module",
+    "Module élévateur DC-DC XL6009 (boost step-up)"
+   ]
+  },
+  {
+   "cluster_id": 99,
+   "substitute_key": "connectique|connectique|jumper|-",
+   "system_role": "connectique",
+   "size": 2,
+   "examples": [
+    "CAVALIER JUMPER Noir 2.54MM",
+    "CAVALIER JUMPER Rouge 2.54MM"
+   ]
+  },
+  {
+   "cluster_id": 103,
+   "substitute_key": "audio|interface|buzzer|logic",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Buzzer passif 5V",
+    "Buzzer actif 5V"
+   ]
+  },
+  {
+   "cluster_id": 106,
+   "substitute_key": "alimentation|alimentation|generic|logic",
+   "system_role": "alimentation",
+   "size": 2,
+   "examples": [
+    "7805 5V 1A Positive Regulator",
+    "Module de Conversion Tension/Courant 0-2,5V à 4-20mA"
+   ]
+  },
+  {
+   "cluster_id": 110,
+   "substitute_key": "alimentation|alimentation|transformateur|-",
+   "system_role": "alimentation",
+   "size": 2,
+   "examples": [
+    "Transformateur de courant EASTRON ESCT-T24-5 200A",
+    "Transformateur de courant EASTRON ESCT-T24-5 100"
+   ]
+  },
+  {
+   "cluster_id": 111,
+   "substitute_key": "electrique|outil|compteur|-",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Compteur d'énergie triphasé EASTRON SDM630MCT V2",
+    "Kit Compteur d'énergie triphasé EASTRON SDM630MCT V2 avec 3 Transforma"
+   ]
+  },
+  {
+   "cluster_id": 113,
+   "substitute_key": "batterie|alimentation|18650|lv",
+   "system_role": "alimentation",
+   "size": 2,
+   "examples": [
+    "Batterie au lithium 7.4v 18650 2200mAh",
+    "Carte d'Égalisation pour Batterie au Lithium 5S 18,5V (18650) - 21V"
+   ]
+  },
+  {
+   "cluster_id": 114,
+   "substitute_key": "composant|traitement|diode|mains",
+   "system_role": "traitement",
+   "size": 2,
+   "examples": [
+    "1n4148 diode de signal 150ma/75v",
+    "Diodes hyperrapides RHRP860 8A 400V - 600V"
+   ]
+  },
+  {
+   "cluster_id": 116,
+   "substitute_key": "electronique|traitement|opto|-",
+   "system_role": "traitement",
+   "size": 2,
+   "examples": [
+    "Module d’isolement optocoupleur 4 canaux PC817",
+    "Module d’isolement optocoupleur 2 canaux PC817"
+   ]
+  },
+  {
+   "cluster_id": 117,
+   "substitute_key": "soudure|autre|loupe|-",
+   "system_role": "autre",
+   "size": 2,
+   "examples": [
+    "Loupe de soudage multifonctionnel",
+    "Troisième Main flexibles multifonctionnel pour soudure avec loupe"
+   ]
+  },
+  {
+   "cluster_id": 119,
+   "substitute_key": "moteur|actionneur|stepper|lv",
+   "system_role": "actionneur",
+   "size": 2,
+   "examples": [
+    "Moteur pas à pas 4 phases 12V 28BYJ-48",
+    "TB6600 contrôleur de moteur pas à pas 4A 9~42V"
+   ]
+  },
+  {
+   "cluster_id": 120,
+   "substitute_key": "moteur|actionneur|stepper|logic",
+   "system_role": "actionneur",
+   "size": 2,
+   "examples": [
+    "Moteur pas à pas 4 phases 5V 28BYJ-48",
+    "Moteur à pas à pas 5V 4 phases + pilote ULN2003"
+   ]
+  },
+  {
+   "cluster_id": 123,
+   "substitute_key": "rf|communication|lora|-",
+   "system_role": "communication",
+   "size": 2,
+   "examples": [
+    "LG01-P LoRa Dragino Gateway 868MHz (Europe)",
+    "LoRa Radio Node V1.0 2.4G Module sans fil 868MHZ"
+   ]
+  },
+  {
+   "cluster_id": 126,
+   "substitute_key": "mobilite|actionneur|generic|logic",
+   "system_role": "actionneur",
+   "size": 2,
+   "examples": [
+    "MOTEUR 3-6 V+ROUE",
+    "Pack 4 moteurs coreless 716 — 3.7 V 50 000 tr/min + hélices 55 mm CW/C"
+   ]
+  },
+  {
+   "cluster_id": 132,
+   "substitute_key": "capteur|capteur|temp_analog|-",
+   "system_role": "capteur",
+   "size": 2,
+   "examples": [
+    "lm358p amplificateur double opérationnel basse puissance lm358 dip8",
+    "Capteur de température LM35DZ d’origine LM35DZ LM35 TO-92"
+   ]
+  },
+  {
+   "cluster_id": 140,
+   "substitute_key": "led|interface|matrix|logic",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "led adressable rgb 16X16 dc 5v ws2812b",
+    "Kit matrice Led WS2812B 16x16 avec contrôleur Bluetooth et Alimentatio"
+   ]
+  },
+  {
+   "cluster_id": 149,
+   "substitute_key": "electronique|traitement|logique|-",
+   "system_role": "traitement",
+   "size": 2,
+   "examples": [
+    "Module sélecteur multiplexeur analogique CJMCU-4051 74HC4051 8 canaux-",
+    "74HC14D Déclencheur Schmitt inverseur hexagonal"
+   ]
+  },
+  {
+   "cluster_id": 156,
+   "substitute_key": "rf|communication|gps|-",
+   "system_role": "communication",
+   "size": 2,
+   "examples": [
+    "Module GPS UBLOX NEO-6M avec EEPROM pour C / Aéroquad avec antenne pou",
+    "Module GNSS de positionnement de haute précision DX-GP10, multi-conste"
+   ]
+  },
+  {
+   "cluster_id": 189,
+   "substitute_key": "alimentation|alimentation|boost|lv",
+   "system_role": "alimentation",
+   "size": 2,
+   "examples": [
+    "convertissuer DC DC K-CUT B1224S-1W CC-CC Booster isolé 12 à 24V",
+    "Booster de démarrage ultra léger 12V YT-83070 YATO"
+   ]
+  },
+  {
+   "cluster_id": 192,
+   "substitute_key": "connectique|connectique|fil|mains",
+   "system_role": "connectique",
+   "size": 2,
+   "examples": [
+    "Voltmètre AC 220V à deux fils 70V ~ 500V Rouge 0,56 pouces",
+    "Telecommande Sans Fil ON/OFF pour Éclairage – 230V – 4 Canaux"
+   ]
+  },
+  {
+   "cluster_id": 196,
+   "substitute_key": "mecanique|mecanique|rondelle|-",
+   "system_role": "mecanique",
+   "size": 2,
+   "examples": [
+    "Presse-étoupe étanche en nylon PG7 blanc (avec rondelle)",
+    "presse-étoupeétanche en nylon PG9 blanc (avec rondelle)"
+   ]
+  },
+  {
+   "cluster_id": 207,
+   "substitute_key": "electronique|interface|bouton|mains",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Bouton poussoir NO - diamètre 16mm rouge, 3A 125V",
+    "Bouton Poussoir Rouge No. 3a/230V CA"
+   ]
+  },
+  {
+   "cluster_id": 212,
+   "substitute_key": "moteur|actionneur|dc|mains",
+   "system_role": "actionneur",
+   "size": 2,
+   "examples": [
+    "Contrôleur moteur sans balais (brushless) 48-84V 1500W 45A",
+    "Moteur pour incubateur 220-240V 6W modèle T"
+   ]
+  },
+  {
+   "cluster_id": 213,
+   "substitute_key": "led|interface|bulb|logic",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Ampoule E10 4.8V 0.5A",
+    "TOTAL Lampe Portative Sans Fil 3.6V LED 900 Lumens Rechargeable TRLF44"
+   ]
+  },
+  {
+   "cluster_id": 215,
+   "substitute_key": "electronique|interface|display|logic",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "LCD1602 rétroéclairage bleu 5V (Puce AIP31066)",
+    "Ecran LCD 12864 5V 128x64 points bleu avec rétro-éclairage ST7920, por"
+   ]
+  },
+  {
+   "cluster_id": 231,
+   "substitute_key": "mecanique|mecanique|radiateur|-",
+   "system_role": "mecanique",
+   "size": 2,
+   "examples": [
+    "Radiateur Double Ventilateurs pour Raspberry Pi 3B+/4B",
+    "Kit Universel De Pression Du Radiateur"
+   ]
+  },
+  {
+   "cluster_id": 243,
+   "substitute_key": "outillage|outil|cliquet|-",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Jeu Deli Cliquet 1\\4’ 10pcs DL0012T",
+    "Cliquet 1/2\""
+   ]
+  },
+  {
+   "cluster_id": 282,
+   "substitute_key": "mesure|capteur|sonde|-",
+   "system_role": "capteur",
+   "size": 2,
+   "examples": [
+    "Microsonde BIQU V2.0 pour extrudeurs de la série H2 et imprimantes End",
+    "Sonde De Niveau D'eau KRK Water Level"
+   ]
+  },
+  {
+   "cluster_id": 289,
+   "substitute_key": "outillage|outil|tournevis|logic",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Tournevis rechargable 4V 5NM 43PCS TOTAL",
+    "TSDLI04062 – Tournevis TOTAL 4V Type-C 5Nm – Bricolage"
+   ]
+  },
+  {
+   "cluster_id": 304,
+   "substitute_key": "mesure|capteur|testeur|lv",
+   "system_role": "capteur",
+   "size": 2,
+   "examples": [
+    "Testeur Batterie 12V BTS350 TELWIN",
+    "Voltmètre numérique LED avec affichage digital – Testeur de batterie p"
+   ]
+  },
+  {
+   "cluster_id": 310,
+   "substitute_key": "led|interface|voyant|lv",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Voyant LED orange 24V AC-DC ø22mm",
+    "Voyant LED Rouge 24V AC-DC ø22mm"
+   ]
+  },
+  {
+   "cluster_id": 313,
+   "substitute_key": "audio|interface|generic|mains",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Sirene Alarme Système de Sécurité Électronique d'AlarmeMS-190 220V",
+    "Sirène industrielle MS-190 — alarme sonore 220 V"
+   ]
+  },
+  {
+   "cluster_id": 321,
+   "substitute_key": "outillage|outil|tournevis|mains",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "TOURNEVIS TEST3X140MM 100+500V EMTOP ETPL14001",
+    "Tournevis Teste Digital 12-220V"
+   ]
+  },
+  {
+   "cluster_id": 326,
+   "substitute_key": "mecanique|mecanique|rail|mains",
+   "system_role": "mecanique",
+   "size": 2,
+   "examples": [
+    "ND9-1/R 230V VOYANT VERT SUR RAIL",
+    "ND9-1/G 230V VOYANT VERT SUR RAIL"
+   ]
+  },
+  {
+   "cluster_id": 344,
+   "substitute_key": "electronique|interface|ampli|-",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Module décodeur d'interface de dérivation d'amplificateur I2S Max98357",
+    "Module amplificateur audio TDA7297 double canal, puissance 50W"
+   ]
+  },
+  {
+   "cluster_id": 357,
+   "substitute_key": "led|interface|bulb|lv",
+   "system_role": "interface",
+   "size": 2,
+   "examples": [
+    "Kit 2PCS Boulonneuse 20V Et Lampe Tosli231004 Pratique",
+    "Lampe De Travail LED 2000 Lumens 20V TWLI20881 Total"
+   ]
+  },
+  {
+   "cluster_id": 359,
+   "substitute_key": "outillage|outil|cisaille|lv",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Cisaille Droite Sans Charbon 20V Brushless 2Ah TOTAL P20S tssli203083",
+    "TSSLI20308 - Cisaille Droite TOTAL 20V 2Ah 20-30 mm Coupes"
+   ]
+  },
+  {
+   "cluster_id": 360,
+   "substitute_key": "outillage|outil|spatule|-",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Spatule À Enduit 60 mm TOTAL THT83606 Acier Inoxydable Tête Métal Flex",
+    "SPATULE A ENDUIT 80MM THT83806"
+   ]
+  },
+  {
+   "cluster_id": 361,
+   "substitute_key": "outillage|outil|ponceuse|lv",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Ponceuse Polisseuse 20V 150mm TOTAL TAPLI20151",
+    "Ponceuse 20V 180mm - TOTAL Polyvalente - TAPLI20181"
+   ]
+  },
+  {
+   "cluster_id": 363,
+   "substitute_key": "outillage|outil|pistolet|lv",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "Pistolet Thermique TOTAL 20 V 550 C Décapage TBLI20025",
+    "Pistolet Thermique TOTAL 20V 300-550°C Décapage P20S"
+   ]
+  },
+  {
+   "cluster_id": 364,
+   "substitute_key": "outillage|outil|masque|-",
+   "system_role": "outil",
+   "size": 2,
+   "examples": [
+    "TSP9309 - Masque Soudage Auto TOTAL 90x35 Protection UV",
+    "TSP9102 Masque Soudage Total PP 108x50 Protection UV IR"
+   ]
+  },
+  {
+   "cluster_id": 16,
+   "substitute_key": "rf|communication|gsm|logic",
+   "system_role": "communication",
+   "size": 1,
+   "examples": [
+    "MODULE SIM800L V2.0 5V GSM GPRS avec antenne"
+   ]
+  },
+  {
+   "cluster_id": 62,
+   "substitute_key": "capteur|capteur|pression|logic",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "GY-BME280 - 5v Capteur de Pression Atmospherique Haute Precision"
+   ]
+  },
+  {
+   "cluster_id": 68,
+   "substitute_key": "electronique|alimentation|convertisseur|logic",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "Module Convertisseur 5V-3V I2C UART SPI TTL 8 Voies POUR ARDUINO RASBE"
+   ]
+  },
+  {
+   "cluster_id": 78,
+   "substitute_key": "led|interface|display|-",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Horloge rouge 4 chiffres 0.56 pouce 7 segments LED affichage CC 12 bro"
+   ]
+  },
+  {
+   "cluster_id": 98,
+   "substitute_key": "led|interface|discrete|logic",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "LED 5MM Orange désamorçage (1pcs) 2V 20mA"
+   ]
+  },
+  {
+   "cluster_id": 137,
+   "substitute_key": "audio|interface|buzzer|lv",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Buzzer électronique actif à son continu SFM-27 DC 3V-24V"
+   ]
+  },
+  {
+   "cluster_id": 146,
+   "substitute_key": "electronique|interface|interrupteur|logic",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Interrupteur etanche en metal bleu 16MM 3-6V"
+   ]
+  },
+  {
+   "cluster_id": 148,
+   "substitute_key": "electronique|interface|bouton|logic",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Bouton poussoir etanche en metal rouge 16MM 3-6V"
+   ]
+  },
+  {
+   "cluster_id": 150,
+   "substitute_key": "moteur|actionneur|ventilateur|logic",
+   "system_role": "actionneur",
+   "size": 1,
+   "examples": [
+    "Ventilateur de refroidissement 4020 5V pour Jetson Nano"
+   ]
+  },
+  {
+   "cluster_id": 157,
+   "substitute_key": "electronique|capteur|generic|mains",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Contrôleur de température numérique STC-1000 AC110-220V"
+   ]
+  },
+  {
+   "cluster_id": 160,
+   "substitute_key": "capteur|capteur|distance|lv",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Capteur de proximité inductif NPN 10-30V DC SN04-N, Distance de 4mm"
+   ]
+  },
+  {
+   "cluster_id": 172,
+   "substitute_key": "electrique|outil|armoire|lv",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Serrure de porte d’armoire électrique DC 12V DC 0.8A 9.6W"
+   ]
+  },
+  {
+   "cluster_id": 174,
+   "substitute_key": "electronique|traitement|timer|-",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "NE555P Timer DIP-8"
+   ]
+  },
+  {
+   "cluster_id": 178,
+   "substitute_key": "capteur|capteur|niveau|mains",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "capteur du niveau d’eau flotteur 220V-1A P31"
+   ]
+  },
+  {
+   "cluster_id": 185,
+   "substitute_key": "connectique|connectique|nappe|-",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Fils de connexion nappe de 40 fils (40pin) en metre"
+   ]
+  },
+  {
+   "cluster_id": 187,
+   "substitute_key": "carte|controle|esp8266|logic",
+   "system_role": "controle",
+   "size": 1,
+   "examples": [
+    "Adaptateur de module ESP8266 ESP-01 3.3V / 5V"
+   ]
+  },
+  {
+   "cluster_id": 190,
+   "substitute_key": "carte|controle|generic|lv",
+   "system_role": "controle",
+   "size": 1,
+   "examples": [
+    "Refroidisseur Thermoélectrique Peltier TEC1-12704 12V 4A 40X40mm"
+   ]
+  },
+  {
+   "cluster_id": 195,
+   "substitute_key": "connectique|connectique|borne|mains",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Borne de connection rapide 2 broches WAGO 222-412 2 positions, 600V, 2"
+   ]
+  },
+  {
+   "cluster_id": 197,
+   "substitute_key": "mobilite|actionneur|generic|lv",
+   "system_role": "actionneur",
+   "size": 1,
+   "examples": [
+    "Kit Moteur 12V 620RPM +Moteur+roue+ accouplement"
+   ]
+  },
+  {
+   "cluster_id": 202,
+   "substitute_key": "soudure|autre|tresse|-",
+   "system_role": "autre",
+   "size": 1,
+   "examples": [
+    "Tresse À Dessouder CP-3515 Largeur 3,5 mm Longueur 1,5 mètres"
+   ]
+  },
+  {
+   "cluster_id": 206,
+   "substitute_key": "alimentation|alimentation|transformateur|mains",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "Transformateur Monophasé 220V/15V/1W"
+   ]
+  },
+  {
+   "cluster_id": 218,
+   "substitute_key": "capteur|capteur|niveau|-",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Capteur de niveau d’eau liquide à flotteur à bille de type anti-corros"
+   ]
+  },
+  {
+   "cluster_id": 234,
+   "substitute_key": "outillage|outil|decapeur|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "DÉCAPEUR THERMIQUE 220V 2000W RHINO"
+   ]
+  },
+  {
+   "cluster_id": 239,
+   "substitute_key": "capteur|capteur|motion|mains",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Capteur de mouvement à micro-ondes 220V/AC-240V/AC 1200w, 360 degrés, "
+   ]
+  },
+  {
+   "cluster_id": 244,
+   "substitute_key": "connectique|connectique|connecteur|mains",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Connecteur de prise de courant en cuivre pur 250V 10A"
+   ]
+  },
+  {
+   "cluster_id": 246,
+   "substitute_key": "led|interface|ir|mains",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Lampe céramique pour couveuse émetteur de chaleur infrarouge noire 150"
+   ]
+  },
+  {
+   "cluster_id": 248,
+   "substitute_key": "carte|controle|microbit|-",
+   "system_role": "controle",
+   "size": 1,
+   "examples": [
+    "Boîte neutre BBC Microbit V2.2 Go Kit avec batterie (Module couleur al"
+   ]
+  },
+  {
+   "cluster_id": 252,
+   "substitute_key": "soudure|autre|fer|lv",
+   "system_role": "autre",
+   "size": 1,
+   "examples": [
+    "Fer à souder ZD-200NDJ 12V 40W"
+   ]
+  },
+  {
+   "cluster_id": 253,
+   "substitute_key": "connectique|connectique|fil|logic",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "MINI VISSEUSE TOLSEN SANS FIL 3,6V"
+   ]
+  },
+  {
+   "cluster_id": 257,
+   "substitute_key": "mobilite|actionneur|char|-",
+   "system_role": "actionneur",
+   "size": 1,
+   "examples": [
+    "Kit robot tank 4WD TP101"
+   ]
+  },
+  {
+   "cluster_id": 266,
+   "substitute_key": "capteur|capteur|temp_generic|mains",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Régulateur de température prise avec capteur NTC pour refroidissement "
+   ]
+  },
+  {
+   "cluster_id": 267,
+   "substitute_key": "outillage|outil|metre|logic",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Anémomètre CALT 0-5V ZTS-3000-FSJT-V05"
+   ]
+  },
+  {
+   "cluster_id": 268,
+   "substitute_key": "soudure|autre|pate|-",
+   "system_role": "autre",
+   "size": 1,
+   "examples": [
+    "Pâte à souder mécanique XG40 35gr"
+   ]
+  },
+  {
+   "cluster_id": 269,
+   "substitute_key": "composant|traitement|quartz|-",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "Quartz 4MHz"
+   ]
+  },
+  {
+   "cluster_id": 270,
+   "substitute_key": "composant|traitement|inductance|-",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "Inductance de puissance DIP 22uH 9*12mm"
+   ]
+  },
+  {
+   "cluster_id": 273,
+   "substitute_key": "outillage|outil|aspirateur|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Souffleur aspirateur 400W 220V TOTAL"
+   ]
+  },
+  {
+   "cluster_id": 279,
+   "substitute_key": "mesure|capteur|compteur|mains",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Testeur de batterie au lithium 12V-84V avec compteur GY-6GS (Vert, rég"
+   ]
+  },
+  {
+   "cluster_id": 280,
+   "substitute_key": "mobilite|actionneur|avion|lv",
+   "system_role": "actionneur",
+   "size": 1,
+   "examples": [
+    "Batterie LIPO RED 2200mAh 3S 11.1V 35C pour avion avec connecteur XT60"
+   ]
+  },
+  {
+   "cluster_id": 283,
+   "substitute_key": "mesure|capteur|amperemetre|-",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Ampèremètre analogique MS401"
+   ]
+  },
+  {
+   "cluster_id": 284,
+   "substitute_key": "mesure|capteur|wattmetre|-",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Wattmètre analogique MS405"
+   ]
+  },
+  {
+   "cluster_id": 285,
+   "substitute_key": "mesure|capteur|voltmetre|-",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Voltmètre analogique MS402"
+   ]
+  },
+  {
+   "cluster_id": 291,
+   "substitute_key": "led|interface|cob|-",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Torche a deux lampes solaire portable avec boîte à outils COB 7739"
+   ]
+  },
+  {
+   "cluster_id": 297,
+   "substitute_key": "batterie|alimentation|aaa|logic",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "Fujitsu LR03(2B) FU Pile AAA alcaline à Usage Unique 1,5 V (2pcs)"
+   ]
+  },
+  {
+   "cluster_id": 299,
+   "substitute_key": "led|interface|guirlande|-",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Guirlande lumineuse 10M LED RGB USB avec télécommande et application m"
+   ]
+  },
+  {
+   "cluster_id": 300,
+   "substitute_key": "electrique|outil|parafoudre|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Parafoudre Triphasé 3+1 440V avec Indicateur de Fin de Vie Weidmüller"
+   ]
+  },
+  {
+   "cluster_id": 301,
+   "substitute_key": "electrique|outil|parafoudre|-",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "VPU PV II 3 1000 Parafoudre DC Weidmüller"
+   ]
+  },
+  {
+   "cluster_id": 307,
+   "substitute_key": "capteur|capteur|temp_1wire|lv",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Contrôleur de Température WiFi XY-WT02-W Avec  Entrée Sonde DS18B20 6-"
+   ]
+  },
+  {
+   "cluster_id": 309,
+   "substitute_key": "led|interface|matrix|mains",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Mini Contrôleur LED 5–24V à 3 Touches – Compatible WS2811 / WS2812B"
+   ]
+  },
+  {
+   "cluster_id": 311,
+   "substitute_key": "outillage|outil|pince|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Pince Ampermetrique 1000A Cat III 600V HARDEN"
+   ]
+  },
+  {
+   "cluster_id": 314,
+   "substitute_key": "audio|interface|casque|-",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Carte Son USB Externe 5.1 Stéréo – Adaptateur Audio 3D pour PC/Mac, Ca"
+   ]
+  },
+  {
+   "cluster_id": 316,
+   "substitute_key": "composant|traitement|diac|-",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "DIAC (CMS) DB3 déclencheur. boîtier SOT-23"
+   ]
+  },
+  {
+   "cluster_id": 317,
+   "substitute_key": "batterie|alimentation|d|-",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "PILE RECHARGEABLE D RL20 4500 MAH BP2"
+   ]
+  },
+  {
+   "cluster_id": 318,
+   "substitute_key": "batterie|alimentation|c|-",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "PILE RECHARGEABLE C RL14 3500 MAH BP2"
+   ]
+  },
+  {
+   "cluster_id": 319,
+   "substitute_key": "composant|traitement|diode|lv",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "Diode (CMS) SS14 Schottky. 1A. 40V. boîtier SMA"
+   ]
+  },
+  {
+   "cluster_id": 320,
+   "substitute_key": "composant|traitement|diac|lv",
+   "system_role": "traitement",
+   "size": 1,
+   "examples": [
+    "DIAC (THT) DB3 déclencheur. ~30V"
+   ]
+  },
+  {
+   "cluster_id": 322,
+   "substitute_key": "capteur|capteur|temp_generic|lv",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Thermostat numérique LED Contrôleur de température 12 V DC avec capteu"
+   ]
+  },
+  {
+   "cluster_id": 325,
+   "substitute_key": "electrique|outil|telerupteur|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "NJMC1-16/1P 230V AC Télérupteur CHINT"
+   ]
+  },
+  {
+   "cluster_id": 329,
+   "substitute_key": "soudure|autre|etain|mains",
+   "system_role": "autre",
+   "size": 1,
+   "examples": [
+    "Four de fusion d'étain pour Etamage à température réglable 220 V 150 W"
+   ]
+  },
+  {
+   "cluster_id": 330,
+   "substitute_key": "connectique|connectique|generic|lv",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Électrovanne plastique G1/4\", vanne 2 voies NC 0-120 PSI 24 V"
+   ]
+  },
+  {
+   "cluster_id": 332,
+   "substitute_key": "carte|controle|fpga|-",
+   "system_role": "controle",
+   "size": 1,
+   "examples": [
+    "Carte de développement FPGA Altera MAX10 10M50DAF48 – Compatible DE10-"
+   ]
+  },
+  {
+   "cluster_id": 333,
+   "substitute_key": "mecanique|mecanique|bague|-",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Assortiment 50 Goupilles Fendu Avec Bague"
+   ]
+  },
+  {
+   "cluster_id": 334,
+   "substitute_key": "mecanique|mecanique|rivet|-",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Kit Rivetage Plastique 41Pcs"
+   ]
+  },
+  {
+   "cluster_id": 335,
+   "substitute_key": "mecanique|mecanique|ressort|-",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Assortiment De 150 Goupilles Fendues A Ressort"
+   ]
+  },
+  {
+   "cluster_id": 342,
+   "substitute_key": "outillage|outil|riveteuse|lv",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Riveteuse 2.4 A 5 Mm 1Batt.3Ah.Li-Ion 18V"
+   ]
+  },
+  {
+   "cluster_id": 343,
+   "substitute_key": "mecanique|mecanique|poulie|-",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Extracteur De Poulie"
+   ]
+  },
+  {
+   "cluster_id": 345,
+   "substitute_key": "electrique|outil|contacteur|-",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "Relais Thermique pour contacteur NXR-25 7-10A"
+   ]
+  },
+  {
+   "cluster_id": 346,
+   "substitute_key": "mesure|capteur|compteur|-",
+   "system_role": "capteur",
+   "size": 1,
+   "examples": [
+    "Kit d'outils pour fibres optiques avec couperet de fibres COMPTYCO FTT"
+   ]
+  },
+  {
+   "cluster_id": 347,
+   "substitute_key": "mecanique|mecanique|boitier|logic",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Boîtier DIY Power Bank pour batterie 18650 5V 1A  (Batterie non inclus"
+   ]
+  },
+  {
+   "cluster_id": 348,
+   "substitute_key": "connectique|connectique|prise|logic",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Alimaentation  5V 2A haute qualité – Prise EU"
+   ]
+  },
+  {
+   "cluster_id": 349,
+   "substitute_key": "mecanique|mecanique|tige|-",
+   "system_role": "mecanique",
+   "size": 1,
+   "examples": [
+    "Tige filetée entièrement filetée en acier inoxydable 304 – M4 × 500 mm"
+   ]
+  },
+  {
+   "cluster_id": 350,
+   "substitute_key": "rf|communication|433|lv",
+   "system_role": "communication",
+   "size": 1,
+   "examples": [
+    "Kit télécommande sans fil 433MHz ,DC 12V 4CH"
+   ]
+  },
+  {
+   "cluster_id": 365,
+   "substitute_key": "outillage|outil|scie|mains",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "TS88501 - Scie À Défilement Total 85W 230V - Précision Pro"
+   ]
+  },
+  {
+   "cluster_id": 367,
+   "substitute_key": "connectique|connectique|cable|logic",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Câble USB Type C 1m TOTAL Charge Rapide 3A 5V TIUCC02"
+   ]
+  },
+  {
+   "cluster_id": 369,
+   "substitute_key": "electrique|outil|contacteur|lv",
+   "system_role": "outil",
+   "size": 1,
+   "examples": [
+    "CONTACTEUR 3P+1NO NC1-1210 24V 50/60Hz CHINT"
+   ]
+  },
+  {
+   "cluster_id": 370,
+   "substitute_key": "connectique|connectique|generic|mains",
+   "system_role": "connectique",
+   "size": 1,
+   "examples": [
+    "Minuterie 30s–10min 16A 250V (max 2300W) Avel"
+   ]
+  },
+  {
+   "cluster_id": 371,
+   "substitute_key": "rf|communication|generic|mains",
+   "system_role": "communication",
+   "size": 1,
+   "examples": [
+    "Telerupteur 16A AVEL AIR-1610 250V"
+   ]
+  },
+  {
+   "cluster_id": 372,
+   "substitute_key": "alimentation|alimentation|buck|lv",
+   "system_role": "alimentation",
+   "size": 1,
+   "examples": [
+    "Module abaisseur DC-DC XL4005 5-32 V — réglable 5 A buck step-down"
+   ]
+  }
+ ]
+}
