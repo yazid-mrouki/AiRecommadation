@@ -1,7 +1,7 @@
 {
  "meta": {
   "products": 5774,
-  "clusters": 375,
+  "clusters": 376,
   "generic_remaining": 1687
  },
  "clusters": [
@@ -9,12 +9,12 @@
    "cluster_id": 81,
    "substitute_key": "outillage|outil|generic|-",
    "system_role": "outil",
-   "size": 732,
+   "size": 730,
    "examples": [
     "Plaque d’essais 400 Points",
-    "P30/25 DC12V Électro-aimant à ventouse électrique 15KG",
     "Tapis de soudage en silicone  à isolation thermique magnétique 45x30CM",
-    "Support Moteur 25GA370"
+    "Support Moteur 25GA370",
+    "Aiman Puissant néodyme circulaire N35, 25mm x 2mm"
    ]
   },
   {
@@ -93,7 +93,7 @@
    "cluster_id": 18,
    "substitute_key": "capteur|capteur|generic|-",
    "system_role": "capteur",
-   "size": 82,
+   "size": 81,
    "examples": [
     "AD8232 ECG Kit Mesure ET Surveillance Frequence Cardiaque",
     "Kit 37 capteurs",
@@ -138,7 +138,7 @@
    ]
   },
   {
-   "cluster_id": 295,
+   "cluster_id": 296,
    "substitute_key": "electrique|outil|disjoncteur|-",
    "system_role": "outil",
    "size": 70,
@@ -150,7 +150,19 @@
    ]
   },
   {
-   "cluster_id": 276,
+   "cluster_id": 57,
+   "substitute_key": "alimentation|alimentation|alimentation|lv",
+   "system_role": "alimentation",
+   "size": 65,
+   "examples": [
+    "MODULE ABAISSEUR D ALIMENTATION DC-DC 24v / 12V à 5V 5A",
+    "Alimentation Réglable DC-DC 48V LM2596HVS",
+    "Alimentation a Decoupage 12V / 12.5A",
+    "Alimentation a Decoupage 24V / 4.1A"
+   ]
+  },
+  {
+   "cluster_id": 277,
    "substitute_key": "outillage|outil|foret|-",
    "system_role": "outil",
    "size": 65,
@@ -171,18 +183,6 @@
     "Plaque a essais 2390 Points",
     "Module abaisseur et élévateur d’énergie solaire rouge",
     "BOUCLIER D EXTENSION V3 POUR XBEE"
-   ]
-  },
-  {
-   "cluster_id": 57,
-   "substitute_key": "alimentation|alimentation|alimentation|lv",
-   "system_role": "alimentation",
-   "size": 62,
-   "examples": [
-    "MODULE ABAISSEUR D ALIMENTATION DC-DC 24v / 12V à 5V 5A",
-    "Alimentation Réglable DC-DC 48V LM2596HVS",
-    "Alimentation a Decoupage 12V / 12.5A",
-    "Alimentation a Decoupage 24V / 4.1A"
    ]
   },
   {
@@ -282,18 +282,6 @@
    ]
   },
   {
-   "cluster_id": 213,
-   "substitute_key": "moteur|actionneur|pompe|-",
-   "system_role": "actionneur",
-   "size": 47,
-   "examples": [
-    "Pompe à dessouder",
-    "Pompe a dessouder metallique",
-    "Pompe à dessouder YATO YT-82743",
-    "Pompe a dessouder professionnel en aluminium Harden"
-   ]
-  },
-  {
    "cluster_id": 100,
    "substitute_key": "mecanique|mecanique|vis|-",
    "system_role": "mecanique",
@@ -303,6 +291,18 @@
     "Vis en nylon blanc M3 * 12mm",
     "Boîtier en acrylique Micro:bit avec vis",
     "Vis M2X6mm inox tête rond"
+   ]
+  },
+  {
+   "cluster_id": 213,
+   "substitute_key": "moteur|actionneur|pompe|-",
+   "system_role": "actionneur",
+   "size": 46,
+   "examples": [
+    "Pompe à dessouder",
+    "Pompe a dessouder metallique",
+    "Pompe à dessouder YATO YT-82743",
+    "Pompe a dessouder professionnel en aluminium Harden"
    ]
   },
   {
@@ -330,7 +330,7 @@
    ]
   },
   {
-   "cluster_id": 261,
+   "cluster_id": 262,
    "substitute_key": "outillage|outil|marteau|-",
    "system_role": "outil",
    "size": 42,
@@ -414,18 +414,6 @@
    ]
   },
   {
-   "cluster_id": 80,
-   "substitute_key": "connectique|connectique|prise|-",
-   "system_role": "connectique",
-   "size": 38,
-   "examples": [
-    "Adaptateur de prise allemand / américain vers prise européenne (frança",
-    "Prises JACK 5.5 a visser Male +Femelle",
-    "PRISES JACK 5.5 A VISSER MALE",
-    "PRISES JACK 5.5 A VISSER FEMELLE"
-   ]
-  },
-  {
    "cluster_id": 153,
    "substitute_key": "mecanique|mecanique|generic|-",
    "system_role": "mecanique",
@@ -435,6 +423,18 @@
     "Protection en aluminium avec deux ventilateurs pour Raspberry Pi 3B/3B",
     "Goujon en cuivre hexagonal à double voie M3 * 20 mm",
     "GT2 20 dents 16 dents 20 dents alésage 5mm/8mm"
+   ]
+  },
+  {
+   "cluster_id": 80,
+   "substitute_key": "connectique|connectique|prise|-",
+   "system_role": "connectique",
+   "size": 36,
+   "examples": [
+    "Adaptateur de prise allemand / américain vers prise européenne (frança",
+    "Prises JACK 5.5 a visser Male +Femelle",
+    "PRISES JACK 5.5 A VISSER MALE",
+    "PRISES JACK 5.5 A VISSER FEMELLE"
    ]
   },
   {
@@ -489,7 +489,7 @@
    "cluster_id": 39,
    "substitute_key": "electronique|actionneur|relais|-",
    "system_role": "actionneur",
-   "size": 33,
+   "size": 32,
    "examples": [
     "Relais de réseau de relais ESP8266 WIFI",
     "Omron Relay G6RN-1-24VDC",
@@ -546,18 +546,6 @@
    ]
   },
   {
-   "cluster_id": 71,
-   "substitute_key": "moteur|actionneur|dc|-",
-   "system_role": "actionneur",
-   "size": 29,
-   "examples": [
-    "Driver moteur DC MX1919 double pont H 2.5A",
-    "L298N Pont H - Carte de commande de moteur",
-    "L293D Motor Drive Shield pour Arduino",
-    "Module contrôleur pilote 2 moteurs L298N double pont H"
-   ]
-  },
-  {
    "cluster_id": 7,
    "substitute_key": "carte|controle|arduino|-",
    "system_role": "controle",
@@ -582,7 +570,7 @@
    ]
   },
   {
-   "cluster_id": 267,
+   "cluster_id": 268,
    "substitute_key": "connectique|connectique|cosse|-",
    "system_role": "connectique",
    "size": 28,
@@ -606,6 +594,18 @@
    ]
   },
   {
+   "cluster_id": 71,
+   "substitute_key": "moteur|actionneur|dc|-",
+   "system_role": "actionneur",
+   "size": 25,
+   "examples": [
+    "Driver moteur DC MX1919 double pont H 2.5A",
+    "L298N Pont H - Carte de commande de moteur",
+    "L293D Motor Drive Shield pour Arduino",
+    "Module contrôleur pilote 2 moteurs L298N double pont H"
+   ]
+  },
+  {
    "cluster_id": 180,
    "substitute_key": "soudure|autre|fer|-",
    "system_role": "autre",
@@ -618,7 +618,7 @@
    ]
   },
   {
-   "cluster_id": 264,
+   "cluster_id": 265,
    "substitute_key": "connectique|connectique|adaptateur|-",
    "system_role": "connectique",
    "size": 25,
@@ -714,6 +714,18 @@
    ]
   },
   {
+   "cluster_id": 49,
+   "substitute_key": "electronique|actionneur|relais|lv",
+   "system_role": "actionneur",
+   "size": 23,
+   "examples": [
+    "Module de relais 4 canaux (avec couplage de lumière) 12 V",
+    "Module de relais 2 canaux (avec couplage lumière) 24 V",
+    "Module de relais 2 canaux (avec couplage lumière) 12V",
+    "Module de relais 12 V 1 canal"
+   ]
+  },
+  {
    "cluster_id": 157,
    "substitute_key": "outillage|outil|perceuse|-",
    "system_role": "outil",
@@ -726,7 +738,7 @@
    ]
   },
   {
-   "cluster_id": 332,
+   "cluster_id": 333,
    "substitute_key": "outillage|outil|niveau|-",
    "system_role": "outil",
    "size": 23,
@@ -762,30 +774,6 @@
    ]
   },
   {
-   "cluster_id": 42,
-   "substitute_key": "alimentation|alimentation|alimentation|-",
-   "system_role": "alimentation",
-   "size": 22,
-   "examples": [
-    "Module abaisseur d’alimentation réglable DC-DC XL4015 bleu 5A 75W",
-    "Plaque A Essai 830 + Module d’alimentation + 65 fils de raccordement",
-    "Fiche d’alimentation Jack male 5.5-2.1",
-    "Douille d’alimentation Jack DC-005 Femelle DC socket 5.5x2.1mm"
-   ]
-  },
-  {
-   "cluster_id": 49,
-   "substitute_key": "electronique|actionneur|relais|lv",
-   "system_role": "actionneur",
-   "size": 22,
-   "examples": [
-    "Module de relais 4 canaux (avec couplage de lumière) 12 V",
-    "Module de relais 2 canaux (avec couplage lumière) 24 V",
-    "Module de relais 2 canaux (avec couplage lumière) 12V",
-    "Module de relais 12 V 1 canal"
-   ]
-  },
-  {
    "cluster_id": 174,
    "substitute_key": "composant|traitement|zener|lv",
    "system_role": "traitement",
@@ -807,6 +795,18 @@
     "Pattex 2k Activateur Adhésif Instantané 400 ml + 100 gr",
     "Plexiglas transparent 3 mm 20x30cm",
     "with Banana plug+T Plug Solded XXD Brushless ESC 30A"
+   ]
+  },
+  {
+   "cluster_id": 56,
+   "substitute_key": "moteur|actionneur|dc|lv",
+   "system_role": "actionneur",
+   "size": 21,
+   "examples": [
+    "Pilote Moteur Deux Cannaux 5A 3V-14V (pont h)",
+    "Moteur à engrenages réducteur 25GA-370 12V 620RPM DC",
+    "Moteur à engrenages réducteur 25GA-370 12V 1360RPM DC",
+    "GA12-N20 Moteur de réduction à engrenages en métal 12V 300RPM Micro DC"
    ]
   },
   {
@@ -834,7 +834,19 @@
    ]
   },
   {
-   "cluster_id": 259,
+   "cluster_id": 187,
+   "substitute_key": "outillage|outil|generic|lv",
+   "system_role": "outil",
+   "size": 20,
+   "examples": [
+    "P30/25 DC12V Électro-aimant à ventouse électrique 15KG",
+    "P30/25 Électro-aimant à ventouse électrique 15KG 24V DC",
+    "Kit Outils 20V TOTAL TUNISIA Pour Tous Projets THKTHP11652",
+    "Kit D'Outils De Distribution Renault 1.4 1.6 1.8 2.0 16V"
+   ]
+  },
+  {
+   "cluster_id": 260,
    "substitute_key": "led|interface|generic|lv",
    "system_role": "interface",
    "size": 20,
@@ -846,7 +858,7 @@
    ]
   },
   {
-   "cluster_id": 289,
+   "cluster_id": 290,
    "substitute_key": "outillage|outil|coffret|-",
    "system_role": "outil",
    "size": 20,
@@ -882,6 +894,18 @@
    ]
   },
   {
+   "cluster_id": 42,
+   "substitute_key": "alimentation|alimentation|alimentation|-",
+   "system_role": "alimentation",
+   "size": 19,
+   "examples": [
+    "Module abaisseur d’alimentation réglable DC-DC XL4015 bleu 5A 75W",
+    "Plaque A Essai 830 + Module d’alimentation + 65 fils de raccordement",
+    "Fiche d’alimentation Jack male 5.5-2.1",
+    "Douille d’alimentation Jack DC-005 Femelle DC socket 5.5x2.1mm"
+   ]
+  },
+  {
    "cluster_id": 227,
    "substitute_key": "led|interface|strip|mains",
    "system_role": "interface",
@@ -891,18 +915,6 @@
     "Ruban LED 3Ship Rose 220V (1 Metre)",
     "Ruban LED 3Ship Jaune 220V (1 Metre)",
     "Ruban LED 3Ship Bleu 220V(1 Metre)"
-   ]
-  },
-  {
-   "cluster_id": 56,
-   "substitute_key": "moteur|actionneur|dc|lv",
-   "system_role": "actionneur",
-   "size": 18,
-   "examples": [
-    "Pilote Moteur Deux Cannaux 5A 3V-14V (pont h)",
-    "Moteur à engrenages réducteur 25GA-370 12V 620RPM DC",
-    "Moteur à engrenages réducteur 25GA-370 12V 1360RPM DC",
-    "GA12-N20 Moteur de réduction à engrenages en métal 12V 300RPM Micro DC"
    ]
   },
   {
@@ -939,18 +951,6 @@
     "Fusible verre 15A 5x20mm",
     "Fusible verre 10A 5x20mm",
     "Fusible verre 8A 5x20mm"
-   ]
-  },
-  {
-   "cluster_id": 194,
-   "substitute_key": "outillage|outil|generic|lv",
-   "system_role": "outil",
-   "size": 18,
-   "examples": [
-    "P30/25 Électro-aimant à ventouse électrique 15KG 24V DC",
-    "Kit Outils 20V TOTAL TUNISIA Pour Tous Projets THKTHP11652",
-    "Kit D'Outils De Distribution Renault 1.4 1.6 1.8 2.0 16V",
-    "Kit D'Outils Callage Arbre A Camme Fiat/Lancia/Alfa Romeo 1.2 16V"
    ]
   },
   {
@@ -1014,7 +1014,7 @@
    ]
   },
   {
-   "cluster_id": 297,
+   "cluster_id": 298,
    "substitute_key": "batterie|alimentation|aaa|-",
    "system_role": "alimentation",
    "size": 17,
@@ -1050,7 +1050,7 @@
    ]
   },
   {
-   "cluster_id": 340,
+   "cluster_id": 341,
    "substitute_key": "outillage|outil|cric|-",
    "system_role": "outil",
    "size": 16,
@@ -1110,7 +1110,7 @@
    ]
   },
   {
-   "cluster_id": 273,
+   "cluster_id": 274,
    "substitute_key": "outillage|outil|extracteur|-",
    "system_role": "outil",
    "size": 15,
@@ -1122,7 +1122,7 @@
    ]
   },
   {
-   "cluster_id": 278,
+   "cluster_id": 279,
    "substitute_key": "batterie|alimentation|coin|logic",
    "system_role": "alimentation",
    "size": 15,
@@ -1134,7 +1134,7 @@
    ]
   },
   {
-   "cluster_id": 282,
+   "cluster_id": 283,
    "substitute_key": "mecanique|mecanique|entretoise|-",
    "system_role": "mecanique",
    "size": 15,
@@ -1146,7 +1146,7 @@
    ]
   },
   {
-   "cluster_id": 307,
+   "cluster_id": 308,
    "substitute_key": "outillage|outil|gant|-",
    "system_role": "outil",
    "size": 15,
@@ -1158,7 +1158,7 @@
    ]
   },
   {
-   "cluster_id": 342,
+   "cluster_id": 343,
    "substitute_key": "outillage|outil|burin|-",
    "system_role": "outil",
    "size": 15,
@@ -1206,7 +1206,7 @@
    ]
   },
   {
-   "cluster_id": 277,
+   "cluster_id": 278,
    "substitute_key": "outillage|outil|cle|lv",
    "system_role": "outil",
    "size": 14,
@@ -1290,7 +1290,7 @@
    ]
   },
   {
-   "cluster_id": 337,
+   "cluster_id": 338,
    "substitute_key": "outillage|outil|ponceuse|-",
    "system_role": "outil",
    "size": 13,
@@ -1338,15 +1338,15 @@
    ]
   },
   {
-   "cluster_id": 79,
-   "substitute_key": "electronique|capteur|generic|-",
-   "system_role": "capteur",
+   "cluster_id": 47,
+   "substitute_key": "alimentation|alimentation|regulateur|lv",
+   "system_role": "alimentation",
    "size": 12,
    "examples": [
-    "KY-028 Module de température numérique",
-    "Module MPU-6050 GY-521 Module 3 Axes Gyro + 3 Axes Accelerometer",
-    "XH-W1219 Contrôleur de température numérique de haute précision à doub",
-    "Boîtier acrylique pour module de contrôle de température XH-W1209"
+    "Regulateur de Vitesse PWM 12V-36VDC 10A",
+    "Transistor / Régulateur de Tension 24V - L7824CV",
+    "Transistor / Régulateur de Tension 18V - L7818CV.",
+    "Transistor / Régulateur de Tension 15V - L7815CV."
    ]
   },
   {
@@ -1398,18 +1398,6 @@
    ]
   },
   {
-   "cluster_id": 201,
-   "substitute_key": "electrique|outil|generic|-",
-   "system_role": "outil",
-   "size": 12,
-   "examples": [
-    "Industrial Shield M-DUINO PLC ARDUINO 19R",
-    "Industrial Shield PLC, ESP32 board PLC 10R I/Os Analog/Digital",
-    "Industrial Shield - M-DUINO PLC Arduino 38R E/S Ethernet, USB, RS485, ",
-    "Industrial Shield M-DUINO PLC ARDUINO LoRa 19R"
-   ]
-  },
-  {
    "cluster_id": 206,
    "substitute_key": "composant|traitement|condensateur|mains",
    "system_role": "traitement",
@@ -1422,7 +1410,7 @@
    ]
   },
   {
-   "cluster_id": 339,
+   "cluster_id": 340,
    "substitute_key": "outillage|outil|cisaille|-",
    "system_role": "outil",
    "size": 12,
@@ -1446,27 +1434,15 @@
    ]
   },
   {
-   "cluster_id": 47,
-   "substitute_key": "alimentation|alimentation|regulateur|lv",
-   "system_role": "alimentation",
+   "cluster_id": 79,
+   "substitute_key": "electronique|capteur|generic|-",
+   "system_role": "capteur",
    "size": 11,
    "examples": [
-    "Regulateur de Vitesse PWM 12V-36VDC 10A",
-    "Transistor / Régulateur de Tension 24V - L7824CV",
-    "Transistor / Régulateur de Tension 18V - L7818CV.",
-    "Transistor / Régulateur de Tension 15V - L7815CV."
-   ]
-  },
-  {
-   "cluster_id": 64,
-   "substitute_key": "alimentation|alimentation|convertisseur|-",
-   "system_role": "alimentation",
-   "size": 11,
-   "examples": [
-    "Module Convertisseur RS232 Serie Vers TTL",
-    "Adaptateur de convertisseur USB vers RS485",
-    "Convertisseur Courant Tension /4 -20mA",
-    "Carte convertisseur RS422 vers TTL"
+    "KY-028 Module de température numérique",
+    "Module MPU-6050 GY-521 Module 3 Axes Gyro + 3 Axes Accelerometer",
+    "XH-W1219 Contrôleur de température numérique de haute précision à doub",
+    "Boîtier acrylique pour module de contrôle de température XH-W1209"
    ]
   },
   {
@@ -1494,6 +1470,18 @@
    ]
   },
   {
+   "cluster_id": 201,
+   "substitute_key": "electrique|outil|generic|-",
+   "system_role": "outil",
+   "size": 11,
+   "examples": [
+    "Industrial Shield M-DUINO PLC ARDUINO 19R",
+    "Industrial Shield PLC, ESP32 board PLC 10R I/Os Analog/Digital",
+    "Industrial Shield - M-DUINO PLC Arduino 38R E/S Ethernet, USB, RS485, ",
+    "Industrial Shield M-DUINO PLC ARDUINO LoRa 19R"
+   ]
+  },
+  {
    "cluster_id": 4,
    "substitute_key": "led|interface|matrix|-",
    "system_role": "interface",
@@ -1503,6 +1491,18 @@
     "Écrans matriciels 8x8 RGB 64 LED 5 mm CA",
     "WS2812 5050 ANNEAU RGB 24 LED",
     "MAX7219 MODULE MATRICE LED 8*8"
+   ]
+  },
+  {
+   "cluster_id": 64,
+   "substitute_key": "alimentation|alimentation|convertisseur|-",
+   "system_role": "alimentation",
+   "size": 10,
+   "examples": [
+    "Module Convertisseur RS232 Serie Vers TTL",
+    "Adaptateur de convertisseur USB vers RS485",
+    "Convertisseur Courant Tension /4 -20mA",
+    "Carte convertisseur RS422 vers TTL"
    ]
   },
   {
@@ -1518,7 +1518,7 @@
    ]
   },
   {
-   "cluster_id": 250,
+   "cluster_id": 251,
    "substitute_key": "outillage|outil|visseuse|-",
    "system_role": "outil",
    "size": 10,
@@ -1530,7 +1530,7 @@
    ]
   },
   {
-   "cluster_id": 266,
+   "cluster_id": 267,
    "substitute_key": "outillage|outil|laser|-",
    "system_role": "outil",
    "size": 10,
@@ -1542,7 +1542,7 @@
    ]
   },
   {
-   "cluster_id": 299,
+   "cluster_id": 300,
    "substitute_key": "outillage|outil|meche|-",
    "system_role": "outil",
    "size": 10,
@@ -1578,6 +1578,18 @@
    ]
   },
   {
+   "cluster_id": 108,
+   "substitute_key": "capteur|capteur|generic|lv",
+   "system_role": "capteur",
+   "size": 9,
+   "examples": [
+    "CAPTEUR DE TENSION 25V POUR ARDUINO",
+    "LJ12A3-4-Z / BX NPN 24V Capteur de proximité inductif 3 fils",
+    "XKC-Y26-V Capteur de niveau de liquide sans contact intelligent 5-24V ",
+    "Capteur de proximité capacitif commutateur NO DC6-36V 300mA LJC18A3-H-"
+   ]
+  },
+  {
    "cluster_id": 233,
    "substitute_key": "outillage|outil|visseuse|lv",
    "system_role": "outil",
@@ -1590,7 +1602,7 @@
    ]
   },
   {
-   "cluster_id": 265,
+   "cluster_id": 266,
    "substitute_key": "outillage|outil|aspirateur|-",
    "system_role": "outil",
    "size": 9,
@@ -1602,7 +1614,19 @@
    ]
   },
   {
-   "cluster_id": 325,
+   "cluster_id": 294,
+   "substitute_key": "led|interface|voyant|mains",
+   "system_role": "interface",
+   "size": 9,
+   "examples": [
+    "Voyant LED Rouge 220V AC-DC ø22mm",
+    "Voyant Jaune  ND16-22DS 220V",
+    "Voyant LED Bleu 220V AC ø22mm",
+    "Voyant LED Orange220V AC ø22mm"
+   ]
+  },
+  {
+   "cluster_id": 326,
    "substitute_key": "electrique|outil|contacteur|mains",
    "system_role": "outil",
    "size": 9,
@@ -1635,18 +1659,6 @@
     "Module Temporisation Retardée Relai 6-30V XY-J02 MOSFET",
     "Module Temporisation Retardée 5-36V XY-J04 Double MOSFET",
     "Mosfet IRF3205 55V/110A"
-   ]
-  },
-  {
-   "cluster_id": 108,
-   "substitute_key": "capteur|capteur|generic|lv",
-   "system_role": "capteur",
-   "size": 8,
-   "examples": [
-    "CAPTEUR DE TENSION 25V POUR ARDUINO",
-    "LJ12A3-4-Z / BX NPN 24V Capteur de proximité inductif 3 fils",
-    "XKC-Y26-V Capteur de niveau de liquide sans contact intelligent 5-24V ",
-    "Capteur de proximité capacitif commutateur NO DC6-36V 300mA LJC18A3-H-"
    ]
   },
   {
@@ -1698,7 +1710,7 @@
    ]
   },
   {
-   "cluster_id": 252,
+   "cluster_id": 253,
    "substitute_key": "mesure|capteur|pince|-",
    "system_role": "capteur",
    "size": 8,
@@ -1710,7 +1722,7 @@
    ]
   },
   {
-   "cluster_id": 279,
+   "cluster_id": 280,
    "substitute_key": "mecanique|mecanique|equerre|-",
    "system_role": "mecanique",
    "size": 8,
@@ -1722,7 +1734,7 @@
    ]
   },
   {
-   "cluster_id": 288,
+   "cluster_id": 289,
    "substitute_key": "outillage|outil|agrafeuse|-",
    "system_role": "outil",
    "size": 8,
@@ -1734,19 +1746,7 @@
    ]
   },
   {
-   "cluster_id": 293,
-   "substitute_key": "led|interface|voyant|mains",
-   "system_role": "interface",
-   "size": 8,
-   "examples": [
-    "Voyant LED Rouge 220V AC-DC ø22mm",
-    "Voyant Jaune  ND16-22DS 220V",
-    "Voyant LED Bleu 220V AC ø22mm",
-    "Voyant LED Verte 220V AC-DC ø22mm"
-   ]
-  },
-  {
-   "cluster_id": 303,
+   "cluster_id": 304,
    "substitute_key": "moteur|actionneur|pompe|mains",
    "system_role": "actionneur",
    "size": 8,
@@ -1758,7 +1758,7 @@
    ]
   },
   {
-   "cluster_id": 324,
+   "cluster_id": 325,
    "substitute_key": "outillage|outil|metre|-",
    "system_role": "outil",
    "size": 8,
@@ -1791,18 +1791,6 @@
     "TRANSISTOR TIP120",
     "Transistor BC557B PNP TO-92",
     "Transistor C4977"
-   ]
-  },
-  {
-   "cluster_id": 107,
-   "substitute_key": "alimentation|alimentation|regulateur|logic",
-   "system_role": "alimentation",
-   "size": 7,
-   "examples": [
-    "Module AMS1117 5v Régulateur De Tension Fixe",
-    "Module AMS1117-3.3v Régulateur De Tension",
-    "Transistor / Régulateur de Tension 6V - L7806CV.",
-    "Régulateur de vitesse pour Moteur à courant continu PWM a haute effica"
    ]
   },
   {
@@ -1938,7 +1926,7 @@
    ]
   },
   {
-   "cluster_id": 306,
+   "cluster_id": 307,
    "substitute_key": "mecanique|mecanique|boulon|-",
    "system_role": "mecanique",
    "size": 7,
@@ -1947,18 +1935,6 @@
     "THT113426 Coupe Boulon Total 42 Pouces Acier Ergonomique",
     "THT113486 Coupe Boulon Total 48 Pouces Acier Chrome Durable",
     "THT113146 Coupe Boulon TOTAL 14 Pouces Pour Coupe Précise"
-   ]
-  },
-  {
-   "cluster_id": 341,
-   "substitute_key": "outillage|outil|compresseur|-",
-   "system_role": "outil",
-   "size": 7,
-   "examples": [
-    "Paire De Compresseur A Ressort 82X370Mm",
-    "Pack Compresseur 24L 1.5hpW TOTAL Atelier Pack TC2202461E",
-    "Compresseur Portatif 11Bar20V Util - TOTAL TACLI2012",
-    "Pack Compresseur 50L 1,1kW–TOTAL Atelier–PACK50L1K"
    ]
   },
   {
@@ -1995,6 +1971,18 @@
     "Cordon Banane Sécurisé Avec Récupération 4mm L= 50cm Rouge",
     "Cordon UTP Cat6 Gris 1,5 M",
     "Cordon De Brassage Cat6 FTP Gris 1 M"
+   ]
+  },
+  {
+   "cluster_id": 107,
+   "substitute_key": "alimentation|alimentation|regulateur|logic",
+   "system_role": "alimentation",
+   "size": 6,
+   "examples": [
+    "Module AMS1117 5v Régulateur De Tension Fixe",
+    "Module AMS1117-3.3v Régulateur De Tension",
+    "Transistor / Régulateur de Tension 6V - L7806CV.",
+    "Régulateur de vitesse pour Moteur à courant continu PWM a haute effica"
    ]
   },
   {
@@ -2070,7 +2058,7 @@
    ]
   },
   {
-   "cluster_id": 254,
+   "cluster_id": 255,
    "substitute_key": "outillage|outil|rouleau|-",
    "system_role": "outil",
    "size": 6,
@@ -2082,7 +2070,7 @@
    ]
   },
   {
-   "cluster_id": 294,
+   "cluster_id": 295,
    "substitute_key": "alimentation|alimentation|onduleur|-",
    "system_role": "alimentation",
    "size": 6,
@@ -2094,7 +2082,7 @@
    ]
   },
   {
-   "cluster_id": 309,
+   "cluster_id": 311,
    "substitute_key": "composant|traitement|zener|logic",
    "system_role": "traitement",
    "size": 6,
@@ -2106,7 +2094,7 @@
    ]
   },
   {
-   "cluster_id": 328,
+   "cluster_id": 329,
    "substitute_key": "outillage|outil|rabot|-",
    "system_role": "outil",
    "size": 6,
@@ -2118,7 +2106,7 @@
    ]
   },
   {
-   "cluster_id": 338,
+   "cluster_id": 339,
    "substitute_key": "soudure|autre|panne|-",
    "system_role": "autre",
    "size": 6,
@@ -2130,7 +2118,19 @@
    ]
   },
   {
-   "cluster_id": 354,
+   "cluster_id": 342,
+   "substitute_key": "outillage|outil|compresseur|-",
+   "system_role": "outil",
+   "size": 6,
+   "examples": [
+    "Paire De Compresseur A Ressort 82X370Mm",
+    "Pack Compresseur 24L 1.5hpW TOTAL Atelier Pack TC2202461E",
+    "Pack Compresseur 50L 1,1kW–TOTAL Atelier–PACK50L1K",
+    "Compresseur Air 200L 3CV TOTAL Projets TC1302002E"
+   ]
+  },
+  {
+   "cluster_id": 355,
    "substitute_key": "outillage|outil|palan|-",
    "system_role": "outil",
    "size": 6,
@@ -2250,6 +2250,30 @@
    ]
   },
   {
+   "cluster_id": 179,
+   "substitute_key": "electrique|outil|generic|mains",
+   "system_role": "outil",
+   "size": 5,
+   "examples": [
+    "Module variateur(Dimmer) AC, 1 canal, logique 3.3V/5V, AC 110V~400V",
+    "Protecteur contre sur tension et sous-tension 80A AC 380V Triphasé rég",
+    "Module d’isolation optocoupleur 1 canal 220V AC pour PLC",
+    "Protecteur de tension de courant triphasé 63 A avec N 3 x 230V"
+   ]
+  },
+  {
+   "cluster_id": 188,
+   "substitute_key": "moteur|actionneur|pompe|lv",
+   "system_role": "actionneur",
+   "size": 5,
+   "examples": [
+    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
+    "Mini pompe submersible DC de haute qualité 12V 0.6L/mn",
+    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
+    "MINI pompe à eau d’aquarium DC6-12V R385"
+   ]
+  },
+  {
    "cluster_id": 207,
    "substitute_key": "composant|traitement|transistor|mains",
    "system_role": "traitement",
@@ -2310,7 +2334,7 @@
    ]
   },
   {
-   "cluster_id": 313,
+   "cluster_id": 314,
    "substitute_key": "connectique|connectique|domino|-",
    "system_role": "connectique",
    "size": 5,
@@ -2322,7 +2346,7 @@
    ]
   },
   {
-   "cluster_id": 329,
+   "cluster_id": 330,
    "substitute_key": "mobilite|actionneur|veh_voiture|lv",
    "system_role": "actionneur",
    "size": 5,
@@ -2334,7 +2358,7 @@
    ]
   },
   {
-   "cluster_id": 352,
+   "cluster_id": 353,
    "substitute_key": "outillage|outil|truelle|-",
    "system_role": "outil",
    "size": 5,
@@ -2346,7 +2370,7 @@
    ]
   },
   {
-   "cluster_id": 355,
+   "cluster_id": 356,
    "substitute_key": "outillage|outil|scie|lv",
    "system_role": "outil",
    "size": 5,
@@ -2358,7 +2382,7 @@
    ]
   },
   {
-   "cluster_id": 356,
+   "cluster_id": 357,
    "substitute_key": "outillage|outil|compresseur|mains",
    "system_role": "outil",
    "size": 5,
@@ -2370,7 +2394,7 @@
    ]
   },
   {
-   "cluster_id": 359,
+   "cluster_id": 360,
    "substitute_key": "outillage|outil|meuleuse|lv",
    "system_role": "outil",
    "size": 5,
@@ -2502,31 +2526,7 @@
    ]
   },
   {
-   "cluster_id": 179,
-   "substitute_key": "electrique|outil|generic|mains",
-   "system_role": "outil",
-   "size": 4,
-   "examples": [
-    "Module variateur(Dimmer) AC, 1 canal, logique 3.3V/5V, AC 110V~400V",
-    "Protecteur contre sur tension et sous-tension 80A AC 380V Triphasé rég",
-    "Module d’isolation optocoupleur 1 canal 220V AC pour PLC",
-    "Protecteur de tension de courant triphasé 63 A avec N 3 x 230V"
-   ]
-  },
-  {
-   "cluster_id": 187,
-   "substitute_key": "moteur|actionneur|pompe|lv",
-   "system_role": "actionneur",
-   "size": 4,
-   "examples": [
-    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
-    "Mini pompe submersible DC de haute qualité 12V 0.6L/mn",
-    "AD20P-1230C Pompe à eau submersible ultra-silencieuse DC 12V 3M 240L/H",
-    "MINI pompe à eau d’aquarium DC6-12V R385"
-   ]
-  },
-  {
-   "cluster_id": 189,
+   "cluster_id": 190,
    "substitute_key": "connectique|connectique|prise|mains",
    "system_role": "connectique",
    "size": 4,
@@ -2538,7 +2538,7 @@
    ]
   },
   {
-   "cluster_id": 191,
+   "cluster_id": 192,
    "substitute_key": "alimentation|alimentation|convertisseur|lv",
    "system_role": "alimentation",
    "size": 4,
@@ -2562,6 +2562,18 @@
    ]
   },
   {
+   "cluster_id": 214,
+   "substitute_key": "alimentation|alimentation|convertisseur|mains",
+   "system_role": "alimentation",
+   "size": 4,
+   "examples": [
+    "Convertisseur CC 36V-72V vers 12V 10A",
+    "Convertisseur De Tension 600W Dc12V Ac230V",
+    "Convertisseur de tension 300W DC 12 V / AC 230 V",
+    "Convertisseur de tension TransDevices 2000W AC 220V vers 110V"
+   ]
+  },
+  {
    "cluster_id": 225,
    "substitute_key": "mecanique|mecanique|courroie|-",
    "system_role": "mecanique",
@@ -2575,18 +2587,18 @@
   },
   {
    "cluster_id": 231,
-   "substitute_key": "led|interface|voyant|-",
+   "substitute_key": "led|interface|voyant|lv",
    "system_role": "interface",
    "size": 4,
    "examples": [
     "Voyant LED Rouge DC24V 22mm AD16-22DS",
     "Voyant LED Vert DC24V 22mm AD16-22DS",
-    "Voyant LED Orange220V AC ø22mm",
-    "Voyant indicateur de température de Temperature LED -20~199 °C 22 mm"
+    "Voyant LED orange 24V AC-DC ø22mm",
+    "Voyant LED Rouge 24V AC-DC ø22mm"
    ]
   },
   {
-   "cluster_id": 257,
+   "cluster_id": 258,
    "substitute_key": "audio|interface|jack|-",
    "system_role": "interface",
    "size": 4,
@@ -2598,7 +2610,7 @@
    ]
   },
   {
-   "cluster_id": 258,
+   "cluster_id": 259,
    "substitute_key": "connectique|connectique|rallonge|-",
    "system_role": "connectique",
    "size": 4,
@@ -2610,7 +2622,7 @@
    ]
   },
   {
-   "cluster_id": 260,
+   "cluster_id": 261,
    "substitute_key": "alimentation|alimentation|fusible|mains",
    "system_role": "alimentation",
    "size": 4,
@@ -2622,7 +2634,7 @@
    ]
   },
   {
-   "cluster_id": 263,
+   "cluster_id": 264,
    "substitute_key": "capteur|capteur|generic|mains",
    "system_role": "capteur",
    "size": 4,
@@ -2634,7 +2646,7 @@
    ]
   },
   {
-   "cluster_id": 287,
+   "cluster_id": 288,
    "substitute_key": "outillage|outil|riveteuse|-",
    "system_role": "outil",
    "size": 4,
@@ -2646,7 +2658,7 @@
    ]
   },
   {
-   "cluster_id": 304,
+   "cluster_id": 305,
    "substitute_key": "led|interface|cob|lv",
    "system_role": "interface",
    "size": 4,
@@ -2658,7 +2670,7 @@
    ]
   },
   {
-   "cluster_id": 353,
+   "cluster_id": 354,
    "substitute_key": "moteur|actionneur|generic|lv",
    "system_role": "actionneur",
    "size": 4,
@@ -2670,7 +2682,19 @@
    ]
   },
   {
-   "cluster_id": 363,
+   "cluster_id": 358,
+   "substitute_key": "outillage|outil|compresseur|lv",
+   "system_role": "outil",
+   "size": 4,
+   "examples": [
+    "Compresseur Portable 12V 11 Bar TTAC1601 Total Avec Accessoires",
+    "Compresseur Portatif 11Bar20V Util - TOTAL TACLI2012",
+    "TOTAL Compresseur D'Air 2 Cylindres TTAC2506 Portable 12V",
+    "TTAC1406 – Compresseur Auto 12V TOTAL 10 Bars – Gonflage"
+   ]
+  },
+  {
+   "cluster_id": 364,
    "substitute_key": "outillage|outil|echelle|-",
    "system_role": "outil",
    "size": 4,
@@ -2682,7 +2706,7 @@
    ]
   },
   {
-   "cluster_id": 367,
+   "cluster_id": 368,
    "substitute_key": "outillage|outil|marteau|lv",
    "system_role": "outil",
    "size": 4,
@@ -2694,7 +2718,7 @@
    ]
   },
   {
-   "cluster_id": 369,
+   "cluster_id": 370,
    "substitute_key": "outillage|outil|etau|-",
    "system_role": "outil",
    "size": 4,
@@ -2893,14 +2917,14 @@
    ]
   },
   {
-   "cluster_id": 214,
-   "substitute_key": "alimentation|alimentation|convertisseur|mains",
-   "system_role": "alimentation",
+   "cluster_id": 215,
+   "substitute_key": "moteur|actionneur|dc|mains",
+   "system_role": "actionneur",
    "size": 3,
    "examples": [
-    "Convertisseur CC 36V-72V vers 12V 10A",
-    "Convertisseur de tension 300W DC 12 V / AC 230 V",
-    "Convertisseur de tension TransDevices 2000W AC 220V vers 110V"
+    "Contrôleur moteur sans balais (brushless) 48-84V 1500W 45A",
+    "Moteur synchrone à aimant permanent d’AC220V 14W XX-60KTYZ 2.5RPM/MIN",
+    "Moteur pour incubateur 220-240V 6W modèle T"
    ]
   },
   {
@@ -2937,7 +2961,7 @@
    ]
   },
   {
-   "cluster_id": 253,
+   "cluster_id": 254,
    "substitute_key": "outillage|outil|pistolet|mains",
    "system_role": "outil",
    "size": 3,
@@ -2948,7 +2972,7 @@
    ]
   },
   {
-   "cluster_id": 262,
+   "cluster_id": 263,
    "substitute_key": "mesure|capteur|oscilloscope|-",
    "system_role": "capteur",
    "size": 3,
@@ -2959,7 +2983,7 @@
    ]
   },
   {
-   "cluster_id": 274,
+   "cluster_id": 275,
    "substitute_key": "batterie|alimentation|5mm|-",
    "system_role": "alimentation",
    "size": 3,
@@ -2970,7 +2994,7 @@
    ]
   },
   {
-   "cluster_id": 291,
+   "cluster_id": 292,
    "substitute_key": "outillage|outil|visseuse|logic",
    "system_role": "outil",
    "size": 3,
@@ -2981,7 +3005,7 @@
    ]
   },
   {
-   "cluster_id": 296,
+   "cluster_id": 297,
    "substitute_key": "batterie|alimentation|aa|logic",
    "system_role": "alimentation",
    "size": 3,
@@ -2992,7 +3016,7 @@
    ]
   },
   {
-   "cluster_id": 316,
+   "cluster_id": 317,
    "substitute_key": "composant|traitement|scr|mains",
    "system_role": "traitement",
    "size": 3,
@@ -3000,17 +3024,6 @@
     "SCR (THT) MCR100-6 0.8A. 400V. boîtier TO-92",
     "SCR (THT) C106DG 4A. 400V. boîtier TO-126",
     "SCR (CMS) TYN612RG 12A. 600V. boîtier DPAK original"
-   ]
-  },
-  {
-   "cluster_id": 357,
-   "substitute_key": "outillage|outil|compresseur|lv",
-   "system_role": "outil",
-   "size": 3,
-   "examples": [
-    "Compresseur Portable 12V 11 Bar TTAC1601 Total Avec Accessoires",
-    "TOTAL Compresseur D'Air 2 Cylindres TTAC2506 Portable 12V",
-    "TTAC1406 – Compresseur Auto 12V TOTAL 10 Bars – Gonflage"
    ]
   },
   {
@@ -3234,7 +3247,17 @@
    ]
   },
   {
-   "cluster_id": 192,
+   "cluster_id": 159,
+   "substitute_key": "electronique|capteur|generic|mains",
+   "system_role": "capteur",
+   "size": 2,
+   "examples": [
+    "Contrôleur de température numérique STC-1000 AC110-220V",
+    "Thermostat Contrôleur de température ambiante 10A AC250V KTS011"
+   ]
+  },
+  {
+   "cluster_id": 193,
    "substitute_key": "alimentation|alimentation|boost|lv",
    "system_role": "alimentation",
    "size": 2,
@@ -3284,16 +3307,6 @@
    ]
   },
   {
-   "cluster_id": 215,
-   "substitute_key": "moteur|actionneur|dc|mains",
-   "system_role": "actionneur",
-   "size": 2,
-   "examples": [
-    "Contrôleur moteur sans balais (brushless) 48-84V 1500W 45A",
-    "Moteur pour incubateur 220-240V 6W modèle T"
-   ]
-  },
-  {
    "cluster_id": 216,
    "substitute_key": "led|interface|bulb|logic",
    "system_role": "interface",
@@ -3334,7 +3347,17 @@
    ]
   },
   {
-   "cluster_id": 283,
+   "cluster_id": 250,
+   "substitute_key": "connectique|connectique|prise|lv",
+   "system_role": "connectique",
+   "size": 2,
+   "examples": [
+    "Humidificateur d’air en plastique noir DC24V, nébuliseur, prise ue",
+    "Humidificateur d’air en plastique noir DC24V MP20-12, nébuliseur, pris"
+   ]
+  },
+  {
+   "cluster_id": 284,
    "substitute_key": "mesure|capteur|sonde|-",
    "system_role": "capteur",
    "size": 2,
@@ -3344,7 +3367,7 @@
    ]
   },
   {
-   "cluster_id": 290,
+   "cluster_id": 291,
    "substitute_key": "outillage|outil|tournevis|logic",
    "system_role": "outil",
    "size": 2,
@@ -3354,7 +3377,7 @@
    ]
   },
   {
-   "cluster_id": 305,
+   "cluster_id": 306,
    "substitute_key": "mesure|capteur|testeur|lv",
    "system_role": "capteur",
    "size": 2,
@@ -3364,17 +3387,7 @@
    ]
   },
   {
-   "cluster_id": 311,
-   "substitute_key": "led|interface|voyant|lv",
-   "system_role": "interface",
-   "size": 2,
-   "examples": [
-    "Voyant LED orange 24V AC-DC ø22mm",
-    "Voyant LED Rouge 24V AC-DC ø22mm"
-   ]
-  },
-  {
-   "cluster_id": 314,
+   "cluster_id": 315,
    "substitute_key": "audio|interface|generic|mains",
    "system_role": "interface",
    "size": 2,
@@ -3384,7 +3397,7 @@
    ]
   },
   {
-   "cluster_id": 322,
+   "cluster_id": 323,
    "substitute_key": "outillage|outil|tournevis|mains",
    "system_role": "outil",
    "size": 2,
@@ -3394,7 +3407,7 @@
    ]
   },
   {
-   "cluster_id": 327,
+   "cluster_id": 328,
    "substitute_key": "mecanique|mecanique|rail|mains",
    "system_role": "mecanique",
    "size": 2,
@@ -3404,7 +3417,7 @@
    ]
   },
   {
-   "cluster_id": 345,
+   "cluster_id": 346,
    "substitute_key": "electronique|interface|ampli|-",
    "system_role": "interface",
    "size": 2,
@@ -3414,7 +3427,7 @@
    ]
   },
   {
-   "cluster_id": 358,
+   "cluster_id": 359,
    "substitute_key": "led|interface|bulb|lv",
    "system_role": "interface",
    "size": 2,
@@ -3424,7 +3437,7 @@
    ]
   },
   {
-   "cluster_id": 360,
+   "cluster_id": 361,
    "substitute_key": "outillage|outil|cisaille|lv",
    "system_role": "outil",
    "size": 2,
@@ -3434,7 +3447,7 @@
    ]
   },
   {
-   "cluster_id": 361,
+   "cluster_id": 362,
    "substitute_key": "outillage|outil|spatule|-",
    "system_role": "outil",
    "size": 2,
@@ -3444,7 +3457,7 @@
    ]
   },
   {
-   "cluster_id": 362,
+   "cluster_id": 363,
    "substitute_key": "outillage|outil|ponceuse|lv",
    "system_role": "outil",
    "size": 2,
@@ -3454,7 +3467,7 @@
    ]
   },
   {
-   "cluster_id": 364,
+   "cluster_id": 365,
    "substitute_key": "outillage|outil|pistolet|lv",
    "system_role": "outil",
    "size": 2,
@@ -3464,7 +3477,7 @@
    ]
   },
   {
-   "cluster_id": 365,
+   "cluster_id": 366,
    "substitute_key": "outillage|outil|masque|-",
    "system_role": "outil",
    "size": 2,
@@ -3555,15 +3568,6 @@
    ]
   },
   {
-   "cluster_id": 159,
-   "substitute_key": "electronique|capteur|generic|mains",
-   "system_role": "capteur",
-   "size": 1,
-   "examples": [
-    "Contrôleur de température numérique STC-1000 AC110-220V"
-   ]
-  },
-  {
    "cluster_id": 162,
    "substitute_key": "capteur|capteur|distance|lv",
    "system_role": "capteur",
@@ -3600,7 +3604,7 @@
    ]
   },
   {
-   "cluster_id": 188,
+   "cluster_id": 189,
    "substitute_key": "connectique|connectique|nappe|-",
    "system_role": "connectique",
    "size": 1,
@@ -3609,7 +3613,7 @@
    ]
   },
   {
-   "cluster_id": 190,
+   "cluster_id": 191,
    "substitute_key": "carte|controle|esp8266|logic",
    "system_role": "controle",
    "size": 1,
@@ -3618,7 +3622,7 @@
    ]
   },
   {
-   "cluster_id": 193,
+   "cluster_id": 194,
    "substitute_key": "carte|controle|generic|lv",
    "system_role": "controle",
    "size": 1,
@@ -3699,7 +3703,7 @@
    ]
   },
   {
-   "cluster_id": 251,
+   "cluster_id": 252,
    "substitute_key": "carte|controle|microbit|-",
    "system_role": "controle",
    "size": 1,
@@ -3708,7 +3712,7 @@
    ]
   },
   {
-   "cluster_id": 255,
+   "cluster_id": 256,
    "substitute_key": "soudure|autre|fer|lv",
    "system_role": "autre",
    "size": 1,
@@ -3717,7 +3721,7 @@
    ]
   },
   {
-   "cluster_id": 256,
+   "cluster_id": 257,
    "substitute_key": "connectique|connectique|fil|logic",
    "system_role": "connectique",
    "size": 1,
@@ -3726,7 +3730,7 @@
    ]
   },
   {
-   "cluster_id": 268,
+   "cluster_id": 269,
    "substitute_key": "capteur|capteur|temp_generic|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3735,7 +3739,7 @@
    ]
   },
   {
-   "cluster_id": 269,
+   "cluster_id": 270,
    "substitute_key": "outillage|outil|metre|logic",
    "system_role": "outil",
    "size": 1,
@@ -3744,7 +3748,7 @@
    ]
   },
   {
-   "cluster_id": 270,
+   "cluster_id": 271,
    "substitute_key": "soudure|autre|pate|-",
    "system_role": "autre",
    "size": 1,
@@ -3753,7 +3757,7 @@
    ]
   },
   {
-   "cluster_id": 271,
+   "cluster_id": 272,
    "substitute_key": "composant|traitement|quartz|-",
    "system_role": "traitement",
    "size": 1,
@@ -3762,7 +3766,7 @@
    ]
   },
   {
-   "cluster_id": 272,
+   "cluster_id": 273,
    "substitute_key": "composant|traitement|inductance|-",
    "system_role": "traitement",
    "size": 1,
@@ -3771,7 +3775,7 @@
    ]
   },
   {
-   "cluster_id": 275,
+   "cluster_id": 276,
    "substitute_key": "outillage|outil|aspirateur|mains",
    "system_role": "outil",
    "size": 1,
@@ -3780,7 +3784,7 @@
    ]
   },
   {
-   "cluster_id": 280,
+   "cluster_id": 281,
    "substitute_key": "mesure|capteur|compteur|mains",
    "system_role": "capteur",
    "size": 1,
@@ -3789,7 +3793,7 @@
    ]
   },
   {
-   "cluster_id": 281,
+   "cluster_id": 282,
    "substitute_key": "mobilite|actionneur|chassis|logic",
    "system_role": "actionneur",
    "size": 1,
@@ -3798,7 +3802,7 @@
    ]
   },
   {
-   "cluster_id": 284,
+   "cluster_id": 285,
    "substitute_key": "mesure|capteur|amperemetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3807,7 +3811,7 @@
    ]
   },
   {
-   "cluster_id": 285,
+   "cluster_id": 286,
    "substitute_key": "mesure|capteur|wattmetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3816,7 +3820,7 @@
    ]
   },
   {
-   "cluster_id": 286,
+   "cluster_id": 287,
    "substitute_key": "mesure|capteur|voltmetre|-",
    "system_role": "capteur",
    "size": 1,
@@ -3825,7 +3829,7 @@
    ]
   },
   {
-   "cluster_id": 292,
+   "cluster_id": 293,
    "substitute_key": "led|interface|cob|-",
    "system_role": "interface",
    "size": 1,
@@ -3834,7 +3838,7 @@
    ]
   },
   {
-   "cluster_id": 298,
+   "cluster_id": 299,
    "substitute_key": "batterie|alimentation|aaa|logic",
    "system_role": "alimentation",
    "size": 1,
@@ -3843,7 +3847,7 @@
    ]
   },
   {
-   "cluster_id": 300,
+   "cluster_id": 301,
    "substitute_key": "led|interface|guirlande|-",
    "system_role": "interface",
    "size": 1,
@@ -3852,7 +3856,7 @@
    ]
   },
   {
-   "cluster_id": 301,
+   "cluster_id": 302,
    "substitute_key": "electrique|outil|parafoudre|mains",
    "system_role": "outil",
    "size": 1,
@@ -3861,7 +3865,7 @@
    ]
   },
   {
-   "cluster_id": 302,
+   "cluster_id": 303,
    "substitute_key": "electrique|outil|parafoudre|-",
    "system_role": "outil",
    "size": 1,
@@ -3870,7 +3874,16 @@
    ]
   },
   {
-   "cluster_id": 308,
+   "cluster_id": 309,
+   "substitute_key": "led|interface|voyant|-",
+   "system_role": "interface",
+   "size": 1,
+   "examples": [
+    "Voyant indicateur de température de Temperature LED -20~199 °C 22 mm"
+   ]
+  },
+  {
+   "cluster_id": 310,
    "substitute_key": "capteur|capteur|temp_1wire|lv",
    "system_role": "capteur",
    "size": 1,
@@ -3879,7 +3892,7 @@
    ]
   },
   {
-   "cluster_id": 310,
+   "cluster_id": 312,
    "substitute_key": "led|interface|matrix|mains",
    "system_role": "interface",
    "size": 1,
@@ -3888,7 +3901,7 @@
    ]
   },
   {
-   "cluster_id": 312,
+   "cluster_id": 313,
    "substitute_key": "outillage|outil|pince|mains",
    "system_role": "outil",
    "size": 1,
@@ -3897,7 +3910,7 @@
    ]
   },
   {
-   "cluster_id": 315,
+   "cluster_id": 316,
    "substitute_key": "audio|interface|casque|-",
    "system_role": "interface",
    "size": 1,
@@ -3906,7 +3919,7 @@
    ]
   },
   {
-   "cluster_id": 317,
+   "cluster_id": 318,
    "substitute_key": "composant|traitement|diac|-",
    "system_role": "traitement",
    "size": 1,
@@ -3915,7 +3928,7 @@
    ]
   },
   {
-   "cluster_id": 318,
+   "cluster_id": 319,
    "substitute_key": "batterie|alimentation|d|-",
    "system_role": "alimentation",
    "size": 1,
@@ -3924,7 +3937,7 @@
    ]
   },
   {
-   "cluster_id": 319,
+   "cluster_id": 320,
    "substitute_key": "batterie|alimentation|c|-",
    "system_role": "alimentation",
    "size": 1,
@@ -3933,7 +3946,7 @@
    ]
   },
   {
-   "cluster_id": 320,
+   "cluster_id": 321,
    "substitute_key": "composant|traitement|diode|lv",
    "system_role": "traitement",
    "size": 1,
@@ -3942,7 +3955,7 @@
    ]
   },
   {
-   "cluster_id": 321,
+   "cluster_id": 322,
    "substitute_key": "composant|traitement|diac|lv",
    "system_role": "traitement",
    "size": 1,
@@ -3951,7 +3964,7 @@
    ]
   },
   {
-   "cluster_id": 323,
+   "cluster_id": 324,
    "substitute_key": "capteur|capteur|temp_generic|lv",
    "system_role": "capteur",
    "size": 1,
@@ -3960,7 +3973,7 @@
    ]
   },
   {
-   "cluster_id": 326,
+   "cluster_id": 327,
    "substitute_key": "electrique|outil|telerupteur|mains",
    "system_role": "outil",
    "size": 1,
@@ -3969,7 +3982,7 @@
    ]
   },
   {
-   "cluster_id": 330,
+   "cluster_id": 331,
    "substitute_key": "soudure|autre|etain|mains",
    "system_role": "autre",
    "size": 1,
@@ -3978,7 +3991,7 @@
    ]
   },
   {
-   "cluster_id": 331,
+   "cluster_id": 332,
    "substitute_key": "connectique|connectique|generic|lv",
    "system_role": "connectique",
    "size": 1,
@@ -3987,7 +4000,7 @@
    ]
   },
   {
-   "cluster_id": 333,
+   "cluster_id": 334,
    "substitute_key": "carte|controle|fpga|-",
    "system_role": "controle",
    "size": 1,
@@ -3996,7 +4009,7 @@
    ]
   },
   {
-   "cluster_id": 334,
+   "cluster_id": 335,
    "substitute_key": "mecanique|mecanique|bague|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4005,7 +4018,7 @@
    ]
   },
   {
-   "cluster_id": 335,
+   "cluster_id": 336,
    "substitute_key": "mecanique|mecanique|rivet|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4014,7 +4027,7 @@
    ]
   },
   {
-   "cluster_id": 336,
+   "cluster_id": 337,
    "substitute_key": "mecanique|mecanique|ressort|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4023,7 +4036,7 @@
    ]
   },
   {
-   "cluster_id": 343,
+   "cluster_id": 344,
    "substitute_key": "outillage|outil|riveteuse|lv",
    "system_role": "outil",
    "size": 1,
@@ -4032,7 +4045,7 @@
    ]
   },
   {
-   "cluster_id": 344,
+   "cluster_id": 345,
    "substitute_key": "mecanique|mecanique|poulie|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4041,7 +4054,7 @@
    ]
   },
   {
-   "cluster_id": 346,
+   "cluster_id": 347,
    "substitute_key": "electrique|outil|contacteur|-",
    "system_role": "outil",
    "size": 1,
@@ -4050,7 +4063,7 @@
    ]
   },
   {
-   "cluster_id": 347,
+   "cluster_id": 348,
    "substitute_key": "mesure|capteur|compteur|-",
    "system_role": "capteur",
    "size": 1,
@@ -4059,7 +4072,7 @@
    ]
   },
   {
-   "cluster_id": 348,
+   "cluster_id": 349,
    "substitute_key": "mecanique|mecanique|boitier|logic",
    "system_role": "mecanique",
    "size": 1,
@@ -4068,7 +4081,7 @@
    ]
   },
   {
-   "cluster_id": 349,
+   "cluster_id": 350,
    "substitute_key": "connectique|connectique|prise|logic",
    "system_role": "connectique",
    "size": 1,
@@ -4077,7 +4090,7 @@
    ]
   },
   {
-   "cluster_id": 350,
+   "cluster_id": 351,
    "substitute_key": "mecanique|mecanique|tige|-",
    "system_role": "mecanique",
    "size": 1,
@@ -4086,7 +4099,7 @@
    ]
   },
   {
-   "cluster_id": 351,
+   "cluster_id": 352,
    "substitute_key": "rf|communication|433|lv",
    "system_role": "communication",
    "size": 1,
@@ -4095,7 +4108,7 @@
    ]
   },
   {
-   "cluster_id": 366,
+   "cluster_id": 367,
    "substitute_key": "outillage|outil|scie|mains",
    "system_role": "outil",
    "size": 1,
@@ -4104,7 +4117,7 @@
    ]
   },
   {
-   "cluster_id": 368,
+   "cluster_id": 369,
    "substitute_key": "connectique|connectique|cable|logic",
    "system_role": "connectique",
    "size": 1,
@@ -4113,7 +4126,7 @@
    ]
   },
   {
-   "cluster_id": 370,
+   "cluster_id": 371,
    "substitute_key": "mobilite|actionneur|veh_drone|-",
    "system_role": "actionneur",
    "size": 1,
@@ -4122,7 +4135,7 @@
    ]
   },
   {
-   "cluster_id": 371,
+   "cluster_id": 372,
    "substitute_key": "electrique|outil|contacteur|lv",
    "system_role": "outil",
    "size": 1,
@@ -4131,7 +4144,7 @@
    ]
   },
   {
-   "cluster_id": 372,
+   "cluster_id": 373,
    "substitute_key": "connectique|connectique|generic|mains",
    "system_role": "connectique",
    "size": 1,
@@ -4140,7 +4153,7 @@
    ]
   },
   {
-   "cluster_id": 373,
+   "cluster_id": 374,
    "substitute_key": "rf|communication|generic|mains",
    "system_role": "communication",
    "size": 1,
@@ -4149,7 +4162,7 @@
    ]
   },
   {
-   "cluster_id": 374,
+   "cluster_id": 375,
    "substitute_key": "alimentation|alimentation|buck|lv",
    "system_role": "alimentation",
    "size": 1,
